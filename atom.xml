@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>徐坤博客</title>
+  
+  
+  <link href="https://xukun.net/atom.xml" rel="self"/>
+  
+  <link href="https://xukun.net/"/>
+  <updated>2023-12-18T03:35:17.156Z</updated>
+  <id>https://xukun.net/</id>
+  
+  <author>
+    <name>徐坤</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>给自己的主站加入了一个引导页面</title>
+    <link href="https://xukun.net/html%E6%8A%98%E8%85%BE/2/"/>
+    <id>https://xukun.net/html%E6%8A%98%E8%85%BE/2/</id>
+    <published>2023-12-18T03:18:10.000Z</published>
+    <updated>2023-12-18T03:35:17.156Z</updated>
+    
+    <content type="html"><![CDATA[<p>自从我的blog搭建起来之后，每次打开xukun.net的时候都是空荡荡的，也不知道该放点什么好，总不能一直是404错误页面吧！😓</p><p>所以想在网上找找看有没有看起来很漂亮，但是又简简单单的一个引导页面，俗称<strong>主页</strong>。</p><p>运气还算不错，找到了<a href="https://noisky.cn/">饭饭</a>的开源哈。</p><p>超级喜欢这样的简单有趣的引导页。</p><p>我的这个引导页也是基于《<a href="https://noisky.cn/">饭饭</a>》修改来的，咱们不能吃水不忘挖井人，我在这里直接写上《<a href="https://noisky.cn/">饭饭</a>》的开源说明。如下：</p><hr><p>This is a homepage written in HTML&#x2F;JavsScript for Noisky.</p><p>饭饭的个人主页（HTML&#x2F;JavaScript版）</p><p>Demo: <a href="https://noisky.cn/">https://noisky.cn</a></p><img src="https://cdn.jsdelivr.net/gh/noisky/Homepage@master/Noisky_files/img/effect_picture.png" alt="noisky.cn" title="个人主页效果图"/><ul><li>响应式设计，PC&#x2F;手机&#x2F;Pad，全平台阅读适配</li><li>背景图片随机选取</li><li>接入了一言并实现了异步加载</li><li>加入必应每日背景图片（需自己修改注释代码）</li></ul><hr><p>再次感谢《<a href="https://noisky.cn/">饭饭</a>》把这么漂亮的引导页开源哈。</p><p>我这引导页是使用GitHub+netlify搭建，因为只使用GitHub的话，在咱们这边访问速度还是不太理想的，所以使用了netlify来给这个引导页提供一个小小的加速效果。</p><p>完美。😄</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;自从我的blog搭建起来之后，每次打开xukun.net的时候都是空荡荡的，也不知道该放点什么好，总不能一直是404错误页面吧！😓&lt;/p&gt;
+&lt;p&gt;所以想在网上找找看有没有看起来很漂亮，但是又简简单单的一个引导页面，俗称&lt;strong&gt;主页&lt;/strong&gt;。&lt;/p&gt;
+&lt;p</summary>
+      
+    
+    
+    
+    <category term="html折腾" scheme="https://xukun.net/categories/html%E6%8A%98%E8%85%BE/"/>
+    
+    
+    <category term="html" scheme="https://xukun.net/tags/html/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>安装hexo遇到的难题</title>
+    <link href="https://xukun.net/hexo%E6%8A%98%E8%85%BE/1/"/>
+    <id>https://xukun.net/hexo%E6%8A%98%E8%85%BE/1/</id>
+    <published>2023-12-15T14:50:23.000Z</published>
+    <updated>2023-12-15T16:46:13.754Z</updated>
+    
+    <content type="html"><![CDATA[<p>安装hexo遇到的各种问题，以及解决办法。</p><h2 id="npm安装任何包都报错的解决办法"><a href="#npm安装任何包都报错的解决办法" class="headerlink" title="npm安装任何包都报错的解决办法"></a>npm安装任何包都报错的解决办法</h2><p>不知道什么原因，安装nodejs后，用npm安装任何东西都报错：</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br></pre></td><td class="code"><pre><span class="line">C:\Users\Administrator&gt;npm install express</span><br><span class="line">npm ERR! Windows_NT 6.1.7601</span><br><span class="line">npm ERR! argv <span class="string">&quot;C:\\Program Files\\nodejs\\node.exe&quot;</span> <span class="string">&quot;C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js&quot;</span> <span class="string">&quot;install&quot;</span> <span class="string">&quot;express&quot;</span></span><br><span class="line">npm ERR! node v4.4.4</span><br><span class="line">npm ERR! npm  v2.15.1</span><br><span class="line">npm ERR! code ENOTFOUND</span><br><span class="line">npm ERR! errno ENOTFOUND</span><br><span class="line">npm ERR! syscall getaddrinfo</span><br><span class="line"></span><br><span class="line">npm ERR! network getaddrinfo ENOTFOUND xn--rvg xn--rvg:80</span><br><span class="line">npm ERR! network This is most likely not a problem with npm itself</span><br><span class="line">npm ERR! network and is related to network connectivity.</span><br><span class="line">npm ERR! network In most cases you are behind a proxy or have bad network settings.</span><br><span class="line">npm ERR! network</span><br><span class="line">npm ERR! network If you are behind a proxy, please make sure that the</span><br><span class="line">npm ERR! network <span class="string">&#x27;proxy&#x27;</span> config is <span class="built_in">set</span> properly.  See: <span class="string">&#x27;npm help config&#x27;</span></span><br><span class="line"></span><br><span class="line">npm ERR! Please include the following file with any support request:</span><br><span class="line">npm ERR!     C:\Users\Administrator\npm-debug.log</span><br></pre></td></tr></table></figure><p>然后终于在网上找到个解决办法：</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line">解决办法：</span><br><span class="line"></span><br><span class="line">1、执行：</span><br><span class="line"></span><br><span class="line">npm config get proxy</span><br><span class="line">npm config get https-proxy</span><br><span class="line">如果返回值不为null，继续执行：</span><br><span class="line">（这一步很重要，一定要保证两个命令的返回值都为null,话说回来，应该出现这个错误这两个返回值有不为null的）</span><br><span class="line">npm config <span class="built_in">set</span> proxy null</span><br><span class="line">npm config <span class="built_in">set</span> https-proxy null</span><br><span class="line">2、执行：</span><br><span class="line">npm config <span class="built_in">set</span> registry http://registry.cnpmjs.org/</span><br></pre></td></tr></table></figure><p>然后你就可以愉快的安装cnpm了</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install -g cnpm --registry=https://registry.npm.taobao.org </span><br></pre></td></tr></table></figure><h2 id="npm-install报错"><a href="#npm-install报错" class="headerlink" title="npm install报错"></a>npm install报错</h2><p>在使用hexo init之后提示我没有安装npm install，我也是无语了，难道我要安装一个hexo这么难吗！既然没有安装npm install，那就直接安装呗，结果安装不上，直接报错：</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">$ npm install</span><br><span class="line">npm ERR! code ENOTFOUND</span><br><span class="line">npm ERR! syscall getaddrinfo</span><br><span class="line">npm ERR! errno ENOTFOUND</span><br><span class="line">npm ERR! network request to http://registry.cnpmjs.org/hexo failed, reason: getaddrinfo ENOTFOUND registry.cnpmjs.org</span><br><span class="line">npm ERR! network This is a problem related to network connectivity.</span><br><span class="line">npm ERR! network In most cases you are behind a proxy or have bad network settings.</span><br><span class="line">npm ERR! network</span><br><span class="line">npm ERR! network If you are behind a proxy, please make sure that the</span><br><span class="line">npm ERR! network <span class="string">&#x27;proxy&#x27;</span> config is <span class="built_in">set</span> properly.  See: <span class="string">&#x27;npm help config&#x27;</span></span><br></pre></td></tr></table></figure><p>  遇到这个问题的原因是由于在npm中设置了代理，那解决办法如下：</p><p>　　方法：</p><p>　　（1）修改源地址位淘宝镜像</p><p>　　　　npm config set registry <a href="http://registry.npm.taobao.org/">http://registry.npm.taobao.org/</a></p><p>　　（2）修改源地址为官方源</p><p>　　　　npm config set registry <a href="https://registry.npmjs.org/">https://registry.npmjs.org/</a></p><p>到此算是安装成功了，也没有报错信息出现了，嘎嘎</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;安装hexo遇到的各种问题，以及解决办法。&lt;/p&gt;
+&lt;h2 id=&quot;npm安装任何包都报错的解决办法&quot;&gt;&lt;a href=&quot;#npm安装任何包都报错的解决办法&quot; class=&quot;headerlink&quot; title=&quot;npm安装任何包都报错的解决办法&quot;&gt;&lt;/a&gt;npm安装任何包都</summary>
+      
+    
+    
+    
+    <category term="hexo折腾" scheme="https://xukun.net/categories/hexo%E6%8A%98%E8%85%BE/"/>
+    
+    
+    <category term="hexo" scheme="https://xukun.net/tags/hexo/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="https://xukun.net/uncategorized/hello-world/"/>
+    <id>https://xukun.net/uncategorized/hello-world/</id>
+    <published>2023-12-15T13:45:09.666Z</published>
+    <updated>2023-12-15T13:45:09.666Z</updated>
+    
+    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt; for</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+</feed>
