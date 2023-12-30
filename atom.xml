@@ -6,7 +6,7 @@
   <link href="https://xukun.net/atom.xml" rel="self"/>
   
   <link href="https://xukun.net/"/>
-  <updated>2023-12-20T17:10:42.863Z</updated>
+  <updated>2023-12-30T16:23:25.082Z</updated>
   <id>https://xukun.net/</id>
   
   <author>
@@ -15,6 +15,32 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>我找到的图片无损压缩方法</title>
+    <link href="https://xukun.net/3-a0d93d7d52f2/"/>
+    <id>https://xukun.net/3-a0d93d7d52f2/</id>
+    <published>2023-12-30T15:33:52.000Z</published>
+    <updated>2023-12-30T16:23:25.082Z</updated>
+    
+    <content type="html"><![CDATA[<p>随着现在的拍照技术越来越强大，同时拍下来的照片也越来越大，就算是手机随手拍的照片，轻则5m以上，所以如果想在自己的博客放上一张自己用手机拍的图片，那照片打开速度！！！！简直不要太爽了！</p><p>所以我们要把拍的照片压缩，但是又不能影响拍的照片画质。</p><p>为此我在网上找到了几个专门压缩图片的网站，真的要给这些网站点赞哈。</p><p>我先给大伙看看我压缩的一张照片哈，这个是效果哈。</p><p><img src="https://pic.xukun.net/tupianyasuo.png" alt="图片压缩"></p><p>将近90%的压缩率并且还不影响图片的画质。</p><p><font color=red>并且这些都是不需要花钱就可以使用的哈。</font></p><hr><h2 id="https-squoosh-app"><a href="#https-squoosh-app" class="headerlink" title="https://squoosh.app/"></a><a href="https://squoosh.app/">https://squoosh.app/</a></h2><p>Squoosh! 是 Google 开源发布的一款专门用来压缩图片的在线服务，支持 JPG、PNG、WebP 等格式的极限压缩，为了尽可能的压缩图片尺寸，哦不，为了尽可能的提高网络传输速度，Google 还是想了很多办法的。</p><p>这个 Squoosh! 非常简单易用，打开网页后，将图片拖进去等几秒钟就可以下载压缩版本的了。目前支持：</p><ul><li>OptiPNG</li><li>MozJPEG</li><li>WebP</li><li>Browser PNG</li><li>Browser JPEG</li><li>Browser WebP</li></ul><p>其中 OptiPNG 和 MozJPEG 的效果比 TinyPNG 版本都要好一些，当然尺寸最小的还是 WebP…</p><p>除了压缩尺寸，还能进行简单的编辑，包括剪裁、减少调色板。</p><p>在左右窗口对比最终效果时，可选择与原图进行比较，也能与几种不同的压缩格式进行比较。</p><p>地址在这里：<a href="https://squoosh.app/">https://squoosh.app/</a></p><h2 id="https-compressimage-io"><a href="#https-compressimage-io" class="headerlink" title="https://compressimage.io/"></a><a href="https://compressimage.io/">https://compressimage.io/</a></h2><p>「compressImage.io」是一个免费在线图片压缩工具，可以透过浏览器快速为 JPG 和 PNG 图片进行压缩处理，这项服务具备隐私、脱机运作特性，用户的图片只会在浏览器压缩，不会被上传到任何服务器（和 Imagator 一样），因此这个压缩功能没有任何限制（包括文件大小、文件数量）。</p><p>compressImage.io 操作方式简单，而且还能设定压缩图片质量、最大宽度高度、文件后缀或是否要转换为 WebP 格式，图片经压缩后会显示源文件大小、压缩后文件大小和减少百分比，如果批次压缩多张图片可将所有压缩后的相片打包为压缩文件下载。</p><p>地址在这里：<a href="https://compressimage.io/">https://compressimage.io/</a></p><h2 id="https-tinypng-com"><a href="#https-tinypng-com" class="headerlink" title="https://tinypng.com/"></a><a href="https://tinypng.com/">https://tinypng.com/</a></h2><p>在线图片压缩工具，TinyPNG 通过使用智能有损压缩技术来降低用户上传的图片文件大小，而且由于采用的是选择性减少图片颜色的做法，这种压缩对图片的观感影响十分低，但却能够节省大量的存储空间。</p><p>TinyPNG 是一个免费的在线图片压缩工具，支持的文件类型包括 PNG 和 JPG，能够快速有效地完成照片压缩。值得一提的是，TingPNG 同时也提供了 Pro 付费版，支持一次上传超过 20 张图像，单个图像文件大小限制也同时提高至 75MB。</p><p>不过对于大部分人来说，TinyPNG 免费版提供的 20 张一次性上传 + 单张大小不超过 5MB 的功能已经足以应对大部分图片压缩场景。</p><p>地址在这里：<a href="https://tinypng.com/">https://tinypng.com/</a></p><hr><p>这三个都是打开网址就可以直接用的，并不需要下载，也避免电脑安装一些乱七八糟的软件。所以必须给这些网站点赞哈。</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;随着现在的拍照技术越来越强大，同时拍下来的照片也越来越大，就算是手机随手拍的照片，轻则5m以上，所以如果想在自己的博客放上一张自己用手机拍的图片，那照片打开速度！！！！简直不要太爽了！&lt;/p&gt;
+&lt;p&gt;所以我们要把拍的照片压缩，但是又不能影响拍的照片画质。&lt;/p&gt;
+&lt;p&gt;为此</summary>
+      
+    
+    
+    
+    <category term="资源分享" scheme="https://xukun.net/categories/%E8%B5%84%E6%BA%90%E5%88%86%E4%BA%AB/"/>
+    
+    
+    <category term="图片压缩" scheme="https://xukun.net/tags/%E5%9B%BE%E7%89%87%E5%8E%8B%E7%BC%A9/"/>
+    
+  </entry>
   
   <entry>
     <title>总结2023年都去了那些地方游玩</title>
@@ -47,7 +73,7 @@
     <link href="https://xukun.net/2-8dcce462d606/"/>
     <id>https://xukun.net/2-8dcce462d606/</id>
     <published>2023-12-18T03:18:10.000Z</published>
-    <updated>2023-12-18T03:35:17.156Z</updated>
+    <updated>2023-12-30T15:33:05.727Z</updated>
     
     <content type="html"><![CDATA[<p>自从我的blog搭建起来之后，每次打开xukun.net的时候都是空荡荡的，也不知道该放点什么好，总不能一直是404错误页面吧！😓</p><p>所以想在网上找找看有没有看起来很漂亮，但是又简简单单的一个引导页面，俗称<strong>主页</strong>。</p><p>运气还算不错，找到了<a href="https://noisky.cn/">饭饭</a>的开源哈。</p><p>超级喜欢这样的简单有趣的引导页。</p><p>我的这个引导页也是基于《<a href="https://noisky.cn/">饭饭</a>》修改来的，咱们不能吃水不忘挖井人，我在这里直接写上《<a href="https://noisky.cn/">饭饭</a>》的开源说明。如下：</p><hr><p>This is a homepage written in HTML&#x2F;JavsScript for Noisky.</p><p>饭饭的个人主页（HTML&#x2F;JavaScript版）</p><p>Demo: <a href="https://noisky.cn/">https://noisky.cn</a></p><img src="https://cdn.jsdelivr.net/gh/noisky/Homepage@master/Noisky_files/img/effect_picture.png" alt="noisky.cn" title="个人主页效果图"/><ul><li>响应式设计，PC&#x2F;手机&#x2F;Pad，全平台阅读适配</li><li>背景图片随机选取</li><li>接入了一言并实现了异步加载</li><li>加入必应每日背景图片（需自己修改注释代码）</li></ul><hr><p>再次感谢《<a href="https://noisky.cn/">饭饭</a>》把这么漂亮的引导页开源哈。</p><p>我这引导页是使用GitHub+netlify搭建，因为只使用GitHub的话，在咱们这边访问速度还是不太理想的，所以使用了netlify来给这个引导页提供一个小小的加速效果。</p><p>完美。😄</p>]]></content>
     
@@ -61,7 +87,7 @@
     
     
     
-    <category term="html折腾" scheme="https://xukun.net/categories/html%E6%8A%98%E8%85%BE/"/>
+    <category term="资源分享" scheme="https://xukun.net/categories/%E8%B5%84%E6%BA%90%E5%88%86%E4%BA%AB/"/>
     
     
     <category term="html" scheme="https://xukun.net/tags/html/"/>
