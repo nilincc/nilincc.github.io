@@ -6,7 +6,7 @@
   <link href="https://xukun.net/atom.xml" rel="self"/>
   
   <link href="https://xukun.net/"/>
-  <updated>2023-12-30T16:23:25.082Z</updated>
+  <updated>2024-01-01T14:11:54.317Z</updated>
   <id>https://xukun.net/</id>
   
   <author>
@@ -15,6 +15,32 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>2024我依然在折腾我的小博客</title>
+    <link href="https://xukun.net/4-773b174f7ed5/"/>
+    <id>https://xukun.net/4-773b174f7ed5/</id>
+    <published>2024-01-01T13:39:44.000Z</published>
+    <updated>2024-01-01T14:11:54.317Z</updated>
+    
+    <content type="html"><![CDATA[<p>我被2023总结和2024你好刷屏了。</p><p>话说虽然是2024年了，但是最近看你们的<strong>2023总结</strong>刷屏了各大论坛以及博客周边了，我只能是直呼好家伙啊！</p><p><img src="https://pic.xukun.net/2023-1.png"><br><img src="https://pic.xukun.net/2023-2.png"></p><p>在你们都在总结2023的时候，我还是继续折腾我用hexo搭建的小博客吧。</p><p>给我这个小博客增加了一个留言的地方，因为hexo是一个搭建静态博客的程序，所以要想使用留言评论这种动态效果，就只能是另想办法了，还有一点就是我不会弄！我也不是这方面专业的，但是我依然感觉我做的已经很棒了，毕竟我现在打字还是传说中的一阳指呢《<del>意思就是现在打字，基本上都是使用一个手指头，慢慢的在键盘上找拼音😂</del></p><p>留言地址：<a href="https://blog.xukun.net/message/">https://blog.xukun.net/message/</a></p><p>我的博客留言功能是使用了<strong>Cusdis</strong>，并且是免费托管服务，我也不会自行部署。</p><h2 id="Cusdis简介"><a href="#Cusdis简介" class="headerlink" title="Cusdis简介"></a>Cusdis简介</h2><p>Cusdis 是一个注重数据隐私的开源的评论系统，十分轻量，经过 gzipped 后大约只有 5kb，从名字来看也知道开发者也是难以忍受 Disqus，自己做了一个替代版，因此它也是支持 Disqus 历史数据导入的，很贴心。</p><p>虽然这是一个开发早期的项目，但是已经提供了电子邮件通知以及通过 Webhook 联动 Telegram 等方式进行评论提醒，对使用者来说很方便进行管理。Cusdis 提供了免费托管服务与自行部署两种方式，如果不想折腾可以直接用作者提供的服务。自行部署则需要服务器与一个 Postgre SQL 实例，</p><hr><h2 id="ip签名图片"><a href="#ip签名图片" class="headerlink" title="ip签名图片"></a>ip签名图片</h2><p>另外还给留言页面里添加了一个小代码，因为简单所以我还是能够弄成的哈。</p><p>这个小代码是利用了ip签名图片 ：<a href="https://www.ipip5.com/">https://www.ipip5.com/</a></p><p>以下是效果展示：</p><img alt="ip签名图片" src="https://www.ipip5.com/ipimg"><p>只需要一小串简短的代码就能实现这一的一个功能，</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;img alt=<span class="string">&quot;ip签名图片&quot;</span> src=<span class="string">&quot;https://www.ipip5.com/ipimg&quot;</span>&gt;</span><br></pre></td></tr></table></figure><p>将这段代码放到你想展示的位置上就可以了哈。</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;我被2023总结和2024你好刷屏了。&lt;/p&gt;
+&lt;p&gt;话说虽然是2024年了，但是最近看你们的&lt;strong&gt;2023总结&lt;/strong&gt;刷屏了各大论坛以及博客周边了，我只能是直呼好家伙啊！&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://pic.xukun.net/2</summary>
+      
+    
+    
+    
+    <category term="hexo折腾" scheme="https://xukun.net/categories/hexo%E6%8A%98%E8%85%BE/"/>
+    
+    
+    <category term="hexo" scheme="https://xukun.net/tags/hexo/"/>
+    
+  </entry>
   
   <entry>
     <title>我找到的图片无损压缩方法</title>
