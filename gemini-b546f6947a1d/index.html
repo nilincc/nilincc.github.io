@@ -13,7 +13,7 @@
 
 
 
-<title>2024我依然在折腾我的小博客 | 徐坤博客</title>
+<title>利用谷歌Gemini Pro搭建自己的谷歌Chat | 徐坤博客</title>
 
 
 
@@ -132,76 +132,11 @@
                 <div class="container">
     
     
-        <div class="post-toc">
-    <div class="tocbot-list">
-    </div>
-    <div class="tocbot-list-menu">
-        <a class="tocbot-toc-expand" onclick="expand_toc()">展开全部</a>
-        <a onclick="go_top()">返回顶部</a>
-        <a onclick="go_bottom()">转到底部</a>
-    </div>
-</div>
-
-<script>
-    var tocbot_timer;
-    var DEPTH_MAX = 6; // 为 6 时展开所有
-    var tocbot_default_config = {
-        tocSelector: '.tocbot-list',
-        contentSelector: '.post-content',
-        headingSelector: 'h1, h2, h3, h4, h5',
-        orderedList: false,
-        scrollSmooth: true,
-        onClick: extend_click,
-    };
-
-    function extend_click() {
-        clearTimeout(tocbot_timer);
-        tocbot_timer = setTimeout(function() {
-            tocbot.refresh(obj_merge(tocbot_default_config, {
-                hasInnerContainers: true
-            }));
-        }, 420); // 这个值是由 tocbot 源码里定义的 scrollSmoothDuration 得来的
-    }
-
-    document.ready(function() {
-        tocbot.init(obj_merge(tocbot_default_config, {
-            collapseDepth: 1
-        }));
-    });
-
-    function expand_toc() {
-        var b = document.querySelector('.tocbot-toc-expand');
-        var expanded = b.getAttribute('data-expanded');
-        expanded ? b.removeAttribute('data-expanded') : b.setAttribute('data-expanded', true);
-        tocbot.refresh(obj_merge(tocbot_default_config, {
-            collapseDepth: expanded ? 1 : DEPTH_MAX
-        }));
-        b.innerText = expanded ? 'Expand all' : 'Collapse all';
-    }
-
-    function go_top() {
-        window.scrollTo(0, 0);
-    }
-
-    function go_bottom() {
-        window.scrollTo(0, document.body.scrollHeight);
-    }
-
-    function obj_merge(target, source) {
-        for (var item in source) {
-            if (source.hasOwnProperty(item)) {
-                target[item] = source[item];
-            }
-        }
-        return target;
-    }
-</script>
-    
 
     
     <article class="post-wrap">
         <header class="post-header">
-            <h1 class="post-title">2024我依然在折腾我的小博客</h1>
+            <h1 class="post-title">利用谷歌Gemini Pro搭建自己的谷歌Chat</h1>
             
                 <div class="post-meta">
                     
@@ -210,14 +145,14 @@
 
                     
                         <span class="post-time">
-                        日期: <a href="#">一月 1, 2024&nbsp;&nbsp;21:39:44</a>
+                        日期: <a href="#">一月 3, 2024&nbsp;&nbsp;22:39:47</a>
                         </span>
                     
                     
                         <span class="post-category">
                     分类:
                             
-                                <a href="/categories/hexo%E6%8A%98%E8%85%BE/">hexo折腾</a>
+                                <a href="/categories/%E8%B5%84%E6%BA%90%E5%88%86%E4%BA%AB/">资源分享</a>
                             
                         </span>
                     
@@ -226,25 +161,21 @@
         </header>
 
         <div class="post-content">
-            <p>我被2023总结和2024你好刷屏了。</p>
-<p>话说虽然是2024年了，但是最近看你们的<strong>2023总结</strong>刷屏了各大论坛以及博客周边了，我只能是直呼好家伙啊！</p>
-<p><img src="https://pic.xukun.net/2023-1.png"><br><img src="https://pic.xukun.net/2023-2.png"></p>
-<p>在你们都在总结2023的时候，我还是继续折腾我用hexo搭建的小博客吧。</p>
-<p>给我这个小博客增加了一个留言的地方，因为hexo是一个搭建静态博客的程序，所以要想使用留言评论这种动态效果，就只能是另想办法了，还有一点就是我不会弄！我也不是这方面专业的，但是我依然感觉我做的已经很棒了，毕竟我现在打字还是传说中的一阳指呢《<del>意思就是现在打字，基本上都是使用一个手指头，慢慢的在键盘上找拼音😂</del></p>
-<p>留言地址：<a target="_blank" rel="noopener" href="https://blog.xukun.net/message/">https://blog.xukun.net/message/</a></p>
-<p>我的博客留言功能是使用了<strong>Cusdis</strong>，并且是免费托管服务，我也不会自行部署。</p>
-<h2 id="Cusdis简介"><a href="#Cusdis简介" class="headerlink" title="Cusdis简介"></a>Cusdis简介</h2><p>Cusdis 是一个注重数据隐私的开源的评论系统，十分轻量，经过 gzipped 后大约只有 5kb，从名字来看也知道开发者也是难以忍受 Disqus，自己做了一个替代版，因此它也是支持 Disqus 历史数据导入的，很贴心。</p>
-<p>虽然这是一个开发早期的项目，但是已经提供了电子邮件通知以及通过 Webhook 联动 Telegram 等方式进行评论提醒，对使用者来说很方便进行管理。Cusdis 提供了免费托管服务与自行部署两种方式，如果不想折腾可以直接用作者提供的服务。自行部署则需要服务器与一个 Postgre SQL 实例，</p>
-<hr>
-<h2 id="ip签名图片"><a href="#ip签名图片" class="headerlink" title="ip签名图片"></a>ip签名图片</h2><p>另外还给留言页面里添加了一个小代码，因为简单所以我还是能够弄成的哈。</p>
-<p>这个小代码是利用了ip签名图片 ：<a target="_blank" rel="noopener" href="https://www.ipip5.com/">https://www.ipip5.com/</a></p>
-<p>以下是效果展示：</p>
-<img alt="ip签名图片" src="https://www.ipip5.com/ipimg">
-
-<p>只需要一小串简短的代码就能实现这一的一个功能，</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;img alt=<span class="string">&quot;ip签名图片&quot;</span> src=<span class="string">&quot;https://www.ipip5.com/ipimg&quot;</span>&gt;</span><br></pre></td></tr></table></figure>
-
-<p>将这段代码放到你想展示的位置上就可以了哈。</p>
+            <p>现在大火的Chat相信很多人已经不陌生了，今天咱也尝试一下搭建一个。</p>
+<p>我的搭建方式是利用了谷歌Gemini pro的API调用，来搭建自己的chat，就算是chat吧，毕竟这个也算chat哈。</p>
+<p>首先用到的工具：</p>
+<ul>
+<li>🌐Github的GeminiProChat项目地址：<a target="_blank" rel="noopener" href="https://github.com/babaohuang/GeminiProChat">https://github.com/babaohuang/GeminiProChat</a></li>
+<li>🚀 静态网站部署平台Vercel：<a target="_blank" rel="noopener" href="https://vercel.com/">https://vercel.com/</a></li>
+<li>🔑 获取谷歌免费Gemini Pro API的方式：<a target="_blank" rel="noopener" href="https://makersuite.google.com/app">https://makersuite.google.com/app</a></li>
+</ul>
+<p>当然最重要的一点是跳过那面高墙哈，这个自己去想办法哈，正所谓八仙过海，各显神通哈。</p>
+<p>当然也有视频方面的教程哈，我放个链接，有需要的自行观看哈。</p>
+<p>教程地址：</p>
+<p><a target="_blank" rel="noopener" href="https://www.bilibili.com/video/BV1jb4y137YV/?spm_id_from=333.788.recommend_more_video.0&vd_source=51241061082f058598d2c3dc8573d392">https://www.bilibili.com/video/BV1jb4y137YV/?spm_id_from=333.788.recommend_more_video.0&amp;vd_source=51241061082f058598d2c3dc8573d392</a></p>
+<p>因为我也是看这个教程搭建起来的哈，</p>
+<p>我的chat地址；<a target="_blank" rel="noopener" href="https://gemini.xukun.net/">https://gemini.xukun.net/</a></p>
+<p><img src="https://pic.xukun.net/gemini.jpg"></p>
 
         </div>
 
@@ -259,7 +190,7 @@
                 
                     <p class="copyright-item">
                         <span>原文链接:</span>
-                        <span><a href="https://xukun.net/4-773b174f7ed5/">https://xukun.net/4-773b174f7ed5/</a></span>
+                        <span><a href="https://xukun.net/gemini-b546f6947a1d/">https://xukun.net/gemini-b546f6947a1d/</a></span>
                     </p>
                 
                 
@@ -283,7 +214,9 @@
                 <span class="tag">
                     
                     
-                        <a href="/tags/hexo/"># hexo</a>
+                        <a href="/tags/Gemini/"># Gemini</a>
+                    
+                        <a href="/tags/Chat/"># Chat</a>
                     
                         
                 </span>
@@ -296,10 +229,8 @@
         </section>
         <section class="post-nav">
             
-                <a class="prev" rel="prev" href="/gemini-b546f6947a1d/">利用谷歌Gemini Pro搭建自己的谷歌Chat</a>
             
-            
-            <a class="next" rel="next" href="/3-a0d93d7d52f2/">我找到的图片无损压缩方法</a>
+            <a class="next" rel="next" href="/4-773b174f7ed5/">2024我依然在折腾我的小博客</a>
             
         </section>
 

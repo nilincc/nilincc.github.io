@@ -6,7 +6,7 @@
   <link href="https://xukun.net/atom.xml" rel="self"/>
   
   <link href="https://xukun.net/"/>
-  <updated>2024-01-01T14:11:54.317Z</updated>
+  <updated>2024-01-03T14:56:56.904Z</updated>
   <id>https://xukun.net/</id>
   
   <author>
@@ -15,6 +15,36 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>利用谷歌Gemini Pro搭建自己的谷歌Chat</title>
+    <link href="https://xukun.net/gemini-b546f6947a1d/"/>
+    <id>https://xukun.net/gemini-b546f6947a1d/</id>
+    <published>2024-01-03T14:39:47.000Z</published>
+    <updated>2024-01-03T14:56:56.904Z</updated>
+    
+    <content type="html"><![CDATA[<p>现在大火的Chat相信很多人已经不陌生了，今天咱也尝试一下搭建一个。</p><p>我的搭建方式是利用了谷歌Gemini pro的API调用，来搭建自己的chat，就算是chat吧，毕竟这个也算chat哈。</p><p>首先用到的工具：</p><ul><li>🌐Github的GeminiProChat项目地址：<a href="https://github.com/babaohuang/GeminiProChat">https://github.com/babaohuang/GeminiProChat</a></li><li>🚀 静态网站部署平台Vercel：<a href="https://vercel.com/">https://vercel.com/</a></li><li>🔑 获取谷歌免费Gemini Pro API的方式：<a href="https://makersuite.google.com/app">https://makersuite.google.com/app</a></li></ul><p>当然最重要的一点是跳过那面高墙哈，这个自己去想办法哈，正所谓八仙过海，各显神通哈。</p><p>当然也有视频方面的教程哈，我放个链接，有需要的自行观看哈。</p><p>教程地址：</p><p><a href="https://www.bilibili.com/video/BV1jb4y137YV/?spm_id_from=333.788.recommend_more_video.0&vd_source=51241061082f058598d2c3dc8573d392">https://www.bilibili.com/video/BV1jb4y137YV/?spm_id_from=333.788.recommend_more_video.0&amp;vd_source=51241061082f058598d2c3dc8573d392</a></p><p>因为我也是看这个教程搭建起来的哈，</p><p>我的chat地址；<a href="https://gemini.xukun.net/">https://gemini.xukun.net/</a></p><p><img src="https://pic.xukun.net/gemini.jpg"></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;现在大火的Chat相信很多人已经不陌生了，今天咱也尝试一下搭建一个。&lt;/p&gt;
+&lt;p&gt;我的搭建方式是利用了谷歌Gemini pro的API调用，来搭建自己的chat，就算是chat吧，毕竟这个也算chat哈。&lt;/p&gt;
+&lt;p&gt;首先用到的工具：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;🌐Gi</summary>
+      
+    
+    
+    
+    <category term="资源分享" scheme="https://xukun.net/categories/%E8%B5%84%E6%BA%90%E5%88%86%E4%BA%AB/"/>
+    
+    
+    <category term="Gemini" scheme="https://xukun.net/tags/Gemini/"/>
+    
+    <category term="Chat" scheme="https://xukun.net/tags/Chat/"/>
+    
+  </entry>
   
   <entry>
     <title>2024我依然在折腾我的小博客</title>
