@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+<meta name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <meta name="author" content="徐坤">
+
+
+
+
+
+<title>收房拿钥匙的一些注意事项 | 徐坤博客</title>
+
+
+
+    <link rel="icon" href="/favicon.ico">
+
+
+
+
+    <!-- stylesheets list from _config.yml -->
+    
+    <link rel="stylesheet" href="/css/style.css">
+    
+
+
+
+    <!-- scripts list from _config.yml -->
+    
+    <script src="/js/script.js"></script>
+    
+    <script src="/js/tocbot.min.js"></script>
+    
+
+
+
+    
+    
+        
+    
+
+
+<meta name="generator" content="Hexo 7.0.0"><link rel="alternate" href="/atom.xml" title="徐坤博客" type="application/atom+xml">
+</head>
+
+<body>
+    <script>
+        // this function is used to check current theme before page loaded.
+        (() => {
+            const currentTheme = window.localStorage && window.localStorage.getItem('theme') || '';
+            const isDark = currentTheme === 'dark';
+            const pagebody = document.getElementsByTagName('body')[0]
+            if (isDark) {
+                pagebody.classList.add('dark-theme');
+                // mobile
+                document.getElementById("mobile-toggle-theme").innerText = "· Dark"
+            } else {
+                pagebody.classList.remove('dark-theme');
+                // mobile
+                document.getElementById("mobile-toggle-theme").innerText = "· Light"
+            }
+        })();
+    </script>
+
+    <div class="wrapper">
+        <header>
+    <nav class="navbar">
+        <div class="container">
+            <div class="navbar-header header-logo"><a href="/">徐坤博客</a></div>
+            <div class="menu navbar-right">
+                
+                    <a class="menu-item" href="/archives">文章</a>
+                
+                    <a class="menu-item" href="/category">分类</a>
+                
+                    <a class="menu-item" href="/tag">标签</a>
+                
+                    <a class="menu-item" href="/about">关于</a>
+                
+                    <a class="menu-item" href="/message">留言</a>
+                
+                <input id="switch_default" type="checkbox" class="switch_default">
+                <label for="switch_default" class="toggleBtn"></label>
+            </div>
+        </div>
+    </nav>
+
+    
+    <nav class="navbar-mobile" id="nav-mobile">
+        <div class="container">
+            <div class="navbar-header">
+                <div>
+                    <a href="/">徐坤博客</a><a id="mobile-toggle-theme">·&nbsp;Light</a>
+                </div>
+                <div class="menu-toggle" onclick="mobileBtn()">&#9776; Menu</div>
+            </div>
+            <div class="menu" id="mobile-menu">
+                
+                    <a class="menu-item" href="/archives">文章</a>
+                
+                    <a class="menu-item" href="/category">分类</a>
+                
+                    <a class="menu-item" href="/tag">标签</a>
+                
+                    <a class="menu-item" href="/about">关于</a>
+                
+                    <a class="menu-item" href="/message">留言</a>
+                
+            </div>
+        </div>
+    </nav>
+
+</header>
+<script>
+    var mobileBtn = function f() {
+        var toggleMenu = document.getElementsByClassName("menu-toggle")[0];
+        var mobileMenu = document.getElementById("mobile-menu");
+        if(toggleMenu.classList.contains("active")){
+           toggleMenu.classList.remove("active")
+            mobileMenu.classList.remove("active")
+        }else{
+            toggleMenu.classList.add("active")
+            mobileMenu.classList.add("active")
+        }
+    }
+</script>
+            <div class="main">
+                <div class="container">
+    
+    
+        <div class="post-toc">
+    <div class="tocbot-list">
+    </div>
+    <div class="tocbot-list-menu">
+        <a class="tocbot-toc-expand" onclick="expand_toc()">展开全部</a>
+        <a onclick="go_top()">返回顶部</a>
+        <a onclick="go_bottom()">转到底部</a>
+    </div>
+</div>
+
+<script>
+    var tocbot_timer;
+    var DEPTH_MAX = 6; // 为 6 时展开所有
+    var tocbot_default_config = {
+        tocSelector: '.tocbot-list',
+        contentSelector: '.post-content',
+        headingSelector: 'h1, h2, h3, h4, h5',
+        orderedList: false,
+        scrollSmooth: true,
+        onClick: extend_click,
+    };
+
+    function extend_click() {
+        clearTimeout(tocbot_timer);
+        tocbot_timer = setTimeout(function() {
+            tocbot.refresh(obj_merge(tocbot_default_config, {
+                hasInnerContainers: true
+            }));
+        }, 420); // 这个值是由 tocbot 源码里定义的 scrollSmoothDuration 得来的
+    }
+
+    document.ready(function() {
+        tocbot.init(obj_merge(tocbot_default_config, {
+            collapseDepth: 1
+        }));
+    });
+
+    function expand_toc() {
+        var b = document.querySelector('.tocbot-toc-expand');
+        var expanded = b.getAttribute('data-expanded');
+        expanded ? b.removeAttribute('data-expanded') : b.setAttribute('data-expanded', true);
+        tocbot.refresh(obj_merge(tocbot_default_config, {
+            collapseDepth: expanded ? 1 : DEPTH_MAX
+        }));
+        b.innerText = expanded ? 'Expand all' : 'Collapse all';
+    }
+
+    function go_top() {
+        window.scrollTo(0, 0);
+    }
+
+    function go_bottom() {
+        window.scrollTo(0, document.body.scrollHeight);
+    }
+
+    function obj_merge(target, source) {
+        for (var item in source) {
+            if (source.hasOwnProperty(item)) {
+                target[item] = source[item];
+            }
+        }
+        return target;
+    }
+</script>
+    
+
+    
+    <article class="post-wrap">
+        <header class="post-header">
+            <h1 class="post-title">收房拿钥匙的一些注意事项</h1>
+            
+                <div class="post-meta">
+                    
+                        作者: <a itemprop="author" rel="author" href="/">徐坤</a>
+                    
+
+                    
+                        <span class="post-time">
+                        日期: <a href="#">五月 2, 2024&nbsp;&nbsp;20:21:24</a>
+                        </span>
+                    
+                    
+                        <span class="post-category">
+                    分类:
+                            
+                                <a href="/categories/%E4%B8%AA%E4%BA%BA%E9%9A%8F%E7%AC%94/">个人随笔</a>
+                            
+                        </span>
+                    
+                </div>
+            
+        </header>
+
+        <div class="post-content">
+            <p><img src="https://pic.xukun.net/yanfang.jpg" alt="收房拿钥匙的一些注意事项"><br>说一下前几天拿钥匙的一些注意事项吧，毕竟这是第一次买房子哈。也算是给自己一个简短的记忆。</p>
+<p>大概是上个月的27号那会，销售通知说是可以收房拿钥匙了。</p>
+<p>其实接到这个消息还是蛮开心的，销售说收房有三天的期限，如果在这三天里收房，会有一些礼品等东西可以拿，当然也有一些购房者是不在这三天里收房的。</p>
+<p>但是没想到现场人真的很多，但是我感觉装修的人要比业主多很多，对你没看错，搞装修的要比业主多很多，对，很多很多。</p>
+<p>因为我买这套房子是准备让孩子上学用的，所以我比较着急拿钥匙的，我是赶在第一时间拿的钥匙。</p>
+<h2 id="拿钥匙前验房的几点注意事项。"><a href="#拿钥匙前验房的几点注意事项。" class="headerlink" title="拿钥匙前验房的几点注意事项。"></a>拿钥匙前验房的几点注意事项。</h2><p>因为是自己买的第一套房产，所以我也会在网上看一下验房的基本流程，所以接下来我会以我自己的亲身经历，来书写一下我自己验房的流程。</p>
+<p>当你开始验房的时候，会有专门的工作人员，来引领你去检验的你的房子，并且他们手里还拿有一份表单。这个表单会记录你认为这个房子的缺点的记录。</p>
+<h3 id="验一下水电"><a href="#验一下水电" class="headerlink" title="验一下水电"></a>验一下水电</h3><p>检验一下用电插座是否有电，以及照明和开关，是否顺畅。</p>
+<p>因为我验房的时候，水管那会是没有水的，我不知道是什么原因，所以我没有检验自来水的水管这块。</p>
+<p>地暖这块我有检查，因为地暖里是有气压或者是水压，这个验房的时候，自己动手去查看一下比较好。</p>
+<p>如果有其中一组地暖是没有气压或者水压的，你可以让开发商的工作人员，稍后给你重新打压，你再来检查和测试。</p>
+<p>只要是地暖管不存在漏水的情况就可以了。</p>
+<h3 id="验一下墙地面空鼓"><a href="#验一下墙地面空鼓" class="headerlink" title="验一下墙地面空鼓"></a>验一下墙地面空鼓</h3><p>如果你验房的时候，手里刚好拿着空鼓锤，并且时间富裕的情况下，我建议是自己好好的敲一遍墙面。如果有空鼓就记录下来，这个空鼓开发商在后期会去修复。当然如果是大面积空鼓就记录并且修复，如果是一点点的空鼓，就没必要修复，这个是我自己总结的。</p>
+<h3 id="验一下门窗与玻璃"><a href="#验一下门窗与玻璃" class="headerlink" title="验一下门窗与玻璃"></a>验一下门窗与玻璃</h3><p>门窗这块，可以直接看的，这个自己可以动手去开关门窗，并且检查一下这些是否有异响。</p>
+<p>当然玻璃也需要去看看，如果有破损的就让工作人员直接记录，反之就没什么问题，当然我家的这个是没什么问题的。</p>
+<h3 id="验一下给的钥匙能不能开门"><a href="#验一下给的钥匙能不能开门" class="headerlink" title="验一下给的钥匙能不能开门"></a>验一下给的钥匙能不能开门</h3><p>这个钥匙是我翻车的操作。</p>
+<p>我原以为拿完钥匙就完事了，事实上我也是这样想的，并且也是拿完钥匙就开开心心的回家了。</p>
+<p>结果在第三天我准备在看看自己的房子的时候，拿钥匙开门却打不开😂</p>
+<p>当时还以为是新门新钥匙开门比较费劲呢，但是怎么也打不开自己的房门。</p>
+<p>也不知道是不是脑子轴了还是咋地！也不知道自己当时咋想的，反正是拿着钥匙去开对门的门，</p>
+<p>神奇的一幕出现了。门开了~~~~~~</p>
+<p>对没看错，对门的门开了。</p>
+<p>随后我赶紧拿出来购房合同查看是不是我记错，但是合同上明明是我记忆中的这个，并不是对门。</p>
+<p>但是我确实给对门的门打开了。🤣</p>
+<p>随后赶紧给物业联系，并且在第一时间换了正确的钥匙。</p>
+<p>所以说如果你买房后，在拿完钥匙之后，一定一定要去试试这个钥匙能不能开开你家的门！！！！！</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">以上的这些验房流程是我自己从网上学习以及自己摸索的，如果你刚好能看到这个文章，又刚好能解决你验房的需求，那是再好不过的哈。</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+
+        </div>
+
+        
+            <section class="post-copyright">
+                
+                    <p class="copyright-item">
+                        <span>作者:</span>
+                        <span>徐坤</span>
+                    </p>
+                
+                
+                    <p class="copyright-item">
+                        <span>原文链接:</span>
+                        <span><a href="https://xukun.net/7-528a374f9bdb/">https://xukun.net/7-528a374f9bdb/</a></span>
+                    </p>
+                
+                
+                    <p class="copyright-item">
+                        <span>许可:</span>
+                        <span>Copyright (c) 2019 <a target="_blank" rel="noopener" href="http://creativecommons.org/licenses/by-nc/4.0/">CC-BY-NC-4.0</a> LICENSE</span>
+                    </p>
+                
+                
+                     <p class="copyright-item">
+                         <span>Slogan:</span>
+                         <span>Do you believe in <strong>DESTINY</strong>?</span>
+                     </p>
+                
+
+            </section>
+        
+        <section class="post-tags">
+            <div>
+                <span>标签(s):</span>
+                <span class="tag">
+                    
+                    
+                        <a href="/tags/%E9%9A%8F%E6%89%8B%E8%AE%B0/"># 随手记</a>
+                    
+                        
+                </span>
+            </div>
+            <div>
+                <a href="javascript:window.history.back();">返回</a>
+                <span>· </span>
+                <a href="/">主页</a>
+            </div>
+        </section>
+        <section class="post-nav">
+            
+            
+            <a class="next" rel="next" href="/6-4a094f612c96/">买房之后的变化</a>
+            
+        </section>
+
+
+    </article>
+</div>
+
+            </div>
+            <footer id="footer" class="footer">
+    <div class="copyright">
+        <span>© 徐坤 | Powered by <a href="https://hexo.io" target="_blank">Hexo</a> & <a href="https://github.com/Siricee/hexo-theme-Chic" target="_blank">Chic</a></span>
+    </div>
+</footer>
+
+    </div>
+</body>
+
+</html>
