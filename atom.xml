@@ -6,7 +6,7 @@
   <link href="https://nilin.cc/atom.xml" rel="self"/>
   
   <link href="https://nilin.cc/"/>
-  <updated>2024-12-04T15:34:54.953Z</updated>
+  <updated>2024-12-11T10:57:39.843Z</updated>
   <id>https://nilin.cc/</id>
   
   <author>
@@ -21,18 +21,20 @@
     <link href="https://nilin.cc/hello-a9b5f320e7c3/"/>
     <id>https://nilin.cc/hello-a9b5f320e7c3/</id>
     <published>2024-12-04T15:31:22.000Z</published>
-    <updated>2024-12-04T15:34:54.953Z</updated>
+    <updated>2024-12-11T10:57:39.843Z</updated>
     
-    <content type="html"><![CDATA[<p>正如所见，我的笔记小站搭建起来了，虽然不是第一次搭建，但是是又一次搭建，嘎嘎<br><img   src="https://pic.nilin.cc/Hello.png"  alt="hello"></p>]]></content>
+    <content type="html"><![CDATA[<p>正如所见，我的笔记小站搭建起来了，虽然不是第一次搭建，但是是又一次搭建，期望这一次能长久点吧。</p><p>其实有时候还是想好好写一点心里那点事儿的，但是不知道怎么想的，基本上是打开文章编辑框就突然很抗拒，也许是那些所谓的羞耻感，也怕自己那点事儿遭到围观，所以就懒得写了。</p><p>不管咋样，这个笔记搭建起来了，期望能长久一点吧。<br><img                         lazyload                       alt="image"                       data-src="https://pic.nilin.cc/Hello.png"                        alt="hello"                 ></p>]]></content>
     
     
       
       
-    <summary type="html">&lt;p&gt;正如所见，我的笔记小站搭建起来了，虽然不是第一次搭建，但是是又一次搭建，嘎嘎&lt;br&gt;&lt;img   src=&quot;https://pic.nilin.cc/Hello.png&quot;  alt=&quot;hello&quot;&gt;&lt;/p&gt;
-</summary>
+    <summary type="html">&lt;p&gt;正如所见，我的笔记小站搭建起来了，虽然不是第一次搭建，但是是又一次搭建，期望这一次能长久点吧。&lt;/p&gt;
+&lt;p&gt;其实有时候还是想好好写一点心里那点事儿的，但是不知道怎么想的，基本上是打开文章编辑框就突然很抗拒，也许是那些所谓的羞耻感，也怕自己那点事儿遭到围观，所以就懒得写了。</summary>
       
     
     
+    
+    <category term="essay" scheme="https://nilin.cc/categories/essay/"/>
     
     
     <category term="hello" scheme="https://nilin.cc/tags/hello/"/>
