@@ -22,5 +22,3 @@ if (!window.runningTime) {
     }
 }
 window.runningTime()
-
-<script defer src="https://umami.nilin.cc/script.js" data-website-id="64554c97-f95a-4d3e-93b9-c952c656965f"></script>
