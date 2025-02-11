@@ -6,7 +6,7 @@
   <link href="https://nilin.cc/atom.xml" rel="self"/>
   
   <link href="https://nilin.cc/"/>
-  <updated>2025-01-31T09:54:37.765Z</updated>
+  <updated>2025-02-11T13:26:57.403Z</updated>
   <id>https://nilin.cc/</id>
   
   <author>
@@ -15,6 +15,36 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>可以上传视频并内嵌到自己博文中的外链平台</title>
+    <link href="https://nilin.cc/7-77da44eeb43a/"/>
+    <id>https://nilin.cc/7-77da44eeb43a/</id>
+    <published>2025-02-11T13:07:13.000Z</published>
+    <updated>2025-02-11T13:26:57.403Z</updated>
+    
+    <content type="html"><![CDATA[<p>相信很多人跟我一样，在写博文的时候，会在博文中加入一些自己想要加入的视频，但是自己租用一些服务器又特别的贵，还有就是浪费自己的钱袋子。</p><p>以前我记得有使用过优酷，但是现在那个网站好像很久没有出现在我的视野中了，所以现在还是找点新的平台吧。</p><h2 id="B站"><a href="#B站" class="headerlink" title="B站"></a>B站</h2><p>相信这个可以上传视频并且可以内嵌到自己博文中的<code>B站</code>,各位应该不陌生吧。</p><p>演示；</p><div style="position: relative; width: 100%; height: 0; padding-bottom: 75%;"><iframe src="//player.bilibili.com/player.html?bvid=BV1FcmaYJEev&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"style="position: absolute; width: 100%; height: 100%; Left: 0; top: 0;" > </iframe></div><p>以下是B站的内嵌代码。</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">&#123;% raw %&#125;</span><br><span class="line">&lt;div style=&quot;position: relative; width: 100%; height: 0; padding-bottom: 75%;&quot;&gt;</span><br><span class="line">&lt;iframe src=&quot;//player.bilibili.com/player.html?bvid=BV1FcmaYJEev&amp;page=1&quot; scrolling=&quot;no&quot; border=&quot;0&quot; frameborder=&quot;no&quot; framespacing=&quot;0&quot; allowfullscreen=&quot;true&quot;style=&quot;position: absolute; width: 100%; height: 100%; Left: 0; top: 0;&quot; &gt; &lt;/iframe&gt;</span><br><span class="line">&lt;/div&gt;</span><br><span class="line">&#123;% endraw %&#125;</span><br></pre></td></tr></table></figure><h2 id="抖音"><a href="#抖音" class="headerlink" title="抖音"></a>抖音</h2><p>话说抖音现在也可以了，这个是我最近看到大佬《dujun.io》里的一篇博文里有写。在这里感谢大佬的分享哈</p><p>演示：</p><style>.douyin {    width: max(730px, 100%);    margin-inline: auto}</style><div class="douyin"><iframe src="https://open.douyin.com/player/video?vid=7469545826449231143&autoplay=0" frameborder="0" scrolling="no" referrerpolicy="unsafe-url" allowfullscreen></iframe></div><p>以下是抖音内嵌视频代码。</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line">&lt;style&gt;</span><br><span class="line">.douyin &#123;</span><br><span class="line">    width: max(730px, 100%);</span><br><span class="line">    margin-inline: auto</span><br><span class="line">&#125;</span><br><span class="line">&lt;/style&gt;</span><br><span class="line"></span><br><span class="line">&lt;div class=&quot;douyin&quot;&gt;</span><br><span class="line">&lt;iframe src=&quot;https://open.douyin.com/player/video?vid=7469545826449231143&amp;autoplay=0&quot; frameborder=&quot;0&quot; scrolling=&quot;no&quot; referrerpolicy=&quot;unsafe-url&quot; allowfullscreen&gt;&lt;/iframe&gt;</span><br><span class="line">&lt;/div&gt;</span><br><span class="line"></span><br></pre></td></tr></table></figure><h2 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h2><p>B站：</p><ul><li>优点：稳定可靠。</li><li>缺点：画质貌似不是高清的，也可能是我没找对方法。</li></ul><p>抖音：</p><ul><li>优点：快速响应</li><li>缺点：到现在好像还没做自适应哈</li></ul><p>但是反过来说，有这样的平台也是我们的荣幸，最起码省去了自己租用服务器的金钱。</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;相信很多人跟我一样，在写博文的时候，会在博文中加入一些自己想要加入的视频，但是自己租用一些服务器又特别的贵，还有就是浪费自己的钱袋子。&lt;/p&gt;
+&lt;p&gt;以前我记得有使用过优酷，但是现在那个网站好像很久没有出现在我的视野中了，所以现在还是找点新的平台吧。&lt;/p&gt;
+&lt;h2 id=</summary>
+      
+    
+    
+    
+    <category term="个人随笔" scheme="https://nilin.cc/categories/%E4%B8%AA%E4%BA%BA%E9%9A%8F%E7%AC%94/"/>
+    
+    
+    <category term="视频" scheme="https://nilin.cc/tags/%E8%A7%86%E9%A2%91/"/>
+    
+    <category term="B站" scheme="https://nilin.cc/tags/B%E7%AB%99/"/>
+    
+    <category term="抖音" scheme="https://nilin.cc/tags/%E6%8A%96%E9%9F%B3/"/>
+    
+  </entry>
   
   <entry>
     <title>2025春节快乐</title>
