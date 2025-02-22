@@ -6,7 +6,7 @@
   <link href="https://nilin.cc/atom.xml" rel="self"/>
   
   <link href="https://nilin.cc/"/>
-  <updated>2025-02-17T13:58:30.538Z</updated>
+  <updated>2025-02-22T08:30:23.454Z</updated>
   <id>https://nilin.cc/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>记录搭建docsify</title>
+    <link href="https://nilin.cc/9-5e55625601f9/"/>
+    <id>https://nilin.cc/9-5e55625601f9/</id>
+    <published>2025-02-22T08:24:01.000Z</published>
+    <updated>2025-02-22T08:30:23.454Z</updated>
+    
+    <content type="html"><![CDATA[<p>这是一篇水文，就是简单的记录一下docsify的搭建，记录一下这个docsify，省的以后在网上再去翻了。</p><h2 id="Docsify-部署"><a href="#Docsify-部署" class="headerlink" title="Docsify 部署"></a>Docsify 部署</h2><p>Docsify 是一个可以动态生成文档网站的工具。它不生成静态 HTML 文件，而是智能地加载和解析 Markdown 文件，并将其显示为网站。</p><h2 id="本地部署"><a href="#本地部署" class="headerlink" title="本地部署"></a>本地部署</h2><p>安装 Node.js 和 npm: 下载并安装 Node.js，安装完成后，使用以下命令验证安装： node -v npm -v</p><p>安装 Docsify CLI: npm install -g docsify-cli</p><p>初始化项目: 创建一个新文件夹并初始化 Docsify： mkdir docsify-demo cd docsify-demo docsify init .</p><p>启动本地服务器: docsify serve 访问 <a class="link"   href="http://localhost:3000/" >http://localhost:3000<i class="fas fa-external-link-alt"></i></a> 查看效果。</p><h2 id="部署到服务器"><a href="#部署到服务器" class="headerlink" title="部署到服务器"></a>部署到服务器</h2><p>安装 Docker: 在 CentOS 上： sudo yum install -y yum-utils sudo yum-config-manager –add-repo <a class="link"   href="https://download.docker.com/linux/centos/docker-ce.repo" >https://download.docker.com/linux/centos/docker-ce.repo<i class="fas fa-external-link-alt"></i></a> sudo yum install -y docker-ce docker-ce-cli containerd.io sudo systemctl start docker sudo systemctl enable docker</p><p>配置 Nginx: 创建 Nginx 配置文件： sudo mkdir -p &#x2F;knowledgebase&#x2F;nginx&#x2F;conf &#x2F;knowledgebase&#x2F;nginx&#x2F;html&#x2F;service&#x2F; sudo vim &#x2F;knowledgebase&#x2F;nginx&#x2F;conf&#x2F;nginx.conf 添加以下内容： server { listen 80; server_name localhost; location &#x2F; { root html&#x2F;service; index index.html; } error_page 500 502 503 504 &#x2F;50x.html; location &#x3D; &#x2F;50x.html { root html; } }</p><p>上传 Docsify 文件: 将本地的 Docsify 文件上传到服务器的 &#x2F;knowledgebase&#x2F;nginx&#x2F;html&#x2F;service&#x2F; 目录。</p><p>运行 Nginx 容器: sudo docker run –name knowledgenginx \ -v &#x2F;knowledgebase&#x2F;nginx&#x2F;conf&#x2F;nginx.conf:&#x2F;etc&#x2F;nginx&#x2F;nginx.conf \ -v &#x2F;knowledgebase&#x2F;nginx&#x2F;html&#x2F;service:&#x2F;usr&#x2F;share&#x2F;nginx&#x2F;html \ -p 80:80 -d nginx:latest</p><p>访问测试: 打开服务器防火墙的 80 端口，访问 http:&#x2F;&#x2F;&lt;服务器IP&gt;</p><p>通过以上步骤，您可以轻松地在本地和服务器上部署 Docsify 网站。</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;这是一篇水文，就是简单的记录一下docsify的搭建，记录一下这个docsify，省的以后在网上再去翻了。&lt;/p&gt;
+&lt;h2 id=&quot;Docsify-部署&quot;&gt;&lt;a href=&quot;#Docsify-部署&quot; class=&quot;headerlink&quot; title=&quot;Docsify 部署&quot;</summary>
+      
+    
+    
+    
+    <category term="个人随笔" scheme="https://nilin.cc/categories/%E4%B8%AA%E4%BA%BA%E9%9A%8F%E7%AC%94/"/>
+    
+    
+    <category term="docsify" scheme="https://nilin.cc/tags/docsify/"/>
+    
+  </entry>
   
   <entry>
     <title>最近入手一个短域名-36k-net</title>
