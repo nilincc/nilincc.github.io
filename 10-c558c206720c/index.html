@@ -220,320 +220,444 @@
             <div class="main-content border-box">
                 
 
-                    
-<div class="fade-in-down-animation">
-    <div class="post-page-container border-box">
-        <div class="post-content-container border-box">
-            
+                    @import "../../common/stylus-variables.styl"
 
-            <div class="post-content-bottom border-box">
-                
-                    <div class="post-title">
-                        备份hexo本地文件到GitHub
-                    </div>
-                
-
-                
-                    <div class="post-header border-box">
-                        
-                            <div class="avatar-box border-box">
-                                <img src="/images/logo.jpg">
-                            </div>
-                        
-                        <div class="info-box">
-                            <div class="author border-box">
-                                <span class="name">逆鳞笔记</span>
-                                
-                                    <span class="author-badge">Lv2</span>
-                                
-                            </div>
-                            <div class="meta-info border-box">
-                                
-
-<div class="post-meta-info-container border-box post">
-    <div class="post-meta-info border-box">
-        
-
-        
-            <span class="meta-info-item post-create-date">
-                <i class="icon fa-solid fa-calendar-plus"></i>&nbsp;
-                <span class="datetime">2025-03-01 15:32:57</span>
-            </span>
-
-            
-                <span class="meta-info-item post-update-date">
-                    <i class="icon fa-solid fa-file-pen"></i>&nbsp;
-                    <span class="datetime" data-updated="Sat Mar 01 2025 16:13:58 GMT+0800">2025-03-01 16:13:58</span>
-                </span>
-            
-        
-
-        
-            <span class="meta-info-item post-category border-box"><i class="icon fas fa-folder"></i>&nbsp;
-                <ul class="post-category-ul">
-                    
-                            <li class="category-item"><a href="/categories/%E4%B8%AA%E4%BA%BA%E9%9A%8F%E7%AC%94/">个人随笔</a></li>
-                        
-                    
-                </ul>
-            </span>
-        
-
-        
-            <span class="post-tag meta-info-item border-box">
-                <ul class="post-tag-ul">
-                    
-                            <li class="tag-item"><span class="tag-separator"><i class="icon fas fa-hashtag"></i></span><a href="/tags/hexo/">hexo</a></li>
-                        
-                    
-                            <li class="tag-item"><span class="tag-separator"><i class="icon fas fa-hashtag"></i></span><a href="/tags/GitHub/">GitHub</a></li>
-                        
-                    
-                </ul>
-            </span>
-        
-
-        
-        
-        
-        
-            <span class="meta-info-item post-pv">
-                <i class="icon fas fa-eye"></i>&nbsp;<span id="busuanzi_value_page_pv"></span>
-            </span>
-        
-    </div>
-
-    
-</div>
-
-                            </div>
-                        </div>
-                    </div>
-                
-
-                <div class="post-content keep-markdown-body ">
-                    
-                        <div class="post-aging-tips"
-                             data-update-date="Sat Mar 01 2025 16:13:58 GMT+0800"
-                             data-aging-days="30"
-                        >
-                            <i class="fa-solid fa-circle-exclamation"></i>本文距离上次更新已过去 <span class="days">0</span> 天，部分内容可能已经过时，请注意甄别。
-                        </div>
-                    
-
-                    
-                         <p>记录一下把hexo在本地的文件备份到GitHub的办法，以前一直觉得hexo在本地的办法是最稳妥的，但是自从给电脑重装系统之后才感觉hexo在本地的文件，在往回找的时候才是真的费劲。</p>
-<p>正好在网上找到一些方法思路，与其只有一个本地文件，不如试试本地+github双备份。</p>
-<p>首先在GitHub创建一个私有仓库。<br>分别按照GitHub给的命令代码，把hexo本地文件上传到GitHub。</p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">echo &quot;# nilincc&quot; &gt;&gt; README.md</span><br><span class="line">git init</span><br><span class="line">git add README.md</span><br><span class="line">git commit -m &quot;first commit&quot;</span><br><span class="line">git branch -M main</span><br><span class="line">git remote add origin git@github.com:nilincc/nilincc.github.io.git</span><br><span class="line">git push -u origin main</span><br></pre></td></tr></table></figure>
-<h1 id="git后期更新上传代码"><a href="#git后期更新上传代码" class="headerlink" title="git后期更新上传代码"></a>git后期更新上传代码</h1><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">git status     # 查看文件状态</span><br><span class="line">git add --all  # 添加所有更改后的文件</span><br><span class="line">git commit -m &quot;你要commit的内容&quot; #对这些文件进行 commit</span><br><span class="line">git push # 同步到 Github 云端仓库</span><br></pre></td></tr></table></figure>
-                    
-                </div>
-
-                
-                        
-<div class="post-copyright-info-container border-box">
-    <div class="copyright-info-content border-box">
-        <div class="copyright-info-top border-box">
-            <div class="copyright-post-title border-box text-ellipsis">
-                备份hexo本地文件到GitHub
-            </div>
-
-            <div class="copyright-post-link border-box text-ellipsis">
-                10-c558c206720c/
-            </div>
-        </div>
-
-        <div class="copyright-info-bottom border-box">
-            <div class="copyright-post-author bottom-item">
-                <div class="type">
-                    作者
-                </div>
-                <div class="content">逆鳞笔记</div>
-            </div>
-
-            <div class="post-time bottom-item">
-                <div class="type">
-                    发布于
-                </div>
-                <div class="content">2025-03-01 15:32</div>
-            </div>
+$avatar-width = 3.2rem
+$arrow-icon-width = 1rem
+$post-nav-max-width = 14rem
+$post-title-font-size = 1.6rem
+$toc-container-width = 15rem
+$spacer-padding = 2rem
 
 
-            <div class="post-license bottom-item">
-                <div class="type">
-                    许可
-                </div>
-                <div class="content tooltip" data-tooltip-content="CC BY-NC-SA 4.0">
-                    <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh-hans" target="_blank">
-                        
-                            <i class="fa-brands fa-creative-commons"></i>
-                            <i class="fa-brands fa-creative-commons-by"></i>
-                            <i class="fa-brands fa-creative-commons-nc"></i>
-                            <i class="fa-brands fa-creative-commons-sa"></i>
-                        
-                    </a>
-                </div>
-            </div>
-        </div>
+.post-page-container {
+  display flex
+  justify-content space-between
+  width 100%
+  height 100%
 
-        <i class="copyright-bg fa-solid fa-copyright"></i>
-    </div>
-    <div class="copy-copyright-info flex-center tooltip" data-tooltip-content="复制版权信息" data-tooltip-offset-y="-2px">
-        <i class="fa-solid fa-copy"></i>
-    </div>
-</div>
+  &.show-toc {
+    .pc-post-toc {
+      display block
+    }
 
-                
-
-                <div class="post-bottom-tags-and-share border-box">
-                    <div>
-                        
-                            <ul class="post-tags-box border-box">
-                                
-                                    <li class="tag-item border-box">
-                                        <i class="icon fas fa-hashtag"></i>&nbsp;<a href="/tags/hexo/">hexo</a>
-                                    </li>
-                                
-                                    <li class="tag-item border-box">
-                                        <i class="icon fas fa-hashtag"></i>&nbsp;<a href="/tags/GitHub/">GitHub</a>
-                                    </li>
-                                
-                            </ul>
-                        
-                    </div>
-                    <div>
-                        
-                    </div>
-                </div>
-
-                
-
-                
-                    <div class="post-nav border-box">
-                        
-                        
-                            <div class="next-post">
-                                <a class="next"
-                                   rel="next"
-                                   href="/9-5e55625601f9/"
-                                   title="记录搭建docsify"
-                                >
-                                    <span class="title flex-center">
-                                        <span class="post-nav-title-item text-ellipsis">记录搭建docsify</span>
-                                        <span class="post-nav-item">下一篇</span>
-                                    </span>
-                                    <span class="right arrow-icon flex-center">
-                                        <i class="fas fa-chevron-right"></i>
-                                    </span>
-                                </a>
-                            </div>
-                        
-                    </div>
-                
-
-                
-                    
-
-
-    <div class="comments-container border-box">
-        <div id="comments-anchor" class="comment-area-title border-box">
-            <i class="fas fa-comments"></i>&nbsp;评论
-        </div>
-        <div class="comment-plugin-fail border-box">
-    <span class="fail-tip">评论插件加载失败</span>
-    <button class="reload keep-button">点击重新加载</button>
-</div>
-<div class="comment-plugin-loading flex-center border-box">
-    <i class="loading-icon fa-solid fa-spinner fa-spin"></i>
-    <span class="load-tip">正在加载评论插件</span>
-</div>
-<script data-pjax>
-  window.KeepCommentPlugin = {}
-  window.KeepCommentPlugin.hideLoading = () => {
-    const cplDom = document.querySelector('.comments-container .comment-plugin-loading')
-    cplDom.style.display = 'none'
+    .post-content-container {
+      width 'calc(100% - %s)' % $toc-container-width
+    }
   }
-  window.KeepCommentPlugin.loadFailHandle = () => {
-    window.KeepCommentPlugin.hideLoading()
-    const cpfDom = document.querySelector('.comments-container .comment-plugin-fail')
-    cpfDom.style.display = 'flex'
-    cpfDom.querySelector('.reload').addEventListener('click', () => {
-      window.location.reload()
-    })
+
+
+  &.encrypt {
+    .post-aging-tips {
+      display none !important
+    }
   }
-</script>
 
-        
-            
 
-    <div class="waline-comment-container">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/waline/3.3.2/waline.css"/>
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/waline/3.3.2/waline-meta.css"/>
-        <div id="waline-comment"></div>
-        <script data-pjax>
-          window.KeepCommentPlugin.walineOptions = JSON.parse('{}'.replace(/&#34;/g, '"'))
-          window.KeepCommentPlugin.walineOptions.el = '#waline-comment'
-          window.KeepCommentPlugin.walineOptions.comment = '.post-comments-count'
-          window.KeepCommentPlugin.walineOptions.serverURL = 'https://waline.nilin.cc/'
-          window.KeepCommentPlugin.walineOptions.lang = 'zh-CN' || 'zh-CN'
-          window.KeepCommentPlugin.walineOptions.reaction = 'false' === 'true'
-        </script>
+  +keep-tablet() {
+    .pc-post-toc {
+      display none !important
+    }
 
-        
+    .post-content-container {
+      width 100% !important
+    }
+  }
 
-        
-            <script data-pjax
-                    async
-                    type="module"
-            >
-              import { init } from 'https://cdnjs.cloudflare.com/ajax/libs/waline/3.3.2/waline.js'
-              window.KeepCommentPlugin.initWaline = () => {
-                if (init) {
-                  init(window.KeepCommentPlugin.walineOptions)
-                  window.KeepCommentPlugin.hideLoading()
-                } else {
-                  setTimeout(() => {
-                    window.KeepCommentPlugin.initWaline()
-                  }, 1000)
-                }
+
+  .post-content-container {
+    order 0
+    width 100%
+    height 100%
+
+
+    keep-container(1, 0, 2rem)
+
+    +keep-mobile() {
+      padding 0 0.2rem !important
+      box-shadow none !important
+
+      &:hover {
+        box-shadow none !important
+      }
+    }
+
+
+    .post-content-top {
+      display flex
+      align-items flex-end
+      width 100%
+      padding-top $spacer-padding
+      padding-right $spacer-padding
+      overflow hidden
+      background-color var(--background-color-2)
+      border-top-left-radius var(--box-border-radius)
+      border-top-right-radius var(--box-border-radius)
+
+      +keep-tablet() {
+        height 12.8rem
+        padding-top $spacer-padding * 0.8
+        padding-right $spacer-padding  * 0.8
+
+        .cover-post-title {
+          padding $spacer-padding * 0.5 * 0.8 $spacer-padding * 0.8 !important
+          font-size $post-title-font-size * 0.9 !important
+          line-height 1.5 !important
+        }
+      }
+
+
+      +keep-mobile() {
+        height 11.8rem
+        padding-top $spacer-padding * 0.6
+        padding-right $spacer-padding  * 0.6
+
+        .cover-post-title {
+          padding $spacer-padding * 0.5 * 0.6 $spacer-padding * 0.6 !important
+          font-size $post-title-font-size * 0.8 !important
+          line-height 1.4 !important
+        }
+      }
+
+
+      .cover-post-title {
+        position relative
+        z-index $z-index-1
+        box-sizing border-box
+        max-width 100%
+        max-height 100%
+        padding $spacer-padding * 0.5 $spacer-padding
+        overflow-y auto
+        color var(--text-color-2)
+        font-weight 600
+        font-size $post-title-font-size
+        line-height 1.6
+        background var(--background-color-1-transparent)
+        border-top-right-radius var(--box-border-radius)
+        -webkit-backdrop-filter blur(2px)
+        backdrop-filter blur(2px)
+      }
+
+
+      .post-cover {
+        position absolute
+        top 0
+        left 0
+        box-sizing border-box
+        width 100%
+        height 100%
+        object-fit cover
+      }
+    }
+
+
+    .post-content-bottom {
+      padding $spacer-padding
+
+      &.has-cover {
+        padding-top $spacer-padding * 0.5
+      }
+
+      +keep-mobile() {
+        padding $spacer-padding * 0.5 0 !important
+      }
+
+      .post-title {
+        color var(--text-color-2)
+        font-weight 600
+        font-size $post-title-font-size
+        line-height 1.6
+        text-align var(--post-title-align)
+
+        +keep-tablet() {
+          font-size $post-title-font-size * 0.9
+        }
+
+        +keep-mobile() {
+          font-size $post-title-font-size * 0.8
+        }
+      }
+
+
+      .post-header {
+        display flex
+        justify-content flex-start
+        width 100%
+        margin-top 1rem
+
+        +keep-tablet() {
+          margin-top 0.9rem
+          transform scale(0.9)
+          transform-origin left top
+        }
+
+        .avatar-box {
+          display var(--post-author-avatar)
+          flex-shrink 0
+          width $avatar-width
+          height $avatar-width
+          margin-right 0.8rem
+          padding 0.1rem
+          border 1px solid var(--border-color)
+          border-radius 50%
+
+          img {
+            width 100%
+            height 100%
+            background var(--avatar-background-color)
+            border-radius 50%
+          }
+        }
+
+
+        .info-box {
+          display flex
+          flex-direction column
+          justify-content space-between
+          box-sizing border-box
+          width 100%
+          height 100%
+          padding 0.2rem 0
+
+          .author {
+            display var(--post-author-name)
+            align-items center
+            font-weight 600
+            font-size 1.18rem
+
+            .name {
+              color var(--text-color-3)
+            }
+
+            .author-badge {
+              margin-left 0.8rem
+              padding 0 0.4rem
+              color #fff
+              font-weight 500
+              font-size 0.8rem
+              background var(--primary-color)
+              border-radius 0.4rem
+            }
+          }
+
+          .meta-info {
+            margin-top 0.1rem
+          }
+        }
+      }
+
+
+      .post-content {
+        margin-top calc(var(--component-gap) * 0.8)
+        padding-bottom calc(var(--component-gap) * 0.8)
+        color var(--text-color-3)
+        text-align justify
+        word-wrap break-word
+
+        +keep-tablet() {
+          margin-top calc(var(--component-gap) * 0.6)
+          padding-bottom calc(var(--component-gap) * 0.6)
+        }
+
+
+        .post-aging-tips {
+          position relative
+          display none
+          box-sizing border-box
+          margin-bottom 1.8rem
+          padding 1rem
+          color var(--keep-warning-color)
+          line-height 1.6
+          background var(--keep-warning-background-color)
+          border 0.1rem solid var(--keep-warning-border-color)
+          border-radius 0.4rem
+
+          i {
+            margin-right 0.4rem
+            color var(--keep-warning-color)
+          }
+
+          .days {
+            color var(--keep-warning-color)
+          }
+        }
+
+
+        .post-encrypt-box {
+          margin-left $avatar-width + 0.8rem
+          padding 1rem 0
+
+          .password-input {
+            width 60%
+            margin 0
+            padding 0.8rem 1.2rem
+            color var(--text-color-3)
+            font-weight 400 !important
+            font-size 1.2rem
+            letter-spacing 2px
+            background none
+            border none
+            border-bottom 0.2rem solid var(--border-color)
+            outline none
+
+            +keep-tablet() {
+              width 80%
+            }
+
+            &.error {
+              border 0.2rem solid var(--keep-danger-color)
+            }
+
+            &::placeholder {
+              color var(--text-color-4)
+              font-size 1.1rem
+              letter-spacing 1px
+            }
+
+            &:hover
+            &:focus {
+              background var(--background-color-2)
+            }
+          }
+        }
+
+        if (hexo-config('post') && hexo-config('post.copyright_info') == true) {
+          border-bottom 2px dashed var(--border-color)
+        }
+      }
+
+
+      .post-bottom-tags-and-share {
+        display flex
+        justify-content space-between
+        width 100%
+        margin-top 1rem
+
+        .post-tags-box {
+          display flex
+          flex-wrap wrap
+          align-items center
+          justify-content flex-start
+          width 100%
+          font-size 0.96rem
+
+
+          .tag-item {
+            margin-right 0.4rem
+            line-height 2
+
+            .icon {
+              color var(--text-color-3)
+              font-size 0.88rem
+            }
+          }
+        }
+      }
+
+
+      .post-nav {
+        height 2.8rem
+        margin-top var(--component-gap)
+
+        .prev-post
+        .next-post {
+          box-sizing border-box
+          max-width $post-nav-max-width
+          height 100%
+          keep-container(1, 0.8rem, 0)
+          border-radius 0.32rem
+
+
+          a {
+            position relative
+            display block
+            box-sizing border-box
+            width 100%
+            height 100%
+
+            &.prev {
+              padding-left $arrow-icon-width
+            }
+
+            &.next {
+              padding-right $arrow-icon-width
+            }
+
+            .arrow-icon {
+              position absolute
+              top 0
+              width $arrow-icon-width
+              height 100%
+
+              &.left {
+                left 0
               }
 
-              if ('true' === 'true') {
-                setTimeout(() => {
-                  window.KeepCommentPlugin.initWaline()
-                }, 1200)
-              } else {
-                window.addEventListener('DOMContentLoaded', window.KeepCommentPlugin.initWaline)
+              &.right {
+                right 0
               }
-            </script>
-        
-    </div>
+            }
+
+            .title {
+              width 100%
+              height 100%
+            }
+          }
+        }
+
+        .prev-post {
+          float left
+        }
+
+        .next-post {
+          float right
+        }
+
+        .post-nav-item {
+          display none
+
+          +keep-tablet() {
+            display inline-block
+          }
+        }
 
 
-        
-    </div>
+        .post-nav-title-item {
+          +keep-tablet() {
+            display none
+          }
+        }
+      }
+    }
+  }
 
 
+  .pc-post-toc {
+    position sticky
+    top calc(var(--header-height) + var(--component-gap))
+    display none
+    flex-shrink 0
+    box-sizing border-box
+    width $toc-container-width
+    max-height calc(100vh - calc(var(--header-height) + var(--component-gap)))
+    transition-t("top, display, max-height", "0, 0, 0", "0.2, 0.1, 0.2", "ease, ease, ease")
 
+    &.right-toc {
+      order 1
+      padding 2rem 0 2rem 1.8rem
+    }
 
+    &.left-toc {
+      order -1
+      padding 2rem 1.8rem 2rem 0
+    }
 
-                
-            </div>
-        </div>
-
-        
-            <div class="pc-post-toc right-toc">
-                <div class="post-toc-wrap border-box">
-    <div class="post-toc border-box">
-        <ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#git%E5%90%8E%E6%9C%9F%E6%9B%B4%E6%96%B0%E4%B8%8A%E4%BC%A0%E4%BB%A3%E7%A0%81"><span class="nav-number">1.</span> <span class="nav-text">git后期更新上传代码</span></a></li></ol>
-    </div>
-</div>
-
-            </div>
-        
-    </div>
-</div>
+    .header-shrink & {
+      top calc(var(--header-shrink-height) + var(--component-gap))
+      max-height calc(100vh - calc(var(--header-shrink-height) + var(--component-gap)))
+    }
+  }
+}
 
 
                 
