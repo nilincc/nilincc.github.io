@@ -6,7 +6,7 @@
   <link href="https://nilin.cc/atom.xml" rel="self"/>
   
   <link href="https://nilin.cc/"/>
-  <updated>2025-03-01T09:18:44.391Z</updated>
+  <updated>2025-03-01T12:45:50.488Z</updated>
   <id>https://nilin.cc/</id>
   
   <author>
@@ -15,6 +15,32 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>利用腾讯元宝和即梦AI生成的视频</title>
+    <link href="https://nilin.cc/11-117d3a34ae87/"/>
+    <id>https://nilin.cc/11-117d3a34ae87/</id>
+    <published>2025-03-01T12:29:47.000Z</published>
+    <updated>2025-03-01T12:45:50.488Z</updated>
+    
+    <content type="html"><![CDATA[<p>现在大火的AI工具满天飞，尤其是<code>DeepSeek</code>最火。</p><p>咱看到那么多的铺天盖地的新闻，咱也想试试这个最新版的AI工具，尤其是传说中满血版本的<code>DeepSeek</code>。</p><p>现在也有很多人发布使用满血版的<code>DeepSeek</code>教程，咱也试试怎么能无中生有的AI视频，毕竟现在最容易实现的就是视频和图片么。</p><p>经过我个人的简短使用来说，这个AI确实是很强大。我是利用腾讯元宝+即梦AI一起使用，才弄成的一小段视频。</p><p>视频上传到抖音了，请欣赏：</p><iframe width="100%" height="800" frameborder="0" src="https://open.douyin.com/player/video?vid=7476342508704795942&autoplay=0" referrerpolicy="unsafe-url" allowfullscreen></iframe><p>不得不说，利用AI生成的确实牛逼。也不知道在等若干年后世界会发展成为什么样子！</p><p>也许那时候科技产品或许可以直接嵌入到咱们人类身体中，可以成为身体的一部分吧。也许会很快就会变成这样。</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;现在大火的AI工具满天飞，尤其是&lt;code&gt;DeepSeek&lt;/code&gt;最火。&lt;/p&gt;
+&lt;p&gt;咱看到那么多的铺天盖地的新闻，咱也想试试这个最新版的AI工具，尤其是传说中满血版本的&lt;code&gt;DeepSeek&lt;/code&gt;。&lt;/p&gt;
+&lt;p&gt;现在也有很多人发布使用满血版的&lt;c</summary>
+      
+    
+    
+    
+    <category term="个人随笔" scheme="https://nilin.cc/categories/%E4%B8%AA%E4%BA%BA%E9%9A%8F%E7%AC%94/"/>
+    
+    
+    <category term="AI" scheme="https://nilin.cc/tags/AI/"/>
+    
+  </entry>
   
   <entry>
     <title>备份hexo本地文件到GitHub</title>
