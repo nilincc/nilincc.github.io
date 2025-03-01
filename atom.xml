@@ -6,7 +6,7 @@
   <link href="https://nilin.cc/atom.xml" rel="self"/>
   
   <link href="https://nilin.cc/"/>
-  <updated>2025-03-01T12:45:50.488Z</updated>
+  <updated>2025-03-01T15:45:53.302Z</updated>
   <id>https://nilin.cc/</id>
   
   <author>
@@ -15,6 +15,33 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>免费域名可以使用一年并且可托管到Cloudflare</title>
+    <link href="https://nilin.cc/12-c3dab5a0b09d/"/>
+    <id>https://nilin.cc/12-c3dab5a0b09d/</id>
+    <published>2025-03-01T14:28:55.000Z</published>
+    <updated>2025-03-01T15:45:53.302Z</updated>
+    
+    <content type="html"><![CDATA[<p>相信很多小伙伴跟我有一样的一些需求，那就是在准备测试一些东西的时候，会使用到域名，但是在当时又不想使用自己的主域名，就算在买一个，也觉得是有点浪费，但是又需要这么一个域名。</p><p>现在就有了一个免费二级域名，可以使用一年的时间，并且可以托管到Cloudflare，</p><p>这个就完美的解决我们这些需求的困境。毕竟是可以白嫖的么。嘿嘿。</p><p><code>《ps：申请这个域名需要先翻墙，》</code></p><p>如果不翻墙，那个人机验证就不会显示。</p><hr><h1 id="注册账户"><a href="#注册账户" class="headerlink" title="注册账户"></a>注册账户</h1><p>废话不多说。开整：</p><p>打开：<a class="link"   href="https://customer.l53.net/" >https://customer.l53.net<i class="fas fa-external-link-alt"></i></a></p><p>先注册一个账户，<br><img                         lazyload                       alt="image"                       data-src="https://pic.nilin.cc/free-ggff.png"                                        ></p><p>资料随便写，邮箱一定要写自己的，不然收不到邮件，<br><img                         lazyload                       alt="image"                       data-src="https://pic.nilin.cc/free-ggff2.png"                                        ></p><p>复制那些蓝色的英文，粘贴到下方的输入框中，</p><p>然后在下面的输入框里填写：<code>youtube</code>就行。</p><p><img                         lazyload                       alt="image"                       data-src="https://pic.nilin.cc/free-ggff1.png"                                        ></p><p>为什么要翻墙，就是为了这个<code>人机验证</code></p><p>别忘了人机验证下面还有一个<code>I agree to the</code>的服务条款，这个要打上对号。</p><p>最后点击<code>注册</code>按钮。</p><p>之后就是打开你填写的邮箱，这会儿应该是已经收到一封《<code>[L53] Please confirm your email address</code>》的邮件。<br><img                         lazyload                       alt="image"                       data-src="https://pic.nilin.cc/free-ggff3.png"                                        ><br>之后打开邮件里的<code>Verify email address.</code>链接加以验证。</p><p><img                         lazyload                       alt="image"                       data-src="https://pic.nilin.cc/denglu.png"                                        ></p><p>在之后点击<code>登录</code>按钮,输入你注册时填写的邮箱+密码，并且登录进去。</p><h1 id="申请域名"><a href="#申请域名" class="headerlink" title="申请域名"></a>申请域名</h1><p><img                         lazyload                       alt="image"                       data-src="https://pic.nilin.cc/free-ggff4.png"                                        ></p><p>登入账户之后按照我图片上的顺序依次点击 订购-选择产品-Domains等操作。</p><p><img                         lazyload                       alt="image"                       data-src="https://pic.nilin.cc/free-ggff5.png"                                        ></p><p>在图片里填写<code>nilincc</code>的地方，就是写你需要的名字后面的两个就是可以使用的域名，之后点击检查，如果不出现其他的提示，那就是你填写的是可以用的。之后直接点击<code>下一步</code>就可以了，</p><p>例如我申请到的是：nilincc.ggff.net</p><p><img                         lazyload                       alt="image"                       data-src="https://pic.nilin.cc/free-ggff6.png"                                        ></p><p>到达这一步之后，发现竟然还不是免费的，竟然提示要钱才能使用，不要慌🤭</p><p><img                         lazyload                       alt="image"                       data-src="https://pic.nilin.cc/free-ggff7.png"                                        ></p><p>点击《有优惠代码》并且输入：<code>newuser</code>即可，在之后就是点击《结算》就ok了。</p><p>等待几分钟，当域名被分配下来之后就可以编辑这个域名的NS记录了。</p><h1 id="把域名托管到Cloudflare"><a href="#把域名托管到Cloudflare" class="headerlink" title="把域名托管到Cloudflare"></a>把域名托管到Cloudflare</h1><p><img                         lazyload                       alt="image"                       data-src="https://pic.nilin.cc/free-ggff8.png"                                        ></p><p>现在把域名托管到Cloudflare，依次点击 服务-Manage，打开域名管理中心。</p><p><img                         lazyload                       alt="image"                       data-src="https://pic.nilin.cc/free-ggff9.png"                                        ></p><p>把域名的NS记录地址改成：<code>arya.ns.cloudflare.com jose.ns.cloudflare.com</code>之后点击更新即可，到这一步就可以关闭这个页面了。</p><p>我们打开Cloudflare的网址：<a class="link"   href="https://cloudflare.com/" >https://cloudflare.com/<i class="fas fa-external-link-alt"></i></a></p><p>并且登入我们的Cloudflare账户，如果没有Cloudflare账户，请自行注册一个哈。</p><p><img                         lazyload                       alt="image"                       data-src="https://pic.nilin.cc/free-ggff10.png"                                        ></p><p>按照我的图片里标记的顺序来哈，</p><p><img                         lazyload                       alt="image"                       data-src="https://pic.nilin.cc/cloudflare.png"                                        ></p><p>选择这个免费的就可以了，之后点击《继续》</p><p>并且是再有什么提示或者别的，一律点击《继续》，直到出现这个页面，就ok了</p><p><img                         lazyload                       alt="image"                       data-src="https://pic.nilin.cc/cloudflare2.png"                                        ></p><p>剩下的就是等待托管生效，大概有个30分钟左右就托管成功了。</p><p><img                         lazyload                       alt="image"                       data-src="https://pic.nilin.cc/cloudflare3.png"                                        ></p><p>到达这了，就成功了，在以后的一年时间了，可以在Cloudflare里管理你申请的这个免费域名了。</p><p>文章写道这里累死我了。如果你看到这篇文章，记得给我留个脚印。谢啦。</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;相信很多小伙伴跟我有一样的一些需求，那就是在准备测试一些东西的时候，会使用到域名，但是在当时又不想使用自己的主域名，就算在买一个，也觉得是有点浪费，但是又需要这么一个域名。&lt;/p&gt;
+&lt;p&gt;现在就有了一个免费二级域名，可以使用一年的时间，并且可以托管到Cloudflare，&lt;</summary>
+      
+    
+    
+    
+    <category term="免费资源" scheme="https://nilin.cc/categories/%E5%85%8D%E8%B4%B9%E8%B5%84%E6%BA%90/"/>
+    
+    
+    <category term="域名" scheme="https://nilin.cc/tags/%E5%9F%9F%E5%90%8D/"/>
+    
+    <category term="Cloudflare" scheme="https://nilin.cc/tags/Cloudflare/"/>
+    
+  </entry>
   
   <entry>
     <title>利用腾讯元宝和即梦AI生成的视频</title>
