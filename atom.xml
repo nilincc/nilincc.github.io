@@ -6,7 +6,7 @@
   <link href="https://nilin.cc/atom.xml" rel="self"/>
   
   <link href="https://nilin.cc/"/>
-  <updated>2025-09-08T12:01:30.774Z</updated>
+  <updated>2025-09-09T11:43:53.068Z</updated>
   <id>https://nilin.cc/</id>
   
   <author>
@@ -21,9 +21,9 @@
     <link href="https://nilin.cc/14-f58b3478b50b/"/>
     <id>https://nilin.cc/14-f58b3478b50b/</id>
     <published>2025-09-08T10:59:35.000Z</published>
-    <updated>2025-09-08T12:01:30.774Z</updated>
+    <updated>2025-09-09T11:43:53.068Z</updated>
     
-    <content type="html"><![CDATA[<p>今天不知道家里的台式机是抽了哪门子的风，突然就不能用了。也是比较悲催的是啥软件也没有保存下来，反正是电脑开不了机了，于是乎：把家里的台式电脑重新折腾了一次，增加一块512的固态硬盘，又重新做了一次系统，后来就是······在台式机上的各种软件算是彻底的拜拜了。</p><p>容我慢慢折腾着。</p><p>话说hexo我把本地的文件都有在GitHub备份，就是不知道以后按照我的能力能不能把GitHub里的hexo文件下载下来吧，这个确实要打个大大的问号了❓。</p><p>在这台笔记本上先更新这么多吧，反正这个博客也是好几个月没更新过了~~~~~</p>]]></content>
+    <content type="html"><![CDATA[<p>今天不知道家里的台式机是抽了哪门子的风，突然就不能用了。也是比较悲催的是啥软件也没有保存下来，反正是电脑开不了机了，于是乎：把家里的台式电脑重新折腾了一次，增加一块512的固态硬盘，又重新做了一次系统，后来就是······在台式机上的各种软件算是彻底的拜拜了。</p><p>容我慢慢折腾着。</p><p>话说hexo我把本地的文件都有在GitHub备份，就是不知道以后按照我的能力能不能把GitHub里的hexo文件下载下来吧，这个确实要打个大大的问号了❓。</p><p>在这台笔记本上先更新这么多吧，反正这个博客也是好几个月没更新过了~~~~~</p><hr><h2 id="解决-Error-Spawn-failed"><a href="#解决-Error-Spawn-failed" class="headerlink" title="解决 Error: Spawn failed"></a>解决 Error: Spawn failed</h2><p>话说这几个月没咋开这个电脑，现在要更新这个小破站还更新不了了！</p><p>出现了一个错误提示：</p><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">Error: Spawn failed</span><br><span class="line">    at ChildProcess.<span class="tag">&lt;<span class="name">anonymous</span>&gt;</span> (D:\home\hexo\node_modules\hexo-deployer-git\node_modules\hexo-util\lib\spawn.js:51:21)</span><br><span class="line">    at ChildProcess.emit (node:events:518:28)</span><br><span class="line">    at cp.emit (D:\home\hexo\node_modules\cross-spawn\lib\enoent.js:34:29)</span><br><span class="line">    at ChildProcess._handle.onexit (node:internal/child_process:293:12)</span><br><span class="line"></span><br><span class="line"></span><br></pre></td></tr></table></figure><p>结果在网上好一顿找解决办法！</p><p>最终算是解决了这个问题，解决方法如下：</p><h3 id="第一步"><a href="#第一步" class="headerlink" title="第一步"></a>第一步</h3><p>在自己博客的根目录里找到_config.yml配置文件，打开_config.yml配置文件，</p><p>修改以下内容</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">deploy:</span><br><span class="line"></span><br><span class="line">type: git</span><br><span class="line"></span><br><span class="line">repo: https://github.com/yourname/yourname.github.io.git</span><br><span class="line"></span><br><span class="line">branch: master</span><br></pre></td></tr></table></figure><p>其中的repo修改为</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">repo: git@github.com:yourname/yourname.github.io.git</span><br></pre></td></tr></table></figure><h3 id="第二步"><a href="#第二步" class="headerlink" title="第二步"></a>第二步</h3><p>在C盘——用户——你的主机名文件夹中找到.ssh文件夹；（此前配置SSH时会生成该文件夹）<br>在.ssh文件夹中新建文件 config,不带后缀（可以新建文本文档，去掉.txt后缀）<br>使用notepad++（或其他方式）打开config文件，输入以下内容，保存后即可</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">Host github.com</span><br><span class="line">  Hostname ssh.github.com</span><br><span class="line">  Port 443</span><br></pre></td></tr></table></figure><p>通过这两步就🆗了，反正我是这么解决了，嘎嘎</p>]]></content>
     
     
       

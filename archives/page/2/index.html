@@ -349,108 +349,51 @@
         </div>
 
         <div class="page-main-content-bottom border-box">
-            .footer {
-  display flex
-  flex-direction column
-  align-items center
-  justify-content center
-  padding 1rem 0
-  color var(--text-color-4)
-  font-size 1rem
+            
+<footer class="footer border-box">
+    <div class="copyright-info info-item">
+    &copy;&nbsp;<span>2024</span>&nbsp;-&nbsp;2025
+    
+            &nbsp;<i class="fas fa-heart icon-animate"></i>&nbsp;&nbsp;<a href="/">逆鳞笔记</a>
+        
+    </div>
 
-  a {
-    color var(--text-color-4)
+    <div class="theme-info info-item">
+        由&nbsp;<a target="_blank" href="https://hexo.io">Hexo</a>&nbsp;驱动&nbsp;&&nbsp;主题&nbsp;<a class="keep-version" target="_blank" href="https://github.com/XPoet/hexo-theme-keep">Keep</a>
+        <script defer src="https://umami.nilin.cc/script.js" data-website-id="64554c97-f95a-4d3e-93b9-c952c656965f"></script>
+    </div>
 
-    &:hover {
-      color var(--primary-color)
-    }
+    
+        
+        <div class="deploy-info info-item">
+            
+            本站由 <span class="tooltip" data-tooltip-content="GitHub Pages"><img src="/images/brands/github.png"></span> 提供部署服务
+            
+        </div>
+    
 
-    &.no-pointer {
-      pointer-events none
-    }
-  }
+    
+        <div class="count-info info-item">
+            
 
+            
+                <span class="count-item border-box uv">
+                    <span class="item-type border-box">访客数</span>
+                    <span class="item-value border-box uv" id="busuanzi_value_site_uv"></span>
+                </span>
+            
 
-  .info-item {
-    position relative
-    display flex
-    flex-wrap wrap
-    align-items center
-    justify-content center
-    box-sizing border-box
-    margin 0.2rem 0
-    color var(--text-color-4)
+            
+                <span class="count-item border-box pv">
+                    <span class="item-type border-box">访问量</span>
+                    <span class="item-value border-box pv" id="busuanzi_value_site_pv"></span>
+                </span>
+            
+        </div>
+    
 
-    &.count-info {
-      display flex
-
-      .count-item {
-        &.uv
-        &.pv {
-          display none
-        }
-      }
-    }
-
-
-    &.deploy-info {
-
-      display flex
-
-      a
-      .tooltip {
-        display flex
-        align-items center
-      }
-
-      img {
-        height 1.08rem
-        margin 0 0.4rem
-      }
-    }
-
-
-    &.count-info
-    &.record-info {
-
-      .count-item
-      .record-item {
-        margin-right 15px
-
-        &::before {
-          position absolute
-          top 50%
-          left -10px
-          box-sizing border-box
-          transform translateY(-56%)
-          content '|'
-        }
-
-
-        &:first-child {
-          &::before {
-            display none
-          }
-        }
-
-
-        &:last-child {
-          margin-right 0
-        }
-
-
-        .item-type {
-          margin-right 4px
-        }
-      }
-    }
-  }
-
-
-  .icon-animate {
-    animation heartbeat-animate 1.2s ease-in-out infinite
-  }
-}
+    
+</footer>
 
         </div>
     </div>

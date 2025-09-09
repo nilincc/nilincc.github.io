@@ -263,7 +263,7 @@
             
                 <span class="meta-info-item post-update-date">
                     <i class="icon fa-solid fa-file-pen"></i>&nbsp;
-                    <span class="datetime" data-updated="Mon Sep 08 2025 20:01:30 GMT+0800">2025-09-08 20:01:30</span>
+                    <span class="datetime" data-updated="Tue Sep 09 2025 19:43:53 GMT+0800">2025-09-09 19:43:53</span>
                 </span>
             
         
@@ -311,7 +311,7 @@
                 <div class="post-content keep-markdown-body ">
                     
                         <div class="post-aging-tips"
-                             data-update-date="Mon Sep 08 2025 20:01:30 GMT+0800"
+                             data-update-date="Tue Sep 09 2025 19:43:53 GMT+0800"
                              data-aging-days="30"
                         >
                             <i class="fa-solid fa-circle-exclamation"></i>本文距离上次更新已过去 <span class="days">0</span> 天，部分内容可能已经过时，请注意甄别。
@@ -323,6 +323,22 @@
 <p>容我慢慢折腾着。</p>
 <p>话说hexo我把本地的文件都有在GitHub备份，就是不知道以后按照我的能力能不能把GitHub里的hexo文件下载下来吧，这个确实要打个大大的问号了❓。</p>
 <p>在这台笔记本上先更新这么多吧，反正这个博客也是好几个月没更新过了~~~~~</p>
+<hr>
+<h2 id="解决-Error-Spawn-failed"><a href="#解决-Error-Spawn-failed" class="headerlink" title="解决 Error: Spawn failed"></a>解决 Error: Spawn failed</h2><p>话说这几个月没咋开这个电脑，现在要更新这个小破站还更新不了了！</p>
+<p>出现了一个错误提示：</p>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">Error: Spawn failed</span><br><span class="line">    at ChildProcess.<span class="tag">&lt;<span class="name">anonymous</span>&gt;</span> (D:\home\hexo\node_modules\hexo-deployer-git\node_modules\hexo-util\lib\spawn.js:51:21)</span><br><span class="line">    at ChildProcess.emit (node:events:518:28)</span><br><span class="line">    at cp.emit (D:\home\hexo\node_modules\cross-spawn\lib\enoent.js:34:29)</span><br><span class="line">    at ChildProcess._handle.onexit (node:internal/child_process:293:12)</span><br><span class="line"></span><br><span class="line"></span><br></pre></td></tr></table></figure>
+<p>结果在网上好一顿找解决办法！</p>
+<p>最终算是解决了这个问题，解决方法如下：</p>
+<h3 id="第一步"><a href="#第一步" class="headerlink" title="第一步"></a>第一步</h3><p>在自己博客的根目录里找到_config.yml配置文件，打开_config.yml配置文件，</p>
+<p>修改以下内容</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">deploy:</span><br><span class="line"></span><br><span class="line">type: git</span><br><span class="line"></span><br><span class="line">repo: https://github.com/yourname/yourname.github.io.git</span><br><span class="line"></span><br><span class="line">branch: master</span><br></pre></td></tr></table></figure>
+<p>其中的repo修改为</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">repo: git@github.com:yourname/yourname.github.io.git</span><br></pre></td></tr></table></figure>
+
+<h3 id="第二步"><a href="#第二步" class="headerlink" title="第二步"></a>第二步</h3><p>在C盘——用户——你的主机名文件夹中找到.ssh文件夹；（此前配置SSH时会生成该文件夹）<br>在.ssh文件夹中新建文件 config,不带后缀（可以新建文本文档，去掉.txt后缀）<br>使用notepad++（或其他方式）打开config文件，输入以下内容，保存后即可</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">Host github.com</span><br><span class="line">  Hostname ssh.github.com</span><br><span class="line">  Port 443</span><br></pre></td></tr></table></figure>
+
+<p>通过这两步就🆗了，反正我是这么解决了，嘎嘎</p>
 
                     
                 </div>
@@ -519,7 +535,7 @@
             <div class="pc-post-toc right-toc">
                 <div class="post-toc-wrap border-box">
     <div class="post-toc border-box">
-        
+        <ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E8%A7%A3%E5%86%B3-Error-Spawn-failed"><span class="nav-number">1.</span> <span class="nav-text">解决 Error: Spawn failed</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E7%AC%AC%E4%B8%80%E6%AD%A5"><span class="nav-number">1.1.</span> <span class="nav-text">第一步</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E7%AC%AC%E4%BA%8C%E6%AD%A5"><span class="nav-number">1.2.</span> <span class="nav-text">第二步</span></a></li></ol></li></ol>
     </div>
 </div>
 
@@ -534,108 +550,51 @@
         </div>
 
         <div class="page-main-content-bottom border-box">
-            .footer {
-  display flex
-  flex-direction column
-  align-items center
-  justify-content center
-  padding 1rem 0
-  color var(--text-color-4)
-  font-size 1rem
+            
+<footer class="footer border-box">
+    <div class="copyright-info info-item">
+    &copy;&nbsp;<span>2024</span>&nbsp;-&nbsp;2025
+    
+            &nbsp;<i class="fas fa-heart icon-animate"></i>&nbsp;&nbsp;<a href="/">逆鳞笔记</a>
+        
+    </div>
 
-  a {
-    color var(--text-color-4)
+    <div class="theme-info info-item">
+        由&nbsp;<a target="_blank" href="https://hexo.io">Hexo</a>&nbsp;驱动&nbsp;&&nbsp;主题&nbsp;<a class="keep-version" target="_blank" href="https://github.com/XPoet/hexo-theme-keep">Keep</a>
+        <script defer src="https://umami.nilin.cc/script.js" data-website-id="64554c97-f95a-4d3e-93b9-c952c656965f"></script>
+    </div>
 
-    &:hover {
-      color var(--primary-color)
-    }
+    
+        
+        <div class="deploy-info info-item">
+            
+            本站由 <span class="tooltip" data-tooltip-content="GitHub Pages"><img src="/images/brands/github.png"></span> 提供部署服务
+            
+        </div>
+    
 
-    &.no-pointer {
-      pointer-events none
-    }
-  }
+    
+        <div class="count-info info-item">
+            
 
+            
+                <span class="count-item border-box uv">
+                    <span class="item-type border-box">访客数</span>
+                    <span class="item-value border-box uv" id="busuanzi_value_site_uv"></span>
+                </span>
+            
 
-  .info-item {
-    position relative
-    display flex
-    flex-wrap wrap
-    align-items center
-    justify-content center
-    box-sizing border-box
-    margin 0.2rem 0
-    color var(--text-color-4)
+            
+                <span class="count-item border-box pv">
+                    <span class="item-type border-box">访问量</span>
+                    <span class="item-value border-box pv" id="busuanzi_value_site_pv"></span>
+                </span>
+            
+        </div>
+    
 
-    &.count-info {
-      display flex
-
-      .count-item {
-        &.uv
-        &.pv {
-          display none
-        }
-      }
-    }
-
-
-    &.deploy-info {
-
-      display flex
-
-      a
-      .tooltip {
-        display flex
-        align-items center
-      }
-
-      img {
-        height 1.08rem
-        margin 0 0.4rem
-      }
-    }
-
-
-    &.count-info
-    &.record-info {
-
-      .count-item
-      .record-item {
-        margin-right 15px
-
-        &::before {
-          position absolute
-          top 50%
-          left -10px
-          box-sizing border-box
-          transform translateY(-56%)
-          content '|'
-        }
-
-
-        &:first-child {
-          &::before {
-            display none
-          }
-        }
-
-
-        &:last-child {
-          margin-right 0
-        }
-
-
-        .item-type {
-          margin-right 4px
-        }
-      }
-    }
-  }
-
-
-  .icon-animate {
-    animation heartbeat-animate 1.2s ease-in-out infinite
-  }
-}
+    
+</footer>
 
         </div>
     </div>
@@ -751,7 +710,7 @@
             <div class="tablet-post-toc">
                 <div class="post-toc-wrap border-box">
     <div class="post-toc border-box">
-        
+        <ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E8%A7%A3%E5%86%B3-Error-Spawn-failed"><span class="nav-number">1.</span> <span class="nav-text">解决 Error: Spawn failed</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E7%AC%AC%E4%B8%80%E6%AD%A5"><span class="nav-number">1.1.</span> <span class="nav-text">第一步</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E7%AC%AC%E4%BA%8C%E6%AD%A5"><span class="nav-number">1.2.</span> <span class="nav-text">第二步</span></a></li></ol></li></ol>
     </div>
 </div>
 
