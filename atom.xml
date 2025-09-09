@@ -1,0 +1,476 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>逆鳞笔记</title>
+  
+  <subtitle>逆鳞笔记</subtitle>
+  <link href="https://nilin.cc/atom.xml" rel="self"/>
+  
+  <link href="https://nilin.cc/"/>
+  <updated>2025-09-08T12:01:30.774Z</updated>
+  <id>https://nilin.cc/</id>
+  
+  <author>
+    <name>逆鳞</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>家里的台式机折腾日记</title>
+    <link href="https://nilin.cc/14-f58b3478b50b/"/>
+    <id>https://nilin.cc/14-f58b3478b50b/</id>
+    <published>2025-09-08T10:59:35.000Z</published>
+    <updated>2025-09-08T12:01:30.774Z</updated>
+    
+    <content type="html"><![CDATA[<p>今天不知道家里的台式机是抽了哪门子的风，突然就不能用了。也是比较悲催的是啥软件也没有保存下来，反正是电脑开不了机了，于是乎：把家里的台式电脑重新折腾了一次，增加一块512的固态硬盘，又重新做了一次系统，后来就是······在台式机上的各种软件算是彻底的拜拜了。</p><p>容我慢慢折腾着。</p><p>话说hexo我把本地的文件都有在GitHub备份，就是不知道以后按照我的能力能不能把GitHub里的hexo文件下载下来吧，这个确实要打个大大的问号了❓。</p><p>在这台笔记本上先更新这么多吧，反正这个博客也是好几个月没更新过了~~~~~</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;今天不知道家里的台式机是抽了哪门子的风，突然就不能用了。也是比较悲催的是啥软件也没有保存下来，反正是电脑开不了机了，于是乎：把家里的台式电脑重新折腾了一次，增加一块512的固态硬盘，又重新做了一次系统，后来就是······在台式机上的各种软件算是彻底的拜拜了。&lt;/p&gt;
+&lt;p</summary>
+      
+    
+    
+    
+    <category term="个人随笔" scheme="https://nilin.cc/categories/%E4%B8%AA%E4%BA%BA%E9%9A%8F%E7%AC%94/"/>
+    
+    
+    <category term="博客" scheme="https://nilin.cc/tags/%E5%8D%9A%E5%AE%A2/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>好看的AI短片-白蛇序章</title>
+    <link href="https://nilin.cc/13-6792b58382ac/"/>
+    <id>https://nilin.cc/13-6792b58382ac/</id>
+    <published>2025-03-27T15:00:11.000Z</published>
+    <updated>2025-03-27T15:11:28.631Z</updated>
+    
+    <content type="html"><![CDATA[<p>最近在youtube看到一个短片，看介绍说是用AI生成的，看着蛮不错的，尤其是剧情以及里面的人物细节，那表情以及转场的处理是相当丝滑。</p><p>我就下载下来了，转头上传到自个的抖音了，虽然它说不让转载，但是我太喜欢了！！！！！</p><p>我也知道这样不好，但是架不住我喜欢······你个老六</p><p>先欣赏哈，原片地址我写在视频的下方了。有兴趣的小伙伴可以看看哈。</p><iframe width="100%" height="800" frameborder="0" src="https://open.douyin.com/player/video?vid=7484666358907686195&autoplay=0" referrerpolicy="unsafe-url" allowfullscreen></iframe><p>原片地址：<a class="link"   href="https://www.youtube.com/watch?v=ziqb1cp7qfc" >https://www.youtube.com/watch?v=ziqb1cp7qfc<i class="fas fa-external-link-alt"></i></a></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;最近在youtube看到一个短片，看介绍说是用AI生成的，看着蛮不错的，尤其是剧情以及里面的人物细节，那表情以及转场的处理是相当丝滑。&lt;/p&gt;
+&lt;p&gt;我就下载下来了，转头上传到自个的抖音了，虽然它说不让转载，但是我太喜欢了！！！！！&lt;/p&gt;
+&lt;p&gt;我也知道这样不好，但是架不</summary>
+      
+    
+    
+    
+    <category term="个人随笔" scheme="https://nilin.cc/categories/%E4%B8%AA%E4%BA%BA%E9%9A%8F%E7%AC%94/"/>
+    
+    
+    <category term="短片" scheme="https://nilin.cc/tags/%E7%9F%AD%E7%89%87/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>免费域名可以使用一年并且可托管到Cloudflare</title>
+    <link href="https://nilin.cc/12-c3dab5a0b09d/"/>
+    <id>https://nilin.cc/12-c3dab5a0b09d/</id>
+    <published>2025-03-01T14:28:55.000Z</published>
+    <updated>2025-03-01T15:45:53.302Z</updated>
+    
+    <content type="html"><![CDATA[<p>相信很多小伙伴跟我有一样的一些需求，那就是在准备测试一些东西的时候，会使用到域名，但是在当时又不想使用自己的主域名，就算在买一个，也觉得是有点浪费，但是又需要这么一个域名。</p><p>现在就有了一个免费二级域名，可以使用一年的时间，并且可以托管到Cloudflare，</p><p>这个就完美的解决我们这些需求的困境。毕竟是可以白嫖的么。嘿嘿。</p><p><code>《ps：申请这个域名需要先翻墙，》</code></p><p>如果不翻墙，那个人机验证就不会显示。</p><hr><h1 id="注册账户"><a href="#注册账户" class="headerlink" title="注册账户"></a>注册账户</h1><p>废话不多说。开整：</p><p>打开：<a class="link"   href="https://customer.l53.net/" >https://customer.l53.net<i class="fas fa-external-link-alt"></i></a></p><p>先注册一个账户，<br><img                         lazyload                       alt="image"                       data-src="https://pic.nilin.cc/free-ggff.png"                                        ></p><p>资料随便写，邮箱一定要写自己的，不然收不到邮件，<br><img                         lazyload                       alt="image"                       data-src="https://pic.nilin.cc/free-ggff2.png"                                        ></p><p>复制那些蓝色的英文，粘贴到下方的输入框中，</p><p>然后在下面的输入框里填写：<code>youtube</code>就行。</p><p><img                         lazyload                       alt="image"                       data-src="https://pic.nilin.cc/free-ggff1.png"                                        ></p><p>为什么要翻墙，就是为了这个<code>人机验证</code></p><p>别忘了人机验证下面还有一个<code>I agree to the</code>的服务条款，这个要打上对号。</p><p>最后点击<code>注册</code>按钮。</p><p>之后就是打开你填写的邮箱，这会儿应该是已经收到一封《<code>[L53] Please confirm your email address</code>》的邮件。<br><img                         lazyload                       alt="image"                       data-src="https://pic.nilin.cc/free-ggff3.png"                                        ><br>之后打开邮件里的<code>Verify email address.</code>链接加以验证。</p><p><img                         lazyload                       alt="image"                       data-src="https://pic.nilin.cc/denglu.png"                                        ></p><p>在之后点击<code>登录</code>按钮,输入你注册时填写的邮箱+密码，并且登录进去。</p><h1 id="申请域名"><a href="#申请域名" class="headerlink" title="申请域名"></a>申请域名</h1><p><img                         lazyload                       alt="image"                       data-src="https://pic.nilin.cc/free-ggff4.png"                                        ></p><p>登入账户之后按照我图片上的顺序依次点击 订购-选择产品-Domains等操作。</p><p><img                         lazyload                       alt="image"                       data-src="https://pic.nilin.cc/free-ggff5.png"                                        ></p><p>在图片里填写<code>nilincc</code>的地方，就是写你需要的名字后面的两个就是可以使用的域名，之后点击检查，如果不出现其他的提示，那就是你填写的是可以用的。之后直接点击<code>下一步</code>就可以了，</p><p>例如我申请到的是：nilincc.ggff.net</p><p><img                         lazyload                       alt="image"                       data-src="https://pic.nilin.cc/free-ggff6.png"                                        ></p><p>到达这一步之后，发现竟然还不是免费的，竟然提示要钱才能使用，不要慌🤭</p><p><img                         lazyload                       alt="image"                       data-src="https://pic.nilin.cc/free-ggff7.png"                                        ></p><p>点击《有优惠代码》并且输入：<code>newuser</code>即可，在之后就是点击《结算》就ok了。</p><p>等待几分钟，当域名被分配下来之后就可以编辑这个域名的NS记录了。</p><h1 id="把域名托管到Cloudflare"><a href="#把域名托管到Cloudflare" class="headerlink" title="把域名托管到Cloudflare"></a>把域名托管到Cloudflare</h1><p><img                         lazyload                       alt="image"                       data-src="https://pic.nilin.cc/free-ggff8.png"                                        ></p><p>现在把域名托管到Cloudflare，依次点击 服务-Manage，打开域名管理中心。</p><p><img                         lazyload                       alt="image"                       data-src="https://pic.nilin.cc/free-ggff9.png"                                        ></p><p>把域名的NS记录地址改成：<code>arya.ns.cloudflare.com jose.ns.cloudflare.com</code>之后点击更新即可，到这一步就可以关闭这个页面了。</p><p>我们打开Cloudflare的网址：<a class="link"   href="https://cloudflare.com/" >https://cloudflare.com/<i class="fas fa-external-link-alt"></i></a></p><p>并且登入我们的Cloudflare账户，如果没有Cloudflare账户，请自行注册一个哈。</p><p><img                         lazyload                       alt="image"                       data-src="https://pic.nilin.cc/free-ggff10.png"                                        ></p><p>按照我的图片里标记的顺序来哈，</p><p><img                         lazyload                       alt="image"                       data-src="https://pic.nilin.cc/cloudflare.png"                                        ></p><p>选择这个免费的就可以了，之后点击《继续》</p><p>并且是再有什么提示或者别的，一律点击《继续》，直到出现这个页面，就ok了</p><p><img                         lazyload                       alt="image"                       data-src="https://pic.nilin.cc/cloudflare2.png"                                        ></p><p>剩下的就是等待托管生效，大概有个30分钟左右就托管成功了。</p><p><img                         lazyload                       alt="image"                       data-src="https://pic.nilin.cc/cloudflare3.png"                                        ></p><p>到达这了，就成功了，在以后的一年时间了，可以在Cloudflare里管理你申请的这个免费域名了。</p><p>文章写道这里累死我了。如果你看到这篇文章，记得给我留个脚印。谢啦。</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;相信很多小伙伴跟我有一样的一些需求，那就是在准备测试一些东西的时候，会使用到域名，但是在当时又不想使用自己的主域名，就算在买一个，也觉得是有点浪费，但是又需要这么一个域名。&lt;/p&gt;
+&lt;p&gt;现在就有了一个免费二级域名，可以使用一年的时间，并且可以托管到Cloudflare，&lt;</summary>
+      
+    
+    
+    
+    <category term="免费资源" scheme="https://nilin.cc/categories/%E5%85%8D%E8%B4%B9%E8%B5%84%E6%BA%90/"/>
+    
+    
+    <category term="域名" scheme="https://nilin.cc/tags/%E5%9F%9F%E5%90%8D/"/>
+    
+    <category term="Cloudflare" scheme="https://nilin.cc/tags/Cloudflare/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>利用腾讯元宝和即梦AI生成的视频</title>
+    <link href="https://nilin.cc/11-117d3a34ae87/"/>
+    <id>https://nilin.cc/11-117d3a34ae87/</id>
+    <published>2025-03-01T12:29:47.000Z</published>
+    <updated>2025-03-01T12:45:50.488Z</updated>
+    
+    <content type="html"><![CDATA[<p>现在大火的AI工具满天飞，尤其是<code>DeepSeek</code>最火。</p><p>咱看到那么多的铺天盖地的新闻，咱也想试试这个最新版的AI工具，尤其是传说中满血版本的<code>DeepSeek</code>。</p><p>现在也有很多人发布使用满血版的<code>DeepSeek</code>教程，咱也试试怎么能无中生有的AI视频，毕竟现在最容易实现的就是视频和图片么。</p><p>经过我个人的简短使用来说，这个AI确实是很强大。我是利用腾讯元宝+即梦AI一起使用，才弄成的一小段视频。</p><p>视频上传到抖音了，请欣赏：</p><iframe width="100%" height="800" frameborder="0" src="https://open.douyin.com/player/video?vid=7476342508704795942&autoplay=0" referrerpolicy="unsafe-url" allowfullscreen></iframe><p>不得不说，利用AI生成的确实牛逼。也不知道在等若干年后世界会发展成为什么样子！</p><p>也许那时候科技产品或许可以直接嵌入到咱们人类身体中，可以成为身体的一部分吧。也许会很快就会变成这样。</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;现在大火的AI工具满天飞，尤其是&lt;code&gt;DeepSeek&lt;/code&gt;最火。&lt;/p&gt;
+&lt;p&gt;咱看到那么多的铺天盖地的新闻，咱也想试试这个最新版的AI工具，尤其是传说中满血版本的&lt;code&gt;DeepSeek&lt;/code&gt;。&lt;/p&gt;
+&lt;p&gt;现在也有很多人发布使用满血版的&lt;c</summary>
+      
+    
+    
+    
+    <category term="个人随笔" scheme="https://nilin.cc/categories/%E4%B8%AA%E4%BA%BA%E9%9A%8F%E7%AC%94/"/>
+    
+    
+    <category term="AI" scheme="https://nilin.cc/tags/AI/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>备份hexo本地文件到GitHub</title>
+    <link href="https://nilin.cc/10-c558c206720c/"/>
+    <id>https://nilin.cc/10-c558c206720c/</id>
+    <published>2025-03-01T07:32:57.000Z</published>
+    <updated>2025-03-01T09:18:44.391Z</updated>
+    
+    <content type="html"><![CDATA[<p>记录一下把hexo在本地的文件备份到GitHub的办法，以前一直觉得hexo在本地的办法是最稳妥的，但是自从给电脑重装系统之后才感觉hexo在本地的文件，在往回找的时候才是真的费劲。</p><p>正好在网上找到一些方法思路，与其只有一个本地文件，不如试试本地+github双备份。</p><p>首先在GitHub创建一个私有仓库。<br>分别按照GitHub给的命令代码，把hexo本地文件上传到GitHub。</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">echo &quot;# nilincc&quot; &gt;&gt; README.md</span><br><span class="line">git init</span><br><span class="line">git add README.md</span><br><span class="line">git commit -m &quot;first commit&quot;</span><br><span class="line">git branch -M main</span><br><span class="line">git remote add origin git@github.com:nilincc/nilincc.github.io.git</span><br><span class="line">git push -u origin main</span><br></pre></td></tr></table></figure><h1 id="git后期更新上传代码"><a href="#git后期更新上传代码" class="headerlink" title="git后期更新上传代码"></a>git后期更新上传代码</h1><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">git status     # 查看文件状态</span><br><span class="line">git add --all  # 添加所有更改后的文件</span><br><span class="line">git commit -m &quot;你要commit的内容&quot; #对这些文件进行 commit</span><br><span class="line">git push # 同步到 Github 云端仓库</span><br></pre></td></tr></table></figure>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;记录一下把hexo在本地的文件备份到GitHub的办法，以前一直觉得hexo在本地的办法是最稳妥的，但是自从给电脑重装系统之后才感觉hexo在本地的文件，在往回找的时候才是真的费劲。&lt;/p&gt;
+&lt;p&gt;正好在网上找到一些方法思路，与其只有一个本地文件，不如试试本地+github</summary>
+      
+    
+    
+    
+    <category term="个人随笔" scheme="https://nilin.cc/categories/%E4%B8%AA%E4%BA%BA%E9%9A%8F%E7%AC%94/"/>
+    
+    
+    <category term="hexo" scheme="https://nilin.cc/tags/hexo/"/>
+    
+    <category term="GitHub" scheme="https://nilin.cc/tags/GitHub/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>记录搭建docsify</title>
+    <link href="https://nilin.cc/9-5e55625601f9/"/>
+    <id>https://nilin.cc/9-5e55625601f9/</id>
+    <published>2025-02-22T08:24:01.000Z</published>
+    <updated>2025-02-22T08:30:23.454Z</updated>
+    
+    <content type="html"><![CDATA[<p>这是一篇水文，就是简单的记录一下docsify的搭建，记录一下这个docsify，省的以后在网上再去翻了。</p><h2 id="Docsify-部署"><a href="#Docsify-部署" class="headerlink" title="Docsify 部署"></a>Docsify 部署</h2><p>Docsify 是一个可以动态生成文档网站的工具。它不生成静态 HTML 文件，而是智能地加载和解析 Markdown 文件，并将其显示为网站。</p><h2 id="本地部署"><a href="#本地部署" class="headerlink" title="本地部署"></a>本地部署</h2><p>安装 Node.js 和 npm: 下载并安装 Node.js，安装完成后，使用以下命令验证安装： node -v npm -v</p><p>安装 Docsify CLI: npm install -g docsify-cli</p><p>初始化项目: 创建一个新文件夹并初始化 Docsify： mkdir docsify-demo cd docsify-demo docsify init .</p><p>启动本地服务器: docsify serve 访问 <a class="link"   href="http://localhost:3000/" >http://localhost:3000<i class="fas fa-external-link-alt"></i></a> 查看效果。</p><h2 id="部署到服务器"><a href="#部署到服务器" class="headerlink" title="部署到服务器"></a>部署到服务器</h2><p>安装 Docker: 在 CentOS 上： sudo yum install -y yum-utils sudo yum-config-manager –add-repo <a class="link"   href="https://download.docker.com/linux/centos/docker-ce.repo" >https://download.docker.com/linux/centos/docker-ce.repo<i class="fas fa-external-link-alt"></i></a> sudo yum install -y docker-ce docker-ce-cli containerd.io sudo systemctl start docker sudo systemctl enable docker</p><p>配置 Nginx: 创建 Nginx 配置文件： sudo mkdir -p &#x2F;knowledgebase&#x2F;nginx&#x2F;conf &#x2F;knowledgebase&#x2F;nginx&#x2F;html&#x2F;service&#x2F; sudo vim &#x2F;knowledgebase&#x2F;nginx&#x2F;conf&#x2F;nginx.conf 添加以下内容： server { listen 80; server_name localhost; location &#x2F; { root html&#x2F;service; index index.html; } error_page 500 502 503 504 &#x2F;50x.html; location &#x3D; &#x2F;50x.html { root html; } }</p><p>上传 Docsify 文件: 将本地的 Docsify 文件上传到服务器的 &#x2F;knowledgebase&#x2F;nginx&#x2F;html&#x2F;service&#x2F; 目录。</p><p>运行 Nginx 容器: sudo docker run –name knowledgenginx \ -v &#x2F;knowledgebase&#x2F;nginx&#x2F;conf&#x2F;nginx.conf:&#x2F;etc&#x2F;nginx&#x2F;nginx.conf \ -v &#x2F;knowledgebase&#x2F;nginx&#x2F;html&#x2F;service:&#x2F;usr&#x2F;share&#x2F;nginx&#x2F;html \ -p 80:80 -d nginx:latest</p><p>访问测试: 打开服务器防火墙的 80 端口，访问 http:&#x2F;&#x2F;&lt;服务器IP&gt;</p><p>通过以上步骤，您可以轻松地在本地和服务器上部署 Docsify 网站。</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;这是一篇水文，就是简单的记录一下docsify的搭建，记录一下这个docsify，省的以后在网上再去翻了。&lt;/p&gt;
+&lt;h2 id=&quot;Docsify-部署&quot;&gt;&lt;a href=&quot;#Docsify-部署&quot; class=&quot;headerlink&quot; title=&quot;Docsify 部署&quot;</summary>
+      
+    
+    
+    
+    <category term="个人随笔" scheme="https://nilin.cc/categories/%E4%B8%AA%E4%BA%BA%E9%9A%8F%E7%AC%94/"/>
+    
+    
+    <category term="docsify" scheme="https://nilin.cc/tags/docsify/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>最近入手一个短域名-36k-net</title>
+    <link href="https://nilin.cc/8-58a527a8aeb6/"/>
+    <id>https://nilin.cc/8-58a527a8aeb6/</id>
+    <published>2025-02-17T13:34:39.000Z</published>
+    <updated>2025-03-22T13:15:44.452Z</updated>
+    
+    <content type="html"><![CDATA[<p>最近入手一个短域名，36k.net。</p><p>本来注册的时候就想着写篇文章记录一下，毕竟这么短的域名，还是.net的。结果由于有别的事情就给耽搁了。正好今天有空就潦草的写一下，记录一下这个欢乐的时刻。</p><p>这个域名算是比较简短的，又好记。</p><h2 id="注册这个域名我可以做什么？"><a href="#注册这个域名我可以做什么？" class="headerlink" title="注册这个域名我可以做什么？"></a>注册这个域名我可以做什么？</h2><p>不管是做个人介绍还是博客都是比较好记，又朗朗上口。当然做别的也是可以的，这个主要看自己对于这个域名的使用以及方向了。</p><p>当然我自己现在使用的nilin.cc也是不错的，我现在使用的这个域名也是左右对称的，也是双拼的域名《nilin-逆鳞》。</p><p><del>其实我原本打算是想把36k.net做成国外的那个js.org那样的站点的，不知道我能不能搞成。</del></p><p>这个域名还是没搞成上面说的，现在改成了类似我自己个个人简介的单页了。</p><p><img                         lazyload                       alt="image"                       data-src="https://pic.nilin.cc/36k.png"                                        ></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;最近入手一个短域名，36k.net。&lt;/p&gt;
+&lt;p&gt;本来注册的时候就想着写篇文章记录一下，毕竟这么短的域名，还是.net的。结果由于有别的事情就给耽搁了。正好今天有空就潦草的写一下，记录一下这个欢乐的时刻。&lt;/p&gt;
+&lt;p&gt;这个域名算是比较简短的，又好记。&lt;/p&gt;
+&lt;h2 i</summary>
+      
+    
+    
+    
+    <category term="个人随笔" scheme="https://nilin.cc/categories/%E4%B8%AA%E4%BA%BA%E9%9A%8F%E7%AC%94/"/>
+    
+    
+    <category term="域名" scheme="https://nilin.cc/tags/%E5%9F%9F%E5%90%8D/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>可以上传视频并内嵌到自己博文中的外链平台</title>
+    <link href="https://nilin.cc/7-77da44eeb43a/"/>
+    <id>https://nilin.cc/7-77da44eeb43a/</id>
+    <published>2025-02-11T13:07:13.000Z</published>
+    <updated>2025-02-11T13:47:37.052Z</updated>
+    
+    <content type="html"><![CDATA[<p>相信很多人跟我一样，在写博文的时候，会在博文中加入一些自己想要加入的视频，但是自己租用一些服务器又特别的贵，还有就是浪费自己的钱袋子。</p><p>以前我记得有使用过优酷，但是现在那个网站好像很久没有出现在我的视野中了，所以现在还是找点新的平台吧。</p><h2 id="B站"><a href="#B站" class="headerlink" title="B站"></a>B站</h2><p>相信这个可以上传视频并且可以内嵌到自己博文中的<code>B站</code>,各位应该不陌生吧。</p><p>演示；</p><div style="position: relative; width: 100%; height: 0; padding-bottom: 75%;"><iframe src="//player.bilibili.com/player.html?bvid=BV1FcmaYJEev&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"style="position: absolute; width: 100%; height: 100%; Left: 0; top: 0;" > </iframe></div><p>以下是B站的内嵌代码。</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">&#123;% raw %&#125;</span><br><span class="line">&lt;div style=&quot;position: relative; width: 100%; height: 0; padding-bottom: 75%;&quot;&gt;</span><br><span class="line">&lt;iframe src=&quot;//player.bilibili.com/player.html?bvid=BV1FcmaYJEev&amp;page=1&quot; scrolling=&quot;no&quot; border=&quot;0&quot; frameborder=&quot;no&quot; framespacing=&quot;0&quot; allowfullscreen=&quot;true&quot;style=&quot;position: absolute; width: 100%; height: 100%; Left: 0; top: 0;&quot; &gt; &lt;/iframe&gt;</span><br><span class="line">&lt;/div&gt;</span><br><span class="line">&#123;% endraw %&#125;</span><br></pre></td></tr></table></figure><h2 id="抖音"><a href="#抖音" class="headerlink" title="抖音"></a>抖音</h2><p>话说抖音现在也可以了，这个是我最近看到大佬《dujun.io》里的一篇博文里有写。在这里感谢大佬的分享哈</p><p>演示：</p><iframe width="100%" height="800" frameborder="0" src="https://open.douyin.com/player/video?vid=7469545826449231143&autoplay=0" referrerpolicy="unsafe-url" allowfullscreen></iframe>以下是抖音内嵌视频代码。<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;iframe width=&quot;100%&quot; height=&quot;800&quot; frameborder=&quot;0&quot; src=&quot;https://open.douyin.com/player/video?vid=7469545826449231143&amp;autoplay=0&quot; referrerpolicy=&quot;unsafe-url&quot; allowfullscreen&gt;&lt;/iframe&gt;</span><br></pre></td></tr></table></figure><h2 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h2><p>B站：</p><ul><li>优点：稳定可靠。</li><li>缺点：画质貌似不是高清的，也可能是我没找对方法。</li></ul><p>抖音：</p><ul><li>优点：快速响应</li><li>缺点：到现在好像还没做自适应哈</li></ul><p>但是反过来说，有这样的平台也是我们的荣幸，最起码省去了自己租用服务器的金钱。</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;相信很多人跟我一样，在写博文的时候，会在博文中加入一些自己想要加入的视频，但是自己租用一些服务器又特别的贵，还有就是浪费自己的钱袋子。&lt;/p&gt;
+&lt;p&gt;以前我记得有使用过优酷，但是现在那个网站好像很久没有出现在我的视野中了，所以现在还是找点新的平台吧。&lt;/p&gt;
+&lt;h2 id=</summary>
+      
+    
+    
+    
+    <category term="个人随笔" scheme="https://nilin.cc/categories/%E4%B8%AA%E4%BA%BA%E9%9A%8F%E7%AC%94/"/>
+    
+    
+    <category term="视频" scheme="https://nilin.cc/tags/%E8%A7%86%E9%A2%91/"/>
+    
+    <category term="B站" scheme="https://nilin.cc/tags/B%E7%AB%99/"/>
+    
+    <category term="抖音" scheme="https://nilin.cc/tags/%E6%8A%96%E9%9F%B3/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>2025春节快乐</title>
+    <link href="https://nilin.cc/6-a2f2330bb915/"/>
+    <id>https://nilin.cc/6-a2f2330bb915/</id>
+    <published>2025-01-31T09:45:26.000Z</published>
+    <updated>2025-01-31T09:54:37.765Z</updated>
+    
+    <content type="html"><![CDATA[<p>2025春节快乐，忙忙碌碌总算是有点自己的时间了，顺便也更新一下咱们这个小博客吧。</p><p>说实在的，现在感觉过年让自己更加的忙碌，也感觉过年让自己更累！也许是随着自己的年龄增加，没有了那份年少的纯真，所以才会有这样的感觉吧。</p><p>不管怎么样，在新的一年里，祝福自己事事能够即使处理的顺心吧。</p><p>加油，中年人。<br><img                         lazyload                       alt="image"                       data-src="https://pic.nilin.cc/2025.png"                                        ></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;2025春节快乐，忙忙碌碌总算是有点自己的时间了，顺便也更新一下咱们这个小博客吧。&lt;/p&gt;
+&lt;p&gt;说实在的，现在感觉过年让自己更加的忙碌，也感觉过年让自己更累！也许是随着自己的年龄增加，没有了那份年少的纯真，所以才会有这样的感觉吧。&lt;/p&gt;
+&lt;p&gt;不管怎么样，在新的一年里，</summary>
+      
+    
+    
+    
+    <category term="个人随笔" scheme="https://nilin.cc/categories/%E4%B8%AA%E4%BA%BA%E9%9A%8F%E7%AC%94/"/>
+    
+    
+    <category term="2025" scheme="https://nilin.cc/tags/2025/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>小院高墙喽</title>
+    <link href="https://nilin.cc/5-0912082f3b64/"/>
+    <id>https://nilin.cc/5-0912082f3b64/</id>
+    <published>2025-01-06T16:01:40.000Z</published>
+    <updated>2025-01-06T16:34:33.497Z</updated>
+    
+    <content type="html"><![CDATA[<p>作为80后，自个学习不好的，好不容易在网上学点搭建博客或者笔记的人来说，去找一些论坛或者社区这类的地方学习，是感觉非常开心的，但是现在越来越觉得现在是属于小院高墙了。</p><p>话说从我最早接触的网络大神的地方是：<a class="link"   href="https://www.v2ex.com/" >https://www.v2ex.com/<i class="fas fa-external-link-alt"></i></a></p><p>这个社区我大概是18年那会发现的，里面都是一些程序员大神，看着他们在网上各种晒程序使用方法，晒程序原理解说，当然也有生活和3C等相关话题。当时感觉这绝对是一个大神聚集的地方，但是很不幸在21年被小院高墙隔离了，一直到现在不使用一些办法是打不开这个站点了。</p><p>随后发现又一个大部分关注点是：虚拟主机·vps·服务器等相关的论坛。地址：<a class="link"   href="https://hostloc.com/" >https://hostloc.com<i class="fas fa-external-link-alt"></i></a></p><p>这个论坛跟上面的情况一样，不过时间大概是22年被小院高墙了。</p><p>紧接着现在的25年1月7日，又发现了一个小院高墙的论坛：<a class="link"   href="https://www.nodeseek.com/" >https://www.nodeseek.com/<i class="fas fa-external-link-alt"></i></a></p><p><img                         lazyload                       alt="image"                       data-src="https://pic.nilin.cc/txuttu.webp"                                        ></p><p>nodeseek的管理员好像还在抢救nodeseek站点，但是从我个人感觉来说，够呛能抢救的过来。</p><hr><p>站在我个人的角度来说，我是不希望这些网站被小院高墙的，最起码打开就能学习，也方便。但是没办法，这不是咱们自己希望被小院高墙就能不小院高墙的。</p><p>当然啦，如果跨过这个小院高墙，也是可以打开学习的，只是增加了跨过这个操作。</p><p>当然现在的这个状况也不一定都是坏处，也算是变相的提高一下打开的门槛。减少一些不懂世事的傻逼破坏整体的环境。</p><p>当然现在的一些奶头乐产品，也能满足一些人的需求。</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;作为80后，自个学习不好的，好不容易在网上学点搭建博客或者笔记的人来说，去找一些论坛或者社区这类的地方学习，是感觉非常开心的，但是现在越来越觉得现在是属于小院高墙了。&lt;/p&gt;
+&lt;p&gt;话说从我最早接触的网络大神的地方是：&lt;a class=&quot;link&quot;   href=&quot;http</summary>
+      
+    
+    
+    
+    <category term="个人随笔" scheme="https://nilin.cc/categories/%E4%B8%AA%E4%BA%BA%E9%9A%8F%E7%AC%94/"/>
+    
+    
+    <category term="小院高墙" scheme="https://nilin.cc/tags/%E5%B0%8F%E9%99%A2%E9%AB%98%E5%A2%99/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>继续失眠抓狂中</title>
+    <link href="https://nilin.cc/4-a0105c7aa46c/"/>
+    <id>https://nilin.cc/4-a0105c7aa46c/</id>
+    <published>2025-01-04T19:07:44.000Z</published>
+    <updated>2025-01-04T19:27:42.306Z</updated>
+    
+    <content type="html"><![CDATA[<p>现在已经是2025年了，按理来说我们应该庆幸一下新年的开端的，但是最近一段时间一直在被这个失眠的烦恼所牵绊。</p><p><img                         lazyload                       alt="image"                       data-src="https://pic.nilin.cc/shimian.jpg"                                        ></p><p>我现在也搞不清楚到底是咋回事儿！这种失眠的状态已经持续有一段时间了，刚开始还能好好的睡上一觉，无非就是睡眠时间短，但是现在不止是睡眠时间短，睡眠质量也不行了。</p><p>现在白天恍恍惚惚，晚上俩眼睛跟灯泡似的，贼有精神！</p><p>现在已经开始出现头疼，烦躁，甚至脾气会越来越不受控制了。还不想搭理人。</p><p>我想我是病了，但是现在也不知道这到底算是啥病！</p><p>据我分析也就这三个方面可以影响我，但是也不至于最近半月天天这样啊。艹</p><ul><li>压力大？</li><li>焦虑？</li><li>闲的？</li></ul><p>我也有试过各种办法，吃安眠药不管用，喝酒倒是好一点，但是基本上一个小时左右就醒了。问题是酒醒之后头更疼，更烦躁。</p><p>艹</p><p>又快4点了！</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;现在已经是2025年了，按理来说我们应该庆幸一下新年的开端的，但是最近一段时间一直在被这个失眠的烦恼所牵绊。&lt;/p&gt;
+&lt;p&gt;&lt;img  
+                       lazyload
+                       alt=&quot;image&quot;
+ </summary>
+      
+    
+    
+    
+    <category term="个人随笔" scheme="https://nilin.cc/categories/%E4%B8%AA%E4%BA%BA%E9%9A%8F%E7%AC%94/"/>
+    
+    
+    <category term="失眠" scheme="https://nilin.cc/tags/%E5%A4%B1%E7%9C%A0/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>换个方式获取自己想要的音乐</title>
+    <link href="https://nilin.cc/3-a6cbe9421125/"/>
+    <id>https://nilin.cc/3-a6cbe9421125/</id>
+    <published>2024-12-26T20:52:57.000Z</published>
+    <updated>2025-01-03T17:29:51.714Z</updated>
+    
+    <content type="html"><![CDATA[<p>最近一段时间经常失眠，几乎都是整夜整夜的失眠。</p><p>白天还要工作，晚上在整夜整夜的失眠，有点烦躁。</p><p>现在是凌晨的4.56分，反正也是失眠，不如用电脑写点东西，来增加我这小笔记一点点内容。</p><hr><p>回想以前的互联网，想下载点音乐，直接百度就可以了，但是现在不行了。</p><p>我记得前几年还有很多网站是可以提供下载的，但是随着现在的APP以及所谓的版权的出现，现在咱们小老百姓想下载个音乐，要各种花钱，还费劲。</p><p>其实我们换个思路这个问题就解决了。现在不是有各种短视频APP嘛，咱们就直接利用这些短视频APP来达到下载音乐的方法。</p><h2 id="先下载包含咱们要的音乐视频"><a href="#先下载包含咱们要的音乐视频" class="headerlink" title="先下载包含咱们要的音乐视频"></a>先下载包含咱们要的音乐视频</h2><p>首先打开电脑，在网页版的短视频里搜你需要的音乐名字。</p><p>我以抖音为例，先下载一个《<strong>勾栏听曲</strong>》</p><p><img                         lazyload                       alt="image"                       data-src="https://pic.nilin.cc/douyin-yinyue.jpg"                                        ></p><p>先确定这个视频的音乐是不是完整版，随后直接复制它的外链。</p><p><img                         lazyload                       alt="image"                       data-src="https://pic.nilin.cc/douyin-yinyue1.jpg"                                        ></p><p>再然后在网上找一下，支持抖音视频下载的网址。网上很多网址是提供这种解析的。</p><p><img                         lazyload                       alt="image"                       data-src="https://pic.nilin.cc/douyin-yinyue2.jpg"                                        ></p><p>把复制的网址，粘贴到这个常常的输入框中，之后点击《<strong>解析</strong>》，等这个网址把网址解析好之后，一般解析是非常快的，下面有个视频是可以查看是不是咱们要下载的那个视频。</p><p><img                         lazyload                       alt="image"                       data-src="https://pic.nilin.cc/douyin-yinyue3.jpg"                                        ></p><p>查看无误之后，点击那个《<strong>下载</strong>》按钮就可以了，这样我们先下载了这个有咱们需要的音乐视频了。</p><h2 id="在网上找个MP4转换MP3格式的网站"><a href="#在网上找个MP4转换MP3格式的网站" class="headerlink" title="在网上找个MP4转换MP3格式的网站"></a>在网上找个MP4转换MP3格式的网站</h2><p>既然包含音乐的视频已经下载下来了，现在把视频MP4格式转换成MP3格式，在网上找《视频转换MP3》就可以了，毕竟这种网站很多的。<br><img                         lazyload                       alt="image"                       data-src="https://pic.nilin.cc/douyin-yinyue4.jpg"                                        ></p><p><img                         lazyload                       alt="image"                       data-src="https://pic.nilin.cc/douyin-yinyue6.png"                                        ></p><p>到达这步我们要找的音乐，已经下载到手了。</p><p>我把我下载的音乐也放到一个网盘里，你们听听看哈。<br><object height="120" width="100%" data="https://img.nilin.eu.org/file/nilin-cc/goulantingqu.mp3"></object><br><a class="link"   href="https://img.nilin.eu.org/file/nilin-cc/goulantingqu.mp3" >https://img.nilin.eu.org/file/nilin-cc/goulantingqu.mp3<i class="fas fa-external-link-alt"></i></a></p><p>虽然这个办法操作步骤有点多，但是这个确实适合咱们网络小白哈，也是能上手就能操作的。并且这个办法几乎不会过时，只要这些短视频平台不倒，这个下载音乐的办法就基本不会失效。</p><p>这个笔记也写的差不多了，瞅一眼时间快早上6点了，但是我还是不困，难搞哦。期望我白天不会太困吧，也是奇了怪了，晚上失眠，白天犯困。没谁了。</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;最近一段时间经常失眠，几乎都是整夜整夜的失眠。&lt;/p&gt;
+&lt;p&gt;白天还要工作，晚上在整夜整夜的失眠，有点烦躁。&lt;/p&gt;
+&lt;p&gt;现在是凌晨的4.56分，反正也是失眠，不如用电脑写点东西，来增加我这小笔记一点点内容。&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;回想以前的互联网，想下载点音乐，直接百</summary>
+      
+    
+    
+    
+    <category term="个人随笔" scheme="https://nilin.cc/categories/%E4%B8%AA%E4%BA%BA%E9%9A%8F%E7%AC%94/"/>
+    
+    
+    <category term="失眠" scheme="https://nilin.cc/tags/%E5%A4%B1%E7%9C%A0/"/>
+    
+    <category term="音乐" scheme="https://nilin.cc/tags/%E9%9F%B3%E4%B9%90/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>最近利用vercel搭建的一些个人服务</title>
+    <link href="https://nilin.cc/2-7a948af447e1/"/>
+    <id>https://nilin.cc/2-7a948af447e1/</id>
+    <published>2024-12-25T12:07:43.000Z</published>
+    <updated>2024-12-25T12:45:21.254Z</updated>
+    
+    <content type="html"><![CDATA[<p>最近几天闲着也是闲着，就在网上找了利用vercel免费搭建的各种服务。</p><h2 id="Gemini"><a href="#Gemini" class="headerlink" title="Gemini"></a>Gemini</h2><p>Gemini是一款由Google DeepMind（谷歌母公司Alphabet下设立的人工智能实验室）于2023年12月6日发布的人工智能模型，可同时识别文本、图像、音频、视频和代码五种类型信息，还可以理解并生成主流编程语言（如Python、Java、C++）的高质量代码，并拥有全面的安全性评估。首个版本为Gemini 1.0</p><p>官网地址：<a class="link"   href="https://ai.google.dev/" >https://ai.google.dev<i class="fas fa-external-link-alt"></i></a></p><p>我大概也是在那时候搭建的这个服务，有点记不起来具体的部署时间了。</p><p>网址：<a class="link"   href="https://gemini.nilin.cc/" >https://gemini.nilin.cc/<i class="fas fa-external-link-alt"></i></a></p><h2 id="思维导图"><a href="#思维导图" class="headerlink" title="思维导图"></a>思维导图</h2><p>simple-mind-map【中文名：思绪思维导图】是一个简单&amp;强大的Web思维导图库，不依赖任何特定框架。可以帮助你快速开发思维导图产品。</p><p>GitHub地址：<a class="link"   href="https://github.com/wanglin2/mind-map" >https://github.com/wanglin2/mind-map<i class="fas fa-external-link-alt"></i></a></p><p>这个重点是不依赖任何数据库，等同于随便找个支持静态文件的主机就可以直接部署。</p><p>网址：<a class="link"   href="https://mindmap.nilin.cc/" >https://mindmap.nilin.cc/<i class="fas fa-external-link-alt"></i></a></p><h2 id="Umami"><a href="#Umami" class="headerlink" title="Umami"></a>Umami</h2><p>Umami 是一个轻量级的网站访问统计工具，开源免费，可自托管，用途类似 Google Analytics。当然，umami 的功能远没有 Google Analytics 那么丰富，不过如果你的需求不多，只想了解网站的访问量（PV、UV）、流量来源等基本信息，以及记录一些简单的自定义事件，那么 umami 会是一个不错的选择。</p><p>官网地址：<a class="link"   href="https://umami.is/" >https://umami.is/<i class="fas fa-external-link-alt"></i></a></p><p>我使用vercel部署Umami这个统计，完全是想学习一下，顺便装个13。</p><p>地址：<a class="link"   href="https://umami.nilin.cc/" >https://umami.nilin.cc<i class="fas fa-external-link-alt"></i></a></p><h2 id="waline"><a href="#waline" class="headerlink" title="waline"></a>waline</h2><p>Waline 是一个简单易用的评论系统，支持多种数据库和服务端部署。操作管理评论也是相当方便的评论系统。</p><p>官网地址：<a class="link"   href="https://waline.js.org/" >https://waline.js.org/<i class="fas fa-external-link-alt"></i></a></p><p>因为我使用的hexo主题是<strong>keep</strong>，又因为这个主题的作者提供了非常丰富的评论选择，可选值：valine | gitalk | twikoo | waline | giscus | artalk | disqus。</p><p>并且刚好在网上找到了waline的部署视频教程，就一步一步试着弄，最后成功弄成。</p><p>我都佩服我自己，😄</p><p>网址：<a class="link"   href="https://waline.nilin.cc/" >https://waline.nilin.cc/<i class="fas fa-external-link-alt"></i></a></p><p><img                         lazyload                       alt="image"                       data-src="https://pic.nilin.cc/waline.png"                                        ></p><p>截屏一张图片，我来装个13.😄</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;最近几天闲着也是闲着，就在网上找了利用vercel免费搭建的各种服务。&lt;/p&gt;
+&lt;h2 id=&quot;Gemini&quot;&gt;&lt;a href=&quot;#Gemini&quot; class=&quot;headerlink&quot; title=&quot;Gemini&quot;&gt;&lt;/a&gt;Gemini&lt;/h2&gt;&lt;p&gt;Gemini是一款由G</summary>
+      
+    
+    
+    
+    <category term="个人随笔" scheme="https://nilin.cc/categories/%E4%B8%AA%E4%BA%BA%E9%9A%8F%E7%AC%94/"/>
+    
+    
+    <category term="vercel" scheme="https://nilin.cc/tags/vercel/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>再见2024</title>
+    <link href="https://nilin.cc/2024-56c97ccca525/"/>
+    <id>https://nilin.cc/2024-56c97ccca525/</id>
+    <published>2024-12-19T12:20:07.000Z</published>
+    <updated>2024-12-26T17:36:51.145Z</updated>
+    
+    <content type="html"><![CDATA[<p>又是一年结束时，眼瞅着2024马上到达尾声了！不得不说：人到中年之后感觉时间好像加快了脚步，感觉这一年还没咋过呢就到年底了。</p><p>果然老人常说，时间不等人，不要浪费时间。随着自身的年龄不断上涨，越来越觉得老人说的这段话是真正的真理。</p><p>当然我们自身也要明白，既然时间已经到达了这一刻，就不要说那些后悔以前自己怎么怎么样的鬼话了，我个人感觉还是找个时间梳理一下自己以后的规划，以及现在手头上的事情处理好。不要因为以前的所作所为，给现在的自己徒增烦恼。</p><h2 id="回忆一下今年我都干了啥"><a href="#回忆一下今年我都干了啥" class="headerlink" title="回忆一下今年我都干了啥"></a>回忆一下今年我都干了啥</h2><p>仔细的想了一下，今年有印象的事情，好像就是把去年年底买的房子装修了一下，其他的貌似也没干啥。</p><p>吃喝拉撒睡，这五样好像每天都在做！对于这五个假装很努力一下😜。</p><h2 id="最近感悟"><a href="#最近感悟" class="headerlink" title="最近感悟"></a>最近感悟</h2><h3 id="专注力与思考"><a href="#专注力与思考" class="headerlink" title="专注力与思考"></a>专注力与思考</h3><p>以前一直没注意的就是自己专注力，所以在回忆今年我都干了啥的时候，脑子里是真的没东西，所以我发现了一个有趣的事情，那就是我的专注力，貌似让我深深的沉迷到了奶头乐的效应里了。比如；刷短视频一刷就是好几个小时。这种奶头乐的东西会大量的占用时间，以及自己的专注力。</p><p>我想尝试一下，让自己的专注力去专注一些应该去的地方，比如说：挣钱啊，学习这种的地方，我不能总是在奶头乐的效应里，如果说：现在什么样的东西能让我静下心来思考，或许文字才是我最需要的。因为文字是有底蕴的，它不张扬，它可以带来思考。</p><h2 id="游玩"><a href="#游玩" class="headerlink" title="游玩"></a>游玩</h2><p>其实今年还是有出去玩的，但是我一般不咋拍照，所以有很多的东西是没办法留下来的，看来以后出门得学学记录东西了。</p><p>接下来欣赏最近一段时间，自驾出去拍的照片哈。容我装个13</p><div style="position: relative; width: 100%; height: 0; padding-bottom: 75%;"><iframe src="//player.bilibili.com/player.html?bvid=BV1FcmaYJEev&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"style="position: absolute; width: 100%; height: 100%; Left: 0; top: 0;" > </iframe></div><h2 id="以后的日子"><a href="#以后的日子" class="headerlink" title="以后的日子"></a>以后的日子</h2><p>在以后的日子其实也没大的要求，家人安康，自己要学会思考。做中年人该做的事情。</p><p>敬：以后。</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;又是一年结束时，眼瞅着2024马上到达尾声了！不得不说：人到中年之后感觉时间好像加快了脚步，感觉这一年还没咋过呢就到年底了。&lt;/p&gt;
+&lt;p&gt;果然老人常说，时间不等人，不要浪费时间。随着自身的年龄不断上涨，越来越觉得老人说的这段话是真正的真理。&lt;/p&gt;
+&lt;p&gt;当然我们自身也要</summary>
+      
+    
+    
+    
+    <category term="个人随笔" scheme="https://nilin.cc/categories/%E4%B8%AA%E4%BA%BA%E9%9A%8F%E7%AC%94/"/>
+    
+    
+    <category term="2024" scheme="https://nilin.cc/tags/2024/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>摆烂的日子是享受</title>
+    <link href="https://nilin.cc/1-149b3ce70cf3/"/>
+    <id>https://nilin.cc/1-149b3ce70cf3/</id>
+    <published>2024-12-16T15:16:43.000Z</published>
+    <updated>2024-12-16T15:33:36.808Z</updated>
+    
+    <content type="html"><![CDATA[<p>摆烂的日子是享受，这是真真滴。</p><p><img                         lazyload                       alt="image"                       data-src="https://pic.nilin.cc/bailan%20(1).jpg"                                        ></p><p>今天一天的时间除了吃饭，就是在床上躺着，愿意刷抖音就刷抖音，愿意看别人的博文就看别人的博文，这种感觉简直太爽了。</p><p>本来昨晚上想着是今天啥事没有，可以出门转转的，但是早上醒来之后，突然不想出门了，想想自己从年初一直忙，这不马上到年尾了嘛，给自己好好放空一下，啥都不想，就好好的休息休息。</p><p>后来一琢磨，在床上躺着比出门转转舒服多了。还是在家躺着舒服一天算了。</p><p>今天在家闲着也是闲着，就动动脑子想想以后的生活以及以后的打算，毕竟快40岁了，已经是一个油腻并且邋遢的大叔了，不能不好好规划规划以后了。尤其是最近身边已经有通往死亡这条道路的人了。</p><p>毕竟咱现在是家里唯一的顶梁柱了，以前咱可以依靠爸妈，但是现在爸妈上了年纪了，是他们依靠咱的时候了，当然还有自己的孩子也是需要咱的时候，所以：加油吧，大叔。</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;摆烂的日子是享受，这是真真滴。&lt;/p&gt;
+&lt;p&gt;&lt;img  
+                       lazyload
+                       alt=&quot;image&quot;
+                       data-src=&quot;https:/</summary>
+      
+    
+    
+    
+    <category term="个人随笔" scheme="https://nilin.cc/categories/%E4%B8%AA%E4%BA%BA%E9%9A%8F%E7%AC%94/"/>
+    
+    
+    <category term="摆烂" scheme="https://nilin.cc/tags/%E6%91%86%E7%83%82/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>30岁左右中年人的思考</title>
+    <link href="https://nilin.cc/zhongnian-66d6aa25181e/"/>
+    <id>https://nilin.cc/zhongnian-66d6aa25181e/</id>
+    <published>2024-12-14T11:47:34.000Z</published>
+    <updated>2024-12-14T11:55:34.959Z</updated>
+    
+    <content type="html"><![CDATA[<blockquote><p>最近在网上刷到的一段话，自己看着蛮有感触的，直接转载过来了。</p></blockquote><p>如果你也觉得到了30岁左右很难熬请一定要熬过去，这是你重新开始的机会。不要认为醒悟的太晚，更不要认为自己很倒霉，太早你没有资格谈醒悟，太晚你没有时间来醒悟。其实有很多人和你一样在30岁之前根本没有自己的三观，所谓的三观都是来自别人怎么说别人怎么看。当你没有真正认识自己就会很容易被各种信息所影响，如果原生家庭也没有给到你精神上的呵护那么一个普通人想在30岁之前成长起来几乎很难。不要太在意当下的处境，也不需要和任何人比较，每个人的人生剧本不一样谁都不是你的参照物，生活的磨难就是要让你找不任何参照物，找不到方向。唯一要比的就是你要比过去的你更好，从始至终你都是在和自己相处，你来到这个世界唯一的目的就是寻找自己、改变自己、提升自己。</p><p>看似让你难受的事或者人其实都是你的原因，你就是问题本身。因为你没有自我，没有搞清楚自己是谁，到底想要什么。别人的一点风吹草动你都观察得明明白白，从来就没有静下心来思考自己。从出生就只是在按照一套标准流程在走，走到30岁的某一天突然醒悟，说的直白一些就是你缺失的东西太多，你所经历的每一件事都是为了弥补内心的不足，你一直都在寻找自己。但寻找的方向错了，没有大的变革你可能到现在都不明白。</p><p>在这个时候不要去讨厌谁，也不要去讨好谁。别人喜不喜欢你也不用太在意，对于别人的冷漠与嘲讽看淡就好，那是别人的人生课题与你没有太大关系。</p><p>有时要相信人与人的缘分往往已经注定，给所有人最大限度的自由。选择是双向的，别人在筛选你，你也在过滤他。</p><p>与人保持距离，任何人都会有命运为之设定的坎，只是你不知道而已，也没必要知道，因为当你凝望他人，他人也将给予你回应，你真的犯不着参与别人的因果。你只需要明白任何事物的存在不管好与坏都是合理的，包括曾经的你，当下的你。</p><p>对于别人的关心你要学会分辨真善与伪善，你逐渐醒悟几乎不会再为情所困，这个情指的是所有的情感问题。只是平静的接纳这是你的因果感召来的，因果循环不是迷信。世界上所有的人都有自己的私心，唯独天地不私、因果不虚，功过也不能相抵。</p><p>你所遇到的所有人都是因你而来，因你而散。你注定要经历坎坷无论在哪里无论遇到谁都会经历，同样的道理别人也一样该经历的都逃不过，并不只是因为遇到了你。对与错是相互的很难说清，大概是命盘已定，就不要执着于改变不了的事实。</p><p>无论怎样你都该庆幸这个所谓的坎是需要你现在经历，而不是在以后的生活，以后的你未必有现在勇敢，别以为年龄越大就活得越通透，大多数人随着年龄的增长只会越来越顽固。更不是一辈子都不经历，一辈子都不经历只能说时间没有给你机会，至死你都是那个你。</p><p>虽然很难，但尽可能的熬过去，在你感觉扛不住的时候千万不要想着一死了之，你死了也解决不了任何问题，你还是那个你。一定要记住死是一件不必急于求成的事，死是每个人都会经历的。不要困惑生活没有方向，你未来的方向是完成人生最重要的课题：优于过去的自己，如果有人拿着”棍棒”对你说不管你怎么做都不对，那你首先需要做的是折断它。</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;最近在网上刷到的一段话，自己看着蛮有感触的，直接转载过来了。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;如果你也觉得到了30岁左右很难熬请一定要熬过去，这是你重新开始的机会。不要认为醒悟的太晚，更不要认为自己很倒霉，太早你没有资格谈醒悟，太晚你没有</summary>
+      
+    
+    
+    
+    <category term="网络转载" scheme="https://nilin.cc/categories/%E7%BD%91%E7%BB%9C%E8%BD%AC%E8%BD%BD/"/>
+    
+    
+    <category term="思考" scheme="https://nilin.cc/tags/%E6%80%9D%E8%80%83/"/>
+    
+    <category term="认知" scheme="https://nilin.cc/tags/%E8%AE%A4%E7%9F%A5/"/>
+    
+    <category term="三观" scheme="https://nilin.cc/tags/%E4%B8%89%E8%A7%82/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>hello我来了</title>
+    <link href="https://nilin.cc/hello-a9b5f320e7c3/"/>
+    <id>https://nilin.cc/hello-a9b5f320e7c3/</id>
+    <published>2024-12-04T15:31:22.000Z</published>
+    <updated>2024-12-21T07:53:13.058Z</updated>
+    
+    <content type="html"><![CDATA[<p>正如所见，我的笔记小站搭建起来了，虽然不是第一次搭建，但是是又一次搭建，期望这一次能长久点吧。</p><p>其实有时候还是想好好写一点心里那点事儿的，但是不知道怎么想的，基本上是打开文章编辑框就突然很抗拒，也许是那些所谓的羞耻感，也怕自己那点事儿遭到围观，所以就懒得写了。</p><p>不管咋样，这个笔记搭建起来了，期望能长久一点吧。</p><div style="position: relative; width: 100%; height: 0; padding-bottom: 75%;"><iframe src="//player.bilibili.com/player.html?bvid=BV11nk4YaEG6&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"style="position: absolute; width: 100%; height: 100%; Left: 0; top: 0;" > </iframe></div>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;正如所见，我的笔记小站搭建起来了，虽然不是第一次搭建，但是是又一次搭建，期望这一次能长久点吧。&lt;/p&gt;
+&lt;p&gt;其实有时候还是想好好写一点心里那点事儿的，但是不知道怎么想的，基本上是打开文章编辑框就突然很抗拒，也许是那些所谓的羞耻感，也怕自己那点事儿遭到围观，所以就懒得写了。</summary>
+      
+    
+    
+    
+    <category term="个人随笔" scheme="https://nilin.cc/categories/%E4%B8%AA%E4%BA%BA%E9%9A%8F%E7%AC%94/"/>
+    
+    
+    <category term="hello" scheme="https://nilin.cc/tags/hello/"/>
+    
+  </entry>
+  
+</feed>
