@@ -6,7 +6,7 @@
   <link href="https://nilin.cc/atom.xml" rel="self"/>
   
   <link href="https://nilin.cc/"/>
-  <updated>2026-01-08T12:18:44.918Z</updated>
+  <updated>2026-03-11T15:13:19.097Z</updated>
   <id>https://nilin.cc/</id>
   
   <author>
@@ -15,6 +15,32 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>给我的小破站用AI写了一个简单的主题</title>
+    <link href="https://nilin.cc/21-e84c6e7389f7/"/>
+    <id>https://nilin.cc/21-e84c6e7389f7/</id>
+    <published>2026-03-11T15:08:51.000Z</published>
+    <updated>2026-03-11T15:13:19.097Z</updated>
+    
+    <content type="html"><![CDATA[<p>给我的小破站用AI写了一个简单的主题，附图：</p><p><img src="https://pic.nilin.cc/2026-jietu.jpg"></p><p>虽然我知道我这个hexo主题很烂，页没有什么功能，但是这个架不住我喜欢啊，毕竟是自己亲手一点点弄的，还是蛮有成就感的，虽然捣鼓了半宿！！！！</p><p>但是架不住我乐意，嘎嘎。</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;给我的小破站用AI写了一个简单的主题，附图：&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://pic.nilin.cc/2026-jietu.jpg&quot;&gt;&lt;/p&gt;
+&lt;p&gt;虽然我知道我这个hexo主题很烂，页没有什么功能，但是这个架不住我喜欢啊，毕竟是自己亲手一点点弄的，还是</summary>
+      
+    
+    
+    
+    <category term="个人随笔" scheme="https://nilin.cc/categories/%E4%B8%AA%E4%BA%BA%E9%9A%8F%E7%AC%94/"/>
+    
+    
+    <category term="AI" scheme="https://nilin.cc/tags/AI/"/>
+    
+  </entry>
   
   <entry>
     <title>中产斩杀线的本质与中美社会差异</title>
@@ -514,31 +540,6 @@
     <category term="失眠" scheme="https://nilin.cc/tags/%E5%A4%B1%E7%9C%A0/"/>
     
     <category term="音乐" scheme="https://nilin.cc/tags/%E9%9F%B3%E4%B9%90/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>最近利用vercel搭建的一些个人服务</title>
-    <link href="https://nilin.cc/2-7a948af447e1/"/>
-    <id>https://nilin.cc/2-7a948af447e1/</id>
-    <published>2024-12-25T12:07:43.000Z</published>
-    <updated>2024-12-25T12:45:21.254Z</updated>
-    
-    <content type="html"><![CDATA[<p>最近几天闲着也是闲着，就在网上找了利用vercel免费搭建的各种服务。</p><h2 id="Gemini"><a href="#Gemini" class="headerlink" title="Gemini"></a>Gemini</h2><p>Gemini是一款由Google DeepMind（谷歌母公司Alphabet下设立的人工智能实验室）于2023年12月6日发布的人工智能模型，可同时识别文本、图像、音频、视频和代码五种类型信息，还可以理解并生成主流编程语言（如Python、Java、C++）的高质量代码，并拥有全面的安全性评估。首个版本为Gemini 1.0</p><p>官网地址：<a href="https://ai.google.dev/">https://ai.google.dev</a></p><p>我大概也是在那时候搭建的这个服务，有点记不起来具体的部署时间了。</p><p>网址：<a href="https://gemini.nilin.cc/">https://gemini.nilin.cc/</a></p><h2 id="思维导图"><a href="#思维导图" class="headerlink" title="思维导图"></a>思维导图</h2><p>simple-mind-map【中文名：思绪思维导图】是一个简单&amp;强大的Web思维导图库，不依赖任何特定框架。可以帮助你快速开发思维导图产品。</p><p>GitHub地址：<a href="https://github.com/wanglin2/mind-map">https://github.com/wanglin2/mind-map</a></p><p>这个重点是不依赖任何数据库，等同于随便找个支持静态文件的主机就可以直接部署。</p><p>网址：<a href="https://mindmap.nilin.cc/">https://mindmap.nilin.cc/</a></p><h2 id="Umami"><a href="#Umami" class="headerlink" title="Umami"></a>Umami</h2><p>Umami 是一个轻量级的网站访问统计工具，开源免费，可自托管，用途类似 Google Analytics。当然，umami 的功能远没有 Google Analytics 那么丰富，不过如果你的需求不多，只想了解网站的访问量（PV、UV）、流量来源等基本信息，以及记录一些简单的自定义事件，那么 umami 会是一个不错的选择。</p><p>官网地址：<a href="https://umami.is/">https://umami.is/</a></p><p>我使用vercel部署Umami这个统计，完全是想学习一下，顺便装个13。</p><p>地址：<a href="https://umami.nilin.cc/">https://umami.nilin.cc</a></p><h2 id="waline"><a href="#waline" class="headerlink" title="waline"></a>waline</h2><p>Waline 是一个简单易用的评论系统，支持多种数据库和服务端部署。操作管理评论也是相当方便的评论系统。</p><p>官网地址：<a href="https://waline.js.org/">https://waline.js.org/</a></p><p>因为我使用的hexo主题是<strong>keep</strong>，又因为这个主题的作者提供了非常丰富的评论选择，可选值：valine | gitalk | twikoo | waline | giscus | artalk | disqus。</p><p>并且刚好在网上找到了waline的部署视频教程，就一步一步试着弄，最后成功弄成。</p><p>我都佩服我自己，😄</p><p>网址：<a href="https://waline.nilin.cc/">https://waline.nilin.cc/</a></p><p><img src="https://pic.nilin.cc/waline.png"></p><p>截屏一张图片，我来装个13.😄</p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;p&gt;最近几天闲着也是闲着，就在网上找了利用vercel免费搭建的各种服务。&lt;/p&gt;
-&lt;h2 id=&quot;Gemini&quot;&gt;&lt;a href=&quot;#Gemini&quot; class=&quot;headerlink&quot; title=&quot;Gemini&quot;&gt;&lt;/a&gt;Gemini&lt;/h2&gt;&lt;p&gt;Gemini是一款由G</summary>
-      
-    
-    
-    
-    <category term="个人随笔" scheme="https://nilin.cc/categories/%E4%B8%AA%E4%BA%BA%E9%9A%8F%E7%AC%94/"/>
-    
-    
-    <category term="vercel" scheme="https://nilin.cc/tags/vercel/"/>
     
   </entry>
   
