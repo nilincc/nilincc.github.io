@@ -1,82 +1,39 @@
-/* global KEEP */
+// 回到顶部按钮
+window.addEventListener('load', function() {
+  // 创建回到顶部按钮
+  const backToTop = document.createElement('button');
+  backToTop.innerText = '↑';
+  backToTop.className = 'back-to-top';
+  backToTop.style.cssText = `
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    width: 40px;
+    height: 40px;
+    border: none;
+    border-radius: 50%;
+    background: #000;
+    color: #fff;
+    cursor: pointer;
+    display: none;
+    font-size: 18px;
+  `;
+  document.body.appendChild(backToTop);
 
-window.addEventListener('DOMContentLoaded', () => {
-  const { version, local_search, lazyload } = KEEP.theme_config
-
-  KEEP.themeInfo = {
-    theme: `Keep v${version}`,
-    author: 'XPoet',
-    repository: 'https://github.com/XPoet/hexo-theme-keep',
-    localStorageKey: 'KEEP-THEME-STATUS',
-    encryptKey: 'KEEP-ENCRYPT',
-    styleStatus: {
-      isDark: false,
-      fontSizeLevel: 0,
-      isShowToc: true
-    },
-    defaultDatetimeFormat: 'YYYY-MM-DD HH:mm:ss'
-  }
-
-  // print theme base info
-  KEEP.printThemeInfo = () => {
-    console.log(
-      `\n %c ${KEEP.themeInfo.theme} %c ${KEEP.themeInfo.repository} \n`,
-      `color: #fadfa3; background: #333; padding: 6px 0;`,
-      `padding: 6px 0;`
-    )
-  }
-  KEEP.printThemeInfo()
-
-  // set version number of footer
-  KEEP.setFooterVersion = () => {
-    const vd = document.querySelector('.footer .keep-version')
-    vd && (vd.innerHTML = KEEP.themeInfo.theme)
-  }
-
-  // set styleStatus to localStorage
-  KEEP.setStyleStatus = () => {
-    localStorage.setItem(KEEP.themeInfo.localStorageKey, JSON.stringify(KEEP.themeInfo.styleStatus))
-  }
-
-  // get styleStatus from localStorage
-  KEEP.getStyleStatus = () => {
-    let temp = localStorage.getItem(KEEP.themeInfo.localStorageKey)
-    if (temp) {
-      temp = JSON.parse(temp)
-      for (let key in KEEP.themeInfo.styleStatus) {
-        KEEP.themeInfo.styleStatus[key] = temp[key]
-      }
-      return temp
+  // 滚动显示/隐藏按钮
+  window.addEventListener('scroll', function() {
+    if (window.scrollY > 300) {
+      backToTop.style.display = 'block';
     } else {
-      return null
+      backToTop.style.display = 'none';
     }
-  }
+  });
 
-  // init prototype function
-  KEEP.initPrototype = () => {
-    HTMLElement.prototype.wrap = function (wrapper) {
-      this.parentNode.insertBefore(wrapper, this)
-      this.parentNode.removeChild(this)
-      wrapper.appendChild(this)
-    }
-  }
-  KEEP.initPrototype()
-
-  KEEP.initExecute = () => {
-    KEEP.initUtils()
-    KEEP.initHeaderShrink()
-    KEEP.initModeToggle()
-    KEEP.initBack2Top()
-    KEEP.initCodeBlock()
-    KEEP.setFooterVersion()
-
-    if (lazyload?.enable === true) {
-      KEEP.initLazyLoad()
-    }
-
-    if (local_search?.enable === true) {
-      KEEP.initLocalSearch()
-    }
-  }
-  KEEP.initExecute()
-})
+  // 点击回到顶部
+  backToTop.addEventListener('click', function() {
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth'
+    });
+  });
+});
