@@ -24,17 +24,24 @@
 <link rel="icon" href="/image/favicon.ico">
 
 
-<link rel="stylesheet" href="/css/nilin.css">
+<link rel="stylesheet" href="/css/qilin.css">
 <link rel="alternate" type="application/atom+xml" title="逆鳞笔记" href="/atom.xml">
 <meta name="generator" content="Hexo 7.0.0">
 <style>
   :root {
-    --ink: #1b1b1b;
-    --muted: #8b8b8b;
-    --border: #ececec;
-    --gray: #f6f6f4;
-    --accent: #111111;
-    --radius: 0px;
+    --ink: #211f1c;
+    --muted: #7d786f;
+    --border: #e6e1d8;
+    --gray: #f4f1ea;
+    --paper: #faf8f4;
+    --accent: #b5432c;
+    --radius: 2px;
+    --fs-base: 17.0px;
+    --fs-prose: 18.0px;
+    --prose-lh: 2;
+    --font-sans: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "Noto Sans SC", sans-serif;
+    --font-serif: "Noto Serif SC", "Source Han Serif SC", "Songti SC", "STSong", "SimSun", Georgia, serif;
+    --font-head: var(--font-serif);
   }
 </style>
 <script>document.documentElement.classList.add('js');</script>
@@ -46,7 +53,7 @@
   <div class="container header-inner">
     <a class="brand" href="/" aria-label="逆鳞笔记">
       
-      <span class="brand__text">nilin</span>
+      <span class="brand__text">逆鳞笔记</span>
       
     </a>
 
@@ -88,8 +95,6 @@
           <ul class="submenu">
             
             <li><a href="/blog/">全部文章</a></li>
-            
-            <li><a href="/blog/">三列布局</a></li>
             
             <li><a href="/archives/">归档</a></li>
             
@@ -172,8 +177,6 @@
             
             <li><a href="/blog/">全部文章</a></li>
             
-            <li><a href="/blog/">三列布局</a></li>
-            
             <li><a href="/archives/">归档</a></li>
             
             <li><a href="/categories/">分类</a></li>
@@ -222,212 +225,87 @@
 </section>
 
 
-<section class="section section--blog-list">
-  <div class="blog-canvas blog-canvas--wide">
+<section class="section archive">
+  <div class="container page-narrow">
     
-    <div class="blog-grid cols-3">
-      
-      
-<article class="blog-card reveal">
-  <a class="blog-card__cover" href="/19-31c9ea8f60f1/" aria-label="2025年最后一场雪呀">
     
-    <span class="cover-ph" style="--h: 137"><span>2</span></span>
-    
-  </a>
-  <div class="blog-card__body">
-    <div class="blog-card__meta">
-      <time datetime="2025-12-15T11:22:58.000Z">2025.12.15</time>
-      <span class="dot">·</span><span>个人随笔</span>
-      <span class="dot">·</span><span>1 分钟阅读</span>
+    <div class="archive-group reveal">
+      <h2 class="archive-group__title">2025<em>10 篇</em></h2>
+      <ul class="archive-list">
+        
+        <li>
+          <a href="/19-31c9ea8f60f1/">
+            <time>12.15</time>
+            <span class="archive-list__title">2025年最后一场雪呀</span>
+          </a>
+        </li>
+        
+        <li>
+          <a href="/18-a449fd4bd281/">
+            <time>12.04</time>
+            <span class="archive-list__title">最近被抖音里的一首民间小调吸引了</span>
+          </a>
+        </li>
+        
+        <li>
+          <a href="/17-fd6f6f9ec95b/">
+            <time>11.20</time>
+            <span class="archive-list__title">更新一下我的小破站</span>
+          </a>
+        </li>
+        
+        <li>
+          <a href="/16-01e8aeb55021/">
+            <time>10.09</time>
+            <span class="archive-list__title">发现一个感觉非常好的视频分享给你</span>
+          </a>
+        </li>
+        
+        <li>
+          <a href="/15-009515920761/">
+            <time>10.06</time>
+            <span class="archive-list__title">中秋节快乐</span>
+          </a>
+        </li>
+        
+        <li>
+          <a href="/14-f58b3478b50b/">
+            <time>09.08</time>
+            <span class="archive-list__title">家里的台式机折腾日记</span>
+          </a>
+        </li>
+        
+        <li>
+          <a href="/13-6792b58382ac/">
+            <time>03.27</time>
+            <span class="archive-list__title">好看的AI短片-白蛇序章</span>
+          </a>
+        </li>
+        
+        <li>
+          <a href="/12-c3dab5a0b09d/">
+            <time>03.01</time>
+            <span class="archive-list__title">免费域名可以使用一年并且可托管到Cloudflare</span>
+          </a>
+        </li>
+        
+        <li>
+          <a href="/11-117d3a34ae87/">
+            <time>03.01</time>
+            <span class="archive-list__title">利用腾讯元宝和即梦AI生成的视频</span>
+          </a>
+        </li>
+        
+        <li>
+          <a href="/10-c558c206720c/">
+            <time>03.01</time>
+            <span class="archive-list__title">备份hexo本地文件到GitHub</span>
+          </a>
+        </li>
+        
+      </ul>
     </div>
-    <h3 class="blog-card__title"><a href="/19-31c9ea8f60f1/">2025年最后一场雪呀</a></h3>
-    <p class="blog-card__excerpt">话说这2025年马上就要结束了，这应该是2025年的最后一场雪了。今天正好水一篇小短文。 前天下的雪。</p>
-    <a class="link-arrow" href="/19-31c9ea8f60f1/">阅读全文<span aria-hidden="true">→</span></a>
-  </div>
-</article>
-
-      
-      
-<article class="blog-card reveal">
-  <a class="blog-card__cover" href="/18-a449fd4bd281/" aria-label="最近被抖音里的一首民间小调吸引了">
     
-    <span class="cover-ph" style="--h: 5"><span>最</span></span>
-    
-  </a>
-  <div class="blog-card__body">
-    <div class="blog-card__meta">
-      <time datetime="2025-12-04T10:22:06.000Z">2025.12.04</time>
-      <span class="dot">·</span><span>个人随笔</span>
-      <span class="dot">·</span><span>1 分钟阅读</span>
-    </div>
-    <h3 class="blog-card__title"><a href="/18-a449fd4bd281/">最近被抖音里的一首民间小调吸引了</a></h3>
-    <p class="blog-card__excerpt">最近被抖音里的一首民间小调吸引了，想想自己也马上要40了，好像这小调里的词就跟自个的人生轨迹差不多哈。所以是越听约有感觉，越听越是上头。</p>
-    <a class="link-arrow" href="/18-a449fd4bd281/">阅读全文<span aria-hidden="true">→</span></a>
-  </div>
-</article>
-
-      
-      
-<article class="blog-card reveal">
-  <a class="blog-card__cover" href="/17-fd6f6f9ec95b/" aria-label="更新一下我的小破站">
-    
-    <span class="cover-ph" style="--h: 138"><span>更</span></span>
-    
-  </a>
-  <div class="blog-card__body">
-    <div class="blog-card__meta">
-      <time datetime="2025-11-20T14:04:30.000Z">2025.11.20</time>
-      <span class="dot">·</span><span>个人随笔</span>
-      <span class="dot">·</span><span>1 分钟阅读</span>
-    </div>
-    <h3 class="blog-card__title"><a href="/17-fd6f6f9ec95b/">更新一下我的小破站</a></h3>
-    <p class="blog-card__excerpt">打开编辑器，本来想着写点啥呢，却发现脑袋空空，也不知道该写点什么。在查看自己的这个博客的时候发现也很久都没有更新了。 现在既然已经打开编辑器了，就顺手给自己的这个博客除除草吧。毕竟也是很久没咋更新了。 那会查看hexo官网的时候，发现hex…</p>
-    <a class="link-arrow" href="/17-fd6f6f9ec95b/">阅读全文<span aria-hidden="true">→</span></a>
-  </div>
-</article>
-
-      
-      
-<article class="blog-card reveal">
-  <a class="blog-card__cover" href="/16-01e8aeb55021/" aria-label="发现一个感觉非常好的视频分享给你">
-    
-    <span class="cover-ph" style="--h: 323"><span>发</span></span>
-    
-  </a>
-  <div class="blog-card__body">
-    <div class="blog-card__meta">
-      <time datetime="2025-10-09T10:36:14.000Z">2025.10.09</time>
-      <span class="dot">·</span><span>个人随笔</span>
-      <span class="dot">·</span><span>1 分钟阅读</span>
-    </div>
-    <h3 class="blog-card__title"><a href="/16-01e8aeb55021/">发现一个感觉非常好的视频分享给你</a></h3>
-    <p class="blog-card__excerpt">今天在哔哩哔哩里闲逛的时候，发现一个视频感觉非常的有意思，同时也让我深深的思考。 我个人觉得视频不错，所有就把这个视频引入到我的小破站中了 先看视频： 有时候想想确实就是和视频里说的一样。所以我才有这么大的感触。同时如果你看到我的这个小破站…</p>
-    <a class="link-arrow" href="/16-01e8aeb55021/">阅读全文<span aria-hidden="true">→</span></a>
-  </div>
-</article>
-
-      
-      
-<article class="blog-card reveal">
-  <a class="blog-card__cover" href="/15-009515920761/" aria-label="中秋节快乐">
-    
-    <span class="cover-ph" style="--h: 265"><span>中</span></span>
-    
-  </a>
-  <div class="blog-card__body">
-    <div class="blog-card__meta">
-      <time datetime="2025-10-06T14:07:59.000Z">2025.10.06</time>
-      <span class="dot">·</span><span>个人随笔</span>
-      <span class="dot">·</span><span>1 分钟阅读</span>
-    </div>
-    <h3 class="blog-card__title"><a href="/15-009515920761/">中秋节快乐</a></h3>
-    <p class="blog-card__excerpt">中秋节快乐，时间好快，这都下半年了！ 原本是想着写点什么的，也可能是太久不写东西了，在一个肚子里确实也没啥墨水。所以也就是写个中秋节快乐。 再有一个就是普通人的生活，也确实没啥可以记录的。除了上班就是吃饭睡觉。平平淡淡的。</p>
-    <a class="link-arrow" href="/15-009515920761/">阅读全文<span aria-hidden="true">→</span></a>
-  </div>
-</article>
-
-      
-      
-<article class="blog-card reveal">
-  <a class="blog-card__cover" href="/14-f58b3478b50b/" aria-label="家里的台式机折腾日记">
-    
-    <span class="cover-ph" style="--h: 126"><span>家</span></span>
-    
-  </a>
-  <div class="blog-card__body">
-    <div class="blog-card__meta">
-      <time datetime="2025-09-08T10:59:35.000Z">2025.09.08</time>
-      <span class="dot">·</span><span>个人随笔</span>
-      <span class="dot">·</span><span>3 分钟阅读</span>
-    </div>
-    <h3 class="blog-card__title"><a href="/14-f58b3478b50b/">家里的台式机折腾日记</a></h3>
-    <p class="blog-card__excerpt">今天不知道家里的台式机是抽了哪门子的风，突然就不能用了。也是比较悲催的是啥软件也没有保存下来，反正是电脑开不了机了，于是乎：把家里的台式电脑重新折腾了一次，增加一块512的固态硬盘，又重新做了一次系统，后来就是······在台式机上的各种软…</p>
-    <a class="link-arrow" href="/14-f58b3478b50b/">阅读全文<span aria-hidden="true">→</span></a>
-  </div>
-</article>
-
-      
-      
-<article class="blog-card reveal">
-  <a class="blog-card__cover" href="/13-6792b58382ac/" aria-label="好看的AI短片-白蛇序章">
-    
-    <span class="cover-ph" style="--h: 32"><span>好</span></span>
-    
-  </a>
-  <div class="blog-card__body">
-    <div class="blog-card__meta">
-      <time datetime="2025-03-27T15:00:11.000Z">2025.03.27</time>
-      <span class="dot">·</span><span>个人随笔</span>
-      <span class="dot">·</span><span>1 分钟阅读</span>
-    </div>
-    <h3 class="blog-card__title"><a href="/13-6792b58382ac/">好看的AI短片-白蛇序章</a></h3>
-    <p class="blog-card__excerpt">最近在youtube看到一个短片，看介绍说是用AI生成的，看着蛮不错的，尤其是剧情以及里面的人物细节，那表情以及转场的处理是相当丝滑。 我就下载下来了，转头上传到自个的抖音了，虽然它说不让转载，但是我太喜欢了！！！！！ 我也知道这样不好，但…</p>
-    <a class="link-arrow" href="/13-6792b58382ac/">阅读全文<span aria-hidden="true">→</span></a>
-  </div>
-</article>
-
-      
-      
-<article class="blog-card reveal">
-  <a class="blog-card__cover" href="/12-c3dab5a0b09d/" aria-label="免费域名可以使用一年并且可托管到Cloudflare">
-    
-    <span class="cover-ph" style="--h: 340"><span>免</span></span>
-    
-  </a>
-  <div class="blog-card__body">
-    <div class="blog-card__meta">
-      <time datetime="2025-03-01T14:28:55.000Z">2025.03.01</time>
-      <span class="dot">·</span><span>免费资源</span>
-      <span class="dot">·</span><span>3 分钟阅读</span>
-    </div>
-    <h3 class="blog-card__title"><a href="/12-c3dab5a0b09d/">免费域名可以使用一年并且可托管到Cloudflare</a></h3>
-    <p class="blog-card__excerpt">相信很多小伙伴跟我有一样的一些需求，那就是在准备测试一些东西的时候，会使用到域名，但是在当时又不想使用自己的主域名，就算在买一个，也觉得是有点浪费，但是又需要这么一个域名。 现在就有了一个免费二级域名，可以使用一年的时间，并且可以托管到Cl…</p>
-    <a class="link-arrow" href="/12-c3dab5a0b09d/">阅读全文<span aria-hidden="true">→</span></a>
-  </div>
-</article>
-
-      
-      
-<article class="blog-card reveal">
-  <a class="blog-card__cover" href="/11-117d3a34ae87/" aria-label="利用腾讯元宝和即梦AI生成的视频">
-    
-    <span class="cover-ph" style="--h: 249"><span>利</span></span>
-    
-  </a>
-  <div class="blog-card__body">
-    <div class="blog-card__meta">
-      <time datetime="2025-03-01T12:29:47.000Z">2025.03.01</time>
-      <span class="dot">·</span><span>个人随笔</span>
-      <span class="dot">·</span><span>1 分钟阅读</span>
-    </div>
-    <h3 class="blog-card__title"><a href="/11-117d3a34ae87/">利用腾讯元宝和即梦AI生成的视频</a></h3>
-    <p class="blog-card__excerpt">现在大火的AI工具满天飞，尤其是 DeepSeek 最火。 咱看到那么多的铺天盖地的新闻，咱也想试试这个最新版的AI工具，尤其是传说中满血版本的 DeepSeek 。 现在也有很多人发布使用满血版的 DeepSeek 教程，咱也试试怎么能无…</p>
-    <a class="link-arrow" href="/11-117d3a34ae87/">阅读全文<span aria-hidden="true">→</span></a>
-  </div>
-</article>
-
-      
-      
-<article class="blog-card reveal">
-  <a class="blog-card__cover" href="/10-c558c206720c/" aria-label="备份hexo本地文件到GitHub">
-    
-    <span class="cover-ph" style="--h: 134"><span>备</span></span>
-    
-  </a>
-  <div class="blog-card__body">
-    <div class="blog-card__meta">
-      <time datetime="2025-03-01T07:32:57.000Z">2025.03.01</time>
-      <span class="dot">·</span><span>个人随笔</span>
-      <span class="dot">·</span><span>1 分钟阅读</span>
-    </div>
-    <h3 class="blog-card__title"><a href="/10-c558c206720c/">备份hexo本地文件到GitHub</a></h3>
-    <p class="blog-card__excerpt">记录一下把hexo在本地的文件备份到GitHub的办法，以前一直觉得hexo在本地的办法是最稳妥的，但是自从给电脑重装系统之后才感觉hexo在本地的文件，在往回找的时候才是真的费劲。 正好在网上找到一些方法思路，与其只有一个本地文件，不如试…</p>
-    <a class="link-arrow" href="/10-c558c206720c/">阅读全文<span aria-hidden="true">→</span></a>
-  </div>
-</article>
-
-      
-    </div>
     
   </div>
   <div class="container">
@@ -458,7 +336,7 @@
   <div class="container">
     <div class="footer-top">
       <div class="footer-brand">
-        <a class="footer-logo" href="/">nilin</a>
+        <a class="footer-logo" href="/">逆鳞笔记</a>
         <p class="footer-tagline">记录设计、代码与文字之间的那些事</p>
       </div>
       <ul class="footer-social">
@@ -473,7 +351,7 @@
     </div>
     <div class="footer-bottom">
       <p>&copy; 2024–2026 逆鳞笔记. 保留所有权利。</p>
-      <p class="footer-meta">由 <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a> 驱动 · 主题 <span>nilin</span></p>
+      <p class="footer-meta">由 <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a> 驱动 · 主题 <span>qilin</span></p>
     </div>
   </div>
 </footer>
@@ -488,6 +366,6 @@
     <img class="lightbox__img" src="" alt="">
     <p class="lightbox__caption"></p>
   </div>
-  <script src="/js/nilin.js" defer></script>
+  <script src="/js/qilin.js" defer></script>
 </body>
 </html>

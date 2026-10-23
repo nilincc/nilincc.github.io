@@ -24,17 +24,24 @@
 <link rel="icon" href="/image/favicon.ico">
 
 
-<link rel="stylesheet" href="/css/nilin.css">
+<link rel="stylesheet" href="/css/qilin.css">
 <link rel="alternate" type="application/atom+xml" title="逆鳞笔记" href="/atom.xml">
 <meta name="generator" content="Hexo 7.0.0">
 <style>
   :root {
-    --ink: #1b1b1b;
-    --muted: #8b8b8b;
-    --border: #ececec;
-    --gray: #f6f6f4;
-    --accent: #111111;
-    --radius: 0px;
+    --ink: #211f1c;
+    --muted: #7d786f;
+    --border: #e6e1d8;
+    --gray: #f4f1ea;
+    --paper: #faf8f4;
+    --accent: #b5432c;
+    --radius: 2px;
+    --fs-base: 17.0px;
+    --fs-prose: 18.0px;
+    --prose-lh: 2;
+    --font-sans: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "Noto Sans SC", sans-serif;
+    --font-serif: "Noto Serif SC", "Source Han Serif SC", "Songti SC", "STSong", "SimSun", Georgia, serif;
+    --font-head: var(--font-serif);
   }
 </style>
 <script>document.documentElement.classList.add('js');</script>
@@ -46,7 +53,7 @@
   <div class="container header-inner">
     <a class="brand" href="/" aria-label="逆鳞笔记">
       
-      <span class="brand__text">nilin</span>
+      <span class="brand__text">逆鳞笔记</span>
       
     </a>
 
@@ -88,8 +95,6 @@
           <ul class="submenu">
             
             <li><a href="/blog/">全部文章</a></li>
-            
-            <li><a href="/blog/">三列布局</a></li>
             
             <li><a href="/archives/">归档</a></li>
             
@@ -172,8 +177,6 @@
             
             <li><a href="/blog/">全部文章</a></li>
             
-            <li><a href="/blog/">三列布局</a></li>
-            
             <li><a href="/archives/">归档</a></li>
             
             <li><a href="/categories/">分类</a></li>
@@ -222,52 +225,31 @@
 </section>
 
 
-<section class="section section--blog-list">
-  <div class="blog-canvas blog-canvas--wide">
+<section class="section archive">
+  <div class="container page-narrow">
     
-    <div class="blog-grid cols-3">
-      
-      
-<article class="blog-card reveal">
-  <a class="blog-card__cover" href="/19-31c9ea8f60f1/" aria-label="2025年最后一场雪呀">
     
-    <span class="cover-ph" style="--h: 137"><span>2</span></span>
-    
-  </a>
-  <div class="blog-card__body">
-    <div class="blog-card__meta">
-      <time datetime="2025-12-15T11:22:58.000Z">2025.12.15</time>
-      <span class="dot">·</span><span>个人随笔</span>
-      <span class="dot">·</span><span>1 分钟阅读</span>
+    <div class="archive-group reveal">
+      <h2 class="archive-group__title">2025<em>2 篇</em></h2>
+      <ul class="archive-list">
+        
+        <li>
+          <a href="/19-31c9ea8f60f1/">
+            <time>12.15</time>
+            <span class="archive-list__title">2025年最后一场雪呀</span>
+          </a>
+        </li>
+        
+        <li>
+          <a href="/18-a449fd4bd281/">
+            <time>12.04</time>
+            <span class="archive-list__title">最近被抖音里的一首民间小调吸引了</span>
+          </a>
+        </li>
+        
+      </ul>
     </div>
-    <h3 class="blog-card__title"><a href="/19-31c9ea8f60f1/">2025年最后一场雪呀</a></h3>
-    <p class="blog-card__excerpt">话说这2025年马上就要结束了，这应该是2025年的最后一场雪了。今天正好水一篇小短文。 前天下的雪。</p>
-    <a class="link-arrow" href="/19-31c9ea8f60f1/">阅读全文<span aria-hidden="true">→</span></a>
-  </div>
-</article>
-
-      
-      
-<article class="blog-card reveal">
-  <a class="blog-card__cover" href="/18-a449fd4bd281/" aria-label="最近被抖音里的一首民间小调吸引了">
     
-    <span class="cover-ph" style="--h: 5"><span>最</span></span>
-    
-  </a>
-  <div class="blog-card__body">
-    <div class="blog-card__meta">
-      <time datetime="2025-12-04T10:22:06.000Z">2025.12.04</time>
-      <span class="dot">·</span><span>个人随笔</span>
-      <span class="dot">·</span><span>1 分钟阅读</span>
-    </div>
-    <h3 class="blog-card__title"><a href="/18-a449fd4bd281/">最近被抖音里的一首民间小调吸引了</a></h3>
-    <p class="blog-card__excerpt">最近被抖音里的一首民间小调吸引了，想想自己也马上要40了，好像这小调里的词就跟自个的人生轨迹差不多哈。所以是越听约有感觉，越听越是上头。</p>
-    <a class="link-arrow" href="/18-a449fd4bd281/">阅读全文<span aria-hidden="true">→</span></a>
-  </div>
-</article>
-
-      
-    </div>
     
   </div>
   <div class="container">
@@ -280,7 +262,7 @@
   <div class="container">
     <div class="footer-top">
       <div class="footer-brand">
-        <a class="footer-logo" href="/">nilin</a>
+        <a class="footer-logo" href="/">逆鳞笔记</a>
         <p class="footer-tagline">记录设计、代码与文字之间的那些事</p>
       </div>
       <ul class="footer-social">
@@ -295,7 +277,7 @@
     </div>
     <div class="footer-bottom">
       <p>&copy; 2024–2026 逆鳞笔记. 保留所有权利。</p>
-      <p class="footer-meta">由 <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a> 驱动 · 主题 <span>nilin</span></p>
+      <p class="footer-meta">由 <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a> 驱动 · 主题 <span>qilin</span></p>
     </div>
   </div>
 </footer>
@@ -310,6 +292,6 @@
     <img class="lightbox__img" src="" alt="">
     <p class="lightbox__caption"></p>
   </div>
-  <script src="/js/nilin.js" defer></script>
+  <script src="/js/qilin.js" defer></script>
 </body>
 </html>

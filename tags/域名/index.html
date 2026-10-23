@@ -24,17 +24,24 @@
 <link rel="icon" href="/image/favicon.ico">
 
 
-<link rel="stylesheet" href="/css/nilin.css">
+<link rel="stylesheet" href="/css/qilin.css">
 <link rel="alternate" type="application/atom+xml" title="逆鳞笔记" href="/atom.xml">
 <meta name="generator" content="Hexo 7.0.0">
 <style>
   :root {
-    --ink: #1b1b1b;
-    --muted: #8b8b8b;
-    --border: #ececec;
-    --gray: #f6f6f4;
-    --accent: #111111;
-    --radius: 0px;
+    --ink: #211f1c;
+    --muted: #7d786f;
+    --border: #e6e1d8;
+    --gray: #f4f1ea;
+    --paper: #faf8f4;
+    --accent: #b5432c;
+    --radius: 2px;
+    --fs-base: 17.0px;
+    --fs-prose: 18.0px;
+    --prose-lh: 2;
+    --font-sans: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "Noto Sans SC", sans-serif;
+    --font-serif: "Noto Serif SC", "Source Han Serif SC", "Songti SC", "STSong", "SimSun", Georgia, serif;
+    --font-head: var(--font-serif);
   }
 </style>
 <script>document.documentElement.classList.add('js');</script>
@@ -46,7 +53,7 @@
   <div class="container header-inner">
     <a class="brand" href="/" aria-label="逆鳞笔记">
       
-      <span class="brand__text">nilin</span>
+      <span class="brand__text">逆鳞笔记</span>
       
     </a>
 
@@ -88,8 +95,6 @@
           <ul class="submenu">
             
             <li><a href="/blog/">全部文章</a></li>
-            
-            <li><a href="/blog/">三列布局</a></li>
             
             <li><a href="/archives/">归档</a></li>
             
@@ -172,8 +177,6 @@
             
             <li><a href="/blog/">全部文章</a></li>
             
-            <li><a href="/blog/">三列布局</a></li>
-            
             <li><a href="/archives/">归档</a></li>
             
             <li><a href="/categories/">分类</a></li>
@@ -235,7 +238,16 @@
 <article class="blog-card reveal">
   <a class="blog-card__cover" href="/12-c3dab5a0b09d/" aria-label="免费域名可以使用一年并且可托管到Cloudflare">
     
-    <span class="cover-ph" style="--h: 340"><span>免</span></span>
+    
+<svg class="ph-art" viewBox="0 0 400 250" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+  <rect width="400" height="250" fill="hsl(340, 18%, 92%)"/>
+  
+  <circle cx="272" cy="108" r="82" fill="none" stroke="hsl(340, 12%, 58%)" stroke-width="2"/>
+  <circle cx="138" cy="172" r="34" fill="hsl(340, 20%, 82%)"/>
+  <path d="M60 216h280" stroke="hsl(340, 12%, 58%)" stroke-width="2"/>
+  
+</svg>
+
     
   </a>
   <div class="blog-card__body">
@@ -245,7 +257,7 @@
       <span class="dot">·</span><span>3 分钟阅读</span>
     </div>
     <h3 class="blog-card__title"><a href="/12-c3dab5a0b09d/">免费域名可以使用一年并且可托管到Cloudflare</a></h3>
-    <p class="blog-card__excerpt">相信很多小伙伴跟我有一样的一些需求，那就是在准备测试一些东西的时候，会使用到域名，但是在当时又不想使用自己的主域名，就算在买一个，也觉得是有点浪费，但是又需要这么一个域名。 现在就有了一个免费二级域名，可以使用一年的时间，并且可以托管到Cl…</p>
+    <p class="blog-card__excerpt">相信很多小伙伴跟我有一样的一些需求，那就是在准备测试一些东西的时候，会使用到域名，但是在当时又不想使用自己的主域名，就算在买一个，也觉得是有点浪费，但是又需要这么一个域名。 现在就有了一个免费二级域名，可以使用一年的时间，并且可以托管到Cloudflare， 这个就完美的解决我们…</p>
     <a class="link-arrow" href="/12-c3dab5a0b09d/">阅读全文<span aria-hidden="true">→</span></a>
   </div>
 </article>
@@ -255,7 +267,16 @@
 <article class="blog-card reveal">
   <a class="blog-card__cover" href="/8-58a527a8aeb6/" aria-label="最近入手一个短域名-36k-net">
     
-    <span class="cover-ph" style="--h: 165"><span>最</span></span>
+    
+<svg class="ph-art" viewBox="0 0 400 250" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+  <rect width="400" height="250" fill="hsl(165, 18%, 92%)"/>
+  
+  <path d="M88 202a112 112 0 0 1 224 0" fill="none" stroke="hsl(165, 12%, 58%)" stroke-width="2"/>
+  <path d="M58 202h284" stroke="hsl(165, 12%, 58%)" stroke-width="2"/>
+  <circle cx="200" cy="148" r="17" fill="var(--accent)" opacity=".85"/>
+  
+</svg>
+
     
   </a>
   <div class="blog-card__body">
@@ -265,7 +286,7 @@
       <span class="dot">·</span><span>1 分钟阅读</span>
     </div>
     <h3 class="blog-card__title"><a href="/8-58a527a8aeb6/">最近入手一个短域名-36k-net</a></h3>
-    <p class="blog-card__excerpt">最近入手一个短域名，36k.net。 本来注册的时候就想着写篇文章记录一下，毕竟这么短的域名，还是.net的。结果由于有别的事情就给耽搁了。正好今天有空就潦草的写一下，记录一下这个欢乐的时刻。 这个域名算是比较简短的，又好记。 注册这个域名…</p>
+    <p class="blog-card__excerpt">最近入手一个短域名，36k.net。 本来注册的时候就想着写篇文章记录一下，毕竟这么短的域名，还是.net的。结果由于有别的事情就给耽搁了。正好今天有空就潦草的写一下，记录一下这个欢乐的时刻。 这个域名算是比较简短的，又好记。 注册这个域名我可以做什么？ 不管是做个人介绍还是博客…</p>
     <a class="link-arrow" href="/8-58a527a8aeb6/">阅读全文<span aria-hidden="true">→</span></a>
   </div>
 </article>
@@ -284,7 +305,7 @@
   <div class="container">
     <div class="footer-top">
       <div class="footer-brand">
-        <a class="footer-logo" href="/">nilin</a>
+        <a class="footer-logo" href="/">逆鳞笔记</a>
         <p class="footer-tagline">记录设计、代码与文字之间的那些事</p>
       </div>
       <ul class="footer-social">
@@ -299,7 +320,7 @@
     </div>
     <div class="footer-bottom">
       <p>&copy; 2024–2026 逆鳞笔记. 保留所有权利。</p>
-      <p class="footer-meta">由 <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a> 驱动 · 主题 <span>nilin</span></p>
+      <p class="footer-meta">由 <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a> 驱动 · 主题 <span>qilin</span></p>
     </div>
   </div>
 </footer>
@@ -314,6 +335,6 @@
     <img class="lightbox__img" src="" alt="">
     <p class="lightbox__caption"></p>
   </div>
-  <script src="/js/nilin.js" defer></script>
+  <script src="/js/qilin.js" defer></script>
 </body>
 </html>

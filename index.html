@@ -24,17 +24,24 @@
 <link rel="icon" href="/image/favicon.ico">
 
 
-<link rel="stylesheet" href="/css/nilin.css">
+<link rel="stylesheet" href="/css/qilin.css">
 <link rel="alternate" type="application/atom+xml" title="逆鳞笔记" href="/atom.xml">
 <meta name="generator" content="Hexo 7.0.0">
 <style>
   :root {
-    --ink: #1b1b1b;
-    --muted: #8b8b8b;
-    --border: #ececec;
-    --gray: #f6f6f4;
-    --accent: #111111;
-    --radius: 0px;
+    --ink: #211f1c;
+    --muted: #7d786f;
+    --border: #e6e1d8;
+    --gray: #f4f1ea;
+    --paper: #faf8f4;
+    --accent: #b5432c;
+    --radius: 2px;
+    --fs-base: 17.0px;
+    --fs-prose: 18.0px;
+    --prose-lh: 2;
+    --font-sans: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "Noto Sans SC", sans-serif;
+    --font-serif: "Noto Serif SC", "Source Han Serif SC", "Songti SC", "STSong", "SimSun", Georgia, serif;
+    --font-head: var(--font-serif);
   }
 </style>
 <script>document.documentElement.classList.add('js');</script>
@@ -46,7 +53,7 @@
   <div class="container header-inner">
     <a class="brand" href="/" aria-label="逆鳞笔记">
       
-      <span class="brand__text">nilin</span>
+      <span class="brand__text">逆鳞笔记</span>
       
     </a>
 
@@ -88,8 +95,6 @@
           <ul class="submenu">
             
             <li><a href="/blog/">全部文章</a></li>
-            
-            <li><a href="/blog/">三列布局</a></li>
             
             <li><a href="/archives/">归档</a></li>
             
@@ -172,8 +177,6 @@
             
             <li><a href="/blog/">全部文章</a></li>
             
-            <li><a href="/blog/">三列布局</a></li>
-            
             <li><a href="/archives/">归档</a></li>
             
             <li><a href="/categories/">分类</a></li>
@@ -213,7 +216,7 @@
       <p class="hero__note"><span>现居中国</span><span>接受项目合作</span></p>
     </div>
     <div class="hero__content reveal" data-delay="1">
-      <p class="hero__hello"><span class="hero__hello-line" aria-hidden="true"></span>你好!!</p>
+      <p class="hero__hello"><span class="hero__hello-line" aria-hidden="true"></span>你好</p>
       <h1 class="hero__title">我是 <strong>逆鳞</strong></h1>
       <p class="hero__role">网页与平面设计师</p>
       <p class="hero__desc">记录产品、设计与代码之间的那些事。喜欢干净的白、克制的排版，以及能慢慢读的文字。</p>
@@ -422,34 +425,6 @@
 </article>
 
         
-        
-<article class="pf-card span-6" data-cats="印刷|品牌设计">
-  <div class="pf-media" style="--ratio: 1.25">
-    <a class="pf-media__link" href="/portfolio/fold/" aria-label="Fold">
-      
-      <img src="/images/nilin/work-8.svg" alt="Fold" loading="lazy" width="1200" height="1500">
-      
-    </a>
-    <div class="pf-overlay">
-      <a class="pf-action" href="/portfolio/fold/" aria-label="Fold">
-        <svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true"><path d="M10 14a4 4 0 0 0 5.7 0l3-3a4 4 0 0 0-5.7-5.7l-1.6 1.6M14 10a4 4 0 0 0-5.7 0l-3 3a4 4 0 0 0 5.7 5.7l1.6-1.6" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="square"/></svg>
-      </a>
-      
-      <button class="pf-action js-lightbox" type="button" data-src="/images/nilin/work-8.svg" data-caption="Fold" aria-label="预览大图">
-        <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path d="M12 5v14M5 12h14" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="square"/></svg>
-      </button>
-      
-    </div>
-  </div>
-  
-  <div class="pf-caption">
-    <h3><a href="/portfolio/fold/">Fold</a></h3>
-    <span>印刷 · 品牌设计</span>
-  </div>
-  
-</article>
-
-        
       </div>
 
       <p class="pf-empty js-pf-empty" hidden>还没有作品</p>
@@ -477,7 +452,15 @@
 <article class="blog-card reveal">
   <a class="blog-card__cover" href="/22-15e68b2befc3/" aria-label="我靠现在的AI更加智能和好用了">
     
-    <span class="cover-ph" style="--h: 123"><span>我</span></span>
+    
+<svg class="ph-art" viewBox="0 0 400 250" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+  <rect width="400" height="250" fill="hsl(123, 18%, 92%)"/>
+  
+  <path d="M40 212L204 38M124 222L306 58" stroke="hsl(123, 12%, 58%)" stroke-width="2"/>
+  <circle cx="308" cy="182" r="42" fill="hsl(123, 20%, 82%)"/>
+  
+</svg>
+
     
   </a>
   <div class="blog-card__body">
@@ -487,7 +470,7 @@
       <span class="dot">·</span><span>1 分钟阅读</span>
     </div>
     <h3 class="blog-card__title"><a href="/22-15e68b2befc3/">我靠现在的AI更加智能和好用了</a></h3>
-    <p class="blog-card__excerpt">卧槽，这才多久啊。现在的AI真特么的智能啊，尤其是现在比较火的AI-workbuddy，你现在看到的hexo主题就是利用workbuddy自动生成的，我全程基本上不咋动手，除了给与一定的权限和半路上的一点点确认需求的点击，其他的方面完全都是…</p>
+    <p class="blog-card__excerpt">卧槽，这才多久啊。现在的AI真特么的智能啊，尤其是现在比较火的AI-workbuddy，你现在看到的hexo主题就是利用workbuddy自动生成的，我全程基本上不咋动手，除了给与一定的权限和半路上的一点点确认需求的点击，其他的方面完全都是workbuddy自己独立完成和修改，唯…</p>
     <a class="link-arrow" href="/22-15e68b2befc3/">阅读全文<span aria-hidden="true">→</span></a>
   </div>
 </article>
@@ -497,7 +480,16 @@
 <article class="blog-card reveal">
   <a class="blog-card__cover" href="/21-e84c6e7389f7/" aria-label="给我的小破站用AI写了一个简单的主题">
     
-    <span class="cover-ph" style="--h: 285"><span>给</span></span>
+    
+<svg class="ph-art" viewBox="0 0 400 250" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+  <rect width="400" height="250" fill="hsl(285, 18%, 92%)"/>
+  
+  <path d="M200 48l112 194H88z" fill="hsl(285, 20%, 82%)"/>
+  <path d="M200 48l112 194H88z" fill="none" stroke="hsl(285, 12%, 58%)" stroke-width="2"/>
+  <circle cx="200" cy="162" r="14" fill="var(--accent)" opacity=".85"/>
+  
+</svg>
+
     
   </a>
   <div class="blog-card__body">
@@ -517,7 +509,16 @@
 <article class="blog-card reveal">
   <a class="blog-card__cover" href="/20-e588034ec95c/" aria-label="中产斩杀线的本质与中美社会差异">
     
-    <span class="cover-ph" style="--h: 5"><span>中</span></span>
+    
+<svg class="ph-art" viewBox="0 0 400 250" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+  <rect width="400" height="250" fill="hsl(5, 18%, 92%)"/>
+  
+  <circle cx="272" cy="108" r="82" fill="none" stroke="hsl(5, 12%, 58%)" stroke-width="2"/>
+  <circle cx="138" cy="172" r="34" fill="hsl(5, 20%, 82%)"/>
+  <path d="M60 216h280" stroke="hsl(5, 12%, 58%)" stroke-width="2"/>
+  
+</svg>
+
     
   </a>
   <div class="blog-card__body">
@@ -527,7 +528,7 @@
       <span class="dot">·</span><span>4 分钟阅读</span>
     </div>
     <h3 class="blog-card__title"><a href="/20-e588034ec95c/">中产斩杀线的本质与中美社会差异</a></h3>
-    <p class="blog-card__excerpt">很多朋友都在问 “斩杀线” 是什么，其实这个非专业词汇的核心，是中产阶层在遭遇人生或事业波动时，可能面临快速阶层滑落、一无所有的风险。之所以 “斩杀线” 只与中产相关，是因为社会底层群体本就处于资源匮乏的状态，不存在 “滑落” 的空间，而中…</p>
+    <p class="blog-card__excerpt">很多朋友都在问 “斩杀线” 是什么，其实这个非专业词汇的核心，是中产阶层在遭遇人生或事业波动时，可能面临快速阶层滑落、一无所有的风险。之所以 “斩杀线” 只与中产相关，是因为社会底层群体本就处于资源匮乏的状态，不存在 “滑落” 的空间，而中产阶层看似拥有体面生活，实则暗藏脆弱性…</p>
     <a class="link-arrow" href="/20-e588034ec95c/">阅读全文<span aria-hidden="true">→</span></a>
   </div>
 </article>
@@ -550,7 +551,7 @@
   <div class="container">
     <div class="footer-top">
       <div class="footer-brand">
-        <a class="footer-logo" href="/">nilin</a>
+        <a class="footer-logo" href="/">逆鳞笔记</a>
         <p class="footer-tagline">记录设计、代码与文字之间的那些事</p>
       </div>
       <ul class="footer-social">
@@ -565,7 +566,7 @@
     </div>
     <div class="footer-bottom">
       <p>&copy; 2024–2026 逆鳞笔记. 保留所有权利。</p>
-      <p class="footer-meta">由 <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a> 驱动 · 主题 <span>nilin</span></p>
+      <p class="footer-meta">由 <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a> 驱动 · 主题 <span>qilin</span></p>
     </div>
   </div>
 </footer>
@@ -580,6 +581,6 @@
     <img class="lightbox__img" src="" alt="">
     <p class="lightbox__caption"></p>
   </div>
-  <script src="/js/nilin.js" defer></script>
+  <script src="/js/qilin.js" defer></script>
 </body>
 </html>

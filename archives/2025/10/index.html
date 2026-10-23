@@ -24,17 +24,24 @@
 <link rel="icon" href="/image/favicon.ico">
 
 
-<link rel="stylesheet" href="/css/nilin.css">
+<link rel="stylesheet" href="/css/qilin.css">
 <link rel="alternate" type="application/atom+xml" title="逆鳞笔记" href="/atom.xml">
 <meta name="generator" content="Hexo 7.0.0">
 <style>
   :root {
-    --ink: #1b1b1b;
-    --muted: #8b8b8b;
-    --border: #ececec;
-    --gray: #f6f6f4;
-    --accent: #111111;
-    --radius: 0px;
+    --ink: #211f1c;
+    --muted: #7d786f;
+    --border: #e6e1d8;
+    --gray: #f4f1ea;
+    --paper: #faf8f4;
+    --accent: #b5432c;
+    --radius: 2px;
+    --fs-base: 17.0px;
+    --fs-prose: 18.0px;
+    --prose-lh: 2;
+    --font-sans: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "Noto Sans SC", sans-serif;
+    --font-serif: "Noto Serif SC", "Source Han Serif SC", "Songti SC", "STSong", "SimSun", Georgia, serif;
+    --font-head: var(--font-serif);
   }
 </style>
 <script>document.documentElement.classList.add('js');</script>
@@ -46,7 +53,7 @@
   <div class="container header-inner">
     <a class="brand" href="/" aria-label="逆鳞笔记">
       
-      <span class="brand__text">nilin</span>
+      <span class="brand__text">逆鳞笔记</span>
       
     </a>
 
@@ -88,8 +95,6 @@
           <ul class="submenu">
             
             <li><a href="/blog/">全部文章</a></li>
-            
-            <li><a href="/blog/">三列布局</a></li>
             
             <li><a href="/archives/">归档</a></li>
             
@@ -172,8 +177,6 @@
             
             <li><a href="/blog/">全部文章</a></li>
             
-            <li><a href="/blog/">三列布局</a></li>
-            
             <li><a href="/archives/">归档</a></li>
             
             <li><a href="/categories/">分类</a></li>
@@ -222,52 +225,31 @@
 </section>
 
 
-<section class="section section--blog-list">
-  <div class="blog-canvas blog-canvas--wide">
+<section class="section archive">
+  <div class="container page-narrow">
     
-    <div class="blog-grid cols-3">
-      
-      
-<article class="blog-card reveal">
-  <a class="blog-card__cover" href="/16-01e8aeb55021/" aria-label="发现一个感觉非常好的视频分享给你">
     
-    <span class="cover-ph" style="--h: 323"><span>发</span></span>
-    
-  </a>
-  <div class="blog-card__body">
-    <div class="blog-card__meta">
-      <time datetime="2025-10-09T10:36:14.000Z">2025.10.09</time>
-      <span class="dot">·</span><span>个人随笔</span>
-      <span class="dot">·</span><span>1 分钟阅读</span>
+    <div class="archive-group reveal">
+      <h2 class="archive-group__title">2025<em>2 篇</em></h2>
+      <ul class="archive-list">
+        
+        <li>
+          <a href="/16-01e8aeb55021/">
+            <time>10.09</time>
+            <span class="archive-list__title">发现一个感觉非常好的视频分享给你</span>
+          </a>
+        </li>
+        
+        <li>
+          <a href="/15-009515920761/">
+            <time>10.06</time>
+            <span class="archive-list__title">中秋节快乐</span>
+          </a>
+        </li>
+        
+      </ul>
     </div>
-    <h3 class="blog-card__title"><a href="/16-01e8aeb55021/">发现一个感觉非常好的视频分享给你</a></h3>
-    <p class="blog-card__excerpt">今天在哔哩哔哩里闲逛的时候，发现一个视频感觉非常的有意思，同时也让我深深的思考。 我个人觉得视频不错，所有就把这个视频引入到我的小破站中了 先看视频： 有时候想想确实就是和视频里说的一样。所以我才有这么大的感触。同时如果你看到我的这个小破站…</p>
-    <a class="link-arrow" href="/16-01e8aeb55021/">阅读全文<span aria-hidden="true">→</span></a>
-  </div>
-</article>
-
-      
-      
-<article class="blog-card reveal">
-  <a class="blog-card__cover" href="/15-009515920761/" aria-label="中秋节快乐">
     
-    <span class="cover-ph" style="--h: 265"><span>中</span></span>
-    
-  </a>
-  <div class="blog-card__body">
-    <div class="blog-card__meta">
-      <time datetime="2025-10-06T14:07:59.000Z">2025.10.06</time>
-      <span class="dot">·</span><span>个人随笔</span>
-      <span class="dot">·</span><span>1 分钟阅读</span>
-    </div>
-    <h3 class="blog-card__title"><a href="/15-009515920761/">中秋节快乐</a></h3>
-    <p class="blog-card__excerpt">中秋节快乐，时间好快，这都下半年了！ 原本是想着写点什么的，也可能是太久不写东西了，在一个肚子里确实也没啥墨水。所以也就是写个中秋节快乐。 再有一个就是普通人的生活，也确实没啥可以记录的。除了上班就是吃饭睡觉。平平淡淡的。</p>
-    <a class="link-arrow" href="/15-009515920761/">阅读全文<span aria-hidden="true">→</span></a>
-  </div>
-</article>
-
-      
-    </div>
     
   </div>
   <div class="container">
@@ -280,7 +262,7 @@
   <div class="container">
     <div class="footer-top">
       <div class="footer-brand">
-        <a class="footer-logo" href="/">nilin</a>
+        <a class="footer-logo" href="/">逆鳞笔记</a>
         <p class="footer-tagline">记录设计、代码与文字之间的那些事</p>
       </div>
       <ul class="footer-social">
@@ -295,7 +277,7 @@
     </div>
     <div class="footer-bottom">
       <p>&copy; 2024–2026 逆鳞笔记. 保留所有权利。</p>
-      <p class="footer-meta">由 <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a> 驱动 · 主题 <span>nilin</span></p>
+      <p class="footer-meta">由 <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a> 驱动 · 主题 <span>qilin</span></p>
     </div>
   </div>
 </footer>
@@ -310,6 +292,6 @@
     <img class="lightbox__img" src="" alt="">
     <p class="lightbox__caption"></p>
   </div>
-  <script src="/js/nilin.js" defer></script>
+  <script src="/js/qilin.js" defer></script>
 </body>
 </html>

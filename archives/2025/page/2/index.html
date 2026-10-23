@@ -24,17 +24,24 @@
 <link rel="icon" href="/image/favicon.ico">
 
 
-<link rel="stylesheet" href="/css/nilin.css">
+<link rel="stylesheet" href="/css/qilin.css">
 <link rel="alternate" type="application/atom+xml" title="逆鳞笔记" href="/atom.xml">
 <meta name="generator" content="Hexo 7.0.0">
 <style>
   :root {
-    --ink: #1b1b1b;
-    --muted: #8b8b8b;
-    --border: #ececec;
-    --gray: #f6f6f4;
-    --accent: #111111;
-    --radius: 0px;
+    --ink: #211f1c;
+    --muted: #7d786f;
+    --border: #e6e1d8;
+    --gray: #f4f1ea;
+    --paper: #faf8f4;
+    --accent: #b5432c;
+    --radius: 2px;
+    --fs-base: 17.0px;
+    --fs-prose: 18.0px;
+    --prose-lh: 2;
+    --font-sans: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "Noto Sans SC", sans-serif;
+    --font-serif: "Noto Serif SC", "Source Han Serif SC", "Songti SC", "STSong", "SimSun", Georgia, serif;
+    --font-head: var(--font-serif);
   }
 </style>
 <script>document.documentElement.classList.add('js');</script>
@@ -46,7 +53,7 @@
   <div class="container header-inner">
     <a class="brand" href="/" aria-label="逆鳞笔记">
       
-      <span class="brand__text">nilin</span>
+      <span class="brand__text">逆鳞笔记</span>
       
     </a>
 
@@ -88,8 +95,6 @@
           <ul class="submenu">
             
             <li><a href="/blog/">全部文章</a></li>
-            
-            <li><a href="/blog/">三列布局</a></li>
             
             <li><a href="/archives/">归档</a></li>
             
@@ -172,8 +177,6 @@
             
             <li><a href="/blog/">全部文章</a></li>
             
-            <li><a href="/blog/">三列布局</a></li>
-            
             <li><a href="/archives/">归档</a></li>
             
             <li><a href="/categories/">分类</a></li>
@@ -222,132 +225,59 @@
 </section>
 
 
-<section class="section section--blog-list">
-  <div class="blog-canvas blog-canvas--wide">
+<section class="section archive">
+  <div class="container page-narrow">
     
-    <div class="blog-grid cols-3">
-      
-      
-<article class="blog-card reveal">
-  <a class="blog-card__cover" href="/9-5e55625601f9/" aria-label="记录搭建docsify">
     
-    <span class="cover-ph" style="--h: 207"><span>记</span></span>
-    
-  </a>
-  <div class="blog-card__body">
-    <div class="blog-card__meta">
-      <time datetime="2025-02-22T08:24:01.000Z">2025.02.22</time>
-      <span class="dot">·</span><span>个人随笔</span>
-      <span class="dot">·</span><span>4 分钟阅读</span>
+    <div class="archive-group reveal">
+      <h2 class="archive-group__title">2025<em>6 篇</em></h2>
+      <ul class="archive-list">
+        
+        <li>
+          <a href="/9-5e55625601f9/">
+            <time>02.22</time>
+            <span class="archive-list__title">记录搭建docsify</span>
+          </a>
+        </li>
+        
+        <li>
+          <a href="/8-58a527a8aeb6/">
+            <time>02.17</time>
+            <span class="archive-list__title">最近入手一个短域名-36k-net</span>
+          </a>
+        </li>
+        
+        <li>
+          <a href="/7-77da44eeb43a/">
+            <time>02.11</time>
+            <span class="archive-list__title">可以上传视频并内嵌到自己博文中的外链平台</span>
+          </a>
+        </li>
+        
+        <li>
+          <a href="/6-a2f2330bb915/">
+            <time>01.31</time>
+            <span class="archive-list__title">2025春节快乐</span>
+          </a>
+        </li>
+        
+        <li>
+          <a href="/5-0912082f3b64/">
+            <time>01.07</time>
+            <span class="archive-list__title">小院高墙喽</span>
+          </a>
+        </li>
+        
+        <li>
+          <a href="/4-a0105c7aa46c/">
+            <time>01.05</time>
+            <span class="archive-list__title">继续失眠抓狂中</span>
+          </a>
+        </li>
+        
+      </ul>
     </div>
-    <h3 class="blog-card__title"><a href="/9-5e55625601f9/">记录搭建docsify</a></h3>
-    <p class="blog-card__excerpt">这是一篇水文，就是简单的记录一下docsify的搭建，记录一下这个docsify，省的以后在网上再去翻了。 Docsify 部署 Docsify 是一个可以动态生成文档网站的工具。它不生成静态 HTML 文件，而是智能地加载和解析 Mark…</p>
-    <a class="link-arrow" href="/9-5e55625601f9/">阅读全文<span aria-hidden="true">→</span></a>
-  </div>
-</article>
-
-      
-      
-<article class="blog-card reveal">
-  <a class="blog-card__cover" href="/8-58a527a8aeb6/" aria-label="最近入手一个短域名-36k-net">
     
-    <span class="cover-ph" style="--h: 165"><span>最</span></span>
-    
-  </a>
-  <div class="blog-card__body">
-    <div class="blog-card__meta">
-      <time datetime="2025-02-17T13:34:39.000Z">2025.02.17</time>
-      <span class="dot">·</span><span>个人随笔</span>
-      <span class="dot">·</span><span>1 分钟阅读</span>
-    </div>
-    <h3 class="blog-card__title"><a href="/8-58a527a8aeb6/">最近入手一个短域名-36k-net</a></h3>
-    <p class="blog-card__excerpt">最近入手一个短域名，36k.net。 本来注册的时候就想着写篇文章记录一下，毕竟这么短的域名，还是.net的。结果由于有别的事情就给耽搁了。正好今天有空就潦草的写一下，记录一下这个欢乐的时刻。 这个域名算是比较简短的，又好记。 注册这个域名…</p>
-    <a class="link-arrow" href="/8-58a527a8aeb6/">阅读全文<span aria-hidden="true">→</span></a>
-  </div>
-</article>
-
-      
-      
-<article class="blog-card reveal">
-  <a class="blog-card__cover" href="/7-77da44eeb43a/" aria-label="可以上传视频并内嵌到自己博文中的外链平台">
-    
-    <span class="cover-ph" style="--h: 314"><span>可</span></span>
-    
-  </a>
-  <div class="blog-card__body">
-    <div class="blog-card__meta">
-      <time datetime="2025-02-11T13:07:13.000Z">2025.02.11</time>
-      <span class="dot">·</span><span>个人随笔</span>
-      <span class="dot">·</span><span>3 分钟阅读</span>
-    </div>
-    <h3 class="blog-card__title"><a href="/7-77da44eeb43a/">可以上传视频并内嵌到自己博文中的外链平台</a></h3>
-    <p class="blog-card__excerpt">相信很多人跟我一样，在写博文的时候，会在博文中加入一些自己想要加入的视频，但是自己租用一些服务器又特别的贵，还有就是浪费自己的钱袋子。 以前我记得有使用过优酷，但是现在那个网站好像很久没有出现在我的视野中了，所以现在还是找点新的平台吧。 B…</p>
-    <a class="link-arrow" href="/7-77da44eeb43a/">阅读全文<span aria-hidden="true">→</span></a>
-  </div>
-</article>
-
-      
-      
-<article class="blog-card reveal">
-  <a class="blog-card__cover" href="/6-a2f2330bb915/" aria-label="2025春节快乐">
-    
-    <span class="cover-ph" style="--h: 323"><span>2</span></span>
-    
-  </a>
-  <div class="blog-card__body">
-    <div class="blog-card__meta">
-      <time datetime="2025-01-31T09:45:26.000Z">2025.01.31</time>
-      <span class="dot">·</span><span>个人随笔</span>
-      <span class="dot">·</span><span>1 分钟阅读</span>
-    </div>
-    <h3 class="blog-card__title"><a href="/6-a2f2330bb915/">2025春节快乐</a></h3>
-    <p class="blog-card__excerpt">2025春节快乐，忙忙碌碌总算是有点自己的时间了，顺便也更新一下咱们这个小博客吧。 说实在的，现在感觉过年让自己更加的忙碌，也感觉过年让自己更累！也许是随着自己的年龄增加，没有了那份年少的纯真，所以才会有这样的感觉吧。 不管怎么样，在新的一…</p>
-    <a class="link-arrow" href="/6-a2f2330bb915/">阅读全文<span aria-hidden="true">→</span></a>
-  </div>
-</article>
-
-      
-      
-<article class="blog-card reveal">
-  <a class="blog-card__cover" href="/5-0912082f3b64/" aria-label="小院高墙喽">
-    
-    <span class="cover-ph" style="--h: 145"><span>小</span></span>
-    
-  </a>
-  <div class="blog-card__body">
-    <div class="blog-card__meta">
-      <time datetime="2025-01-06T16:01:40.000Z">2025.01.07</time>
-      <span class="dot">·</span><span>个人随笔</span>
-      <span class="dot">·</span><span>2 分钟阅读</span>
-    </div>
-    <h3 class="blog-card__title"><a href="/5-0912082f3b64/">小院高墙喽</a></h3>
-    <p class="blog-card__excerpt">作为80后，自个学习不好的，好不容易在网上学点搭建博客或者笔记的人来说，去找一些论坛或者社区这类的地方学习，是感觉非常开心的，但是现在越来越觉得现在是属于小院高墙了。 话说从我最早接触的网络大神的地方是： https://www.v2ex…</p>
-    <a class="link-arrow" href="/5-0912082f3b64/">阅读全文<span aria-hidden="true">→</span></a>
-  </div>
-</article>
-
-      
-      
-<article class="blog-card reveal">
-  <a class="blog-card__cover" href="/4-a0105c7aa46c/" aria-label="继续失眠抓狂中">
-    
-    <span class="cover-ph" style="--h: 65"><span>继</span></span>
-    
-  </a>
-  <div class="blog-card__body">
-    <div class="blog-card__meta">
-      <time datetime="2025-01-04T19:07:44.000Z">2025.01.05</time>
-      <span class="dot">·</span><span>个人随笔</span>
-      <span class="dot">·</span><span>1 分钟阅读</span>
-    </div>
-    <h3 class="blog-card__title"><a href="/4-a0105c7aa46c/">继续失眠抓狂中</a></h3>
-    <p class="blog-card__excerpt">现在已经是2025年了，按理来说我们应该庆幸一下新年的开端的，但是最近一段时间一直在被这个失眠的烦恼所牵绊。 我现在也搞不清楚到底是咋回事儿！这种失眠的状态已经持续有一段时间了，刚开始还能好好的睡上一觉，无非就是睡眠时间短，但是现在不止是睡…</p>
-    <a class="link-arrow" href="/4-a0105c7aa46c/">阅读全文<span aria-hidden="true">→</span></a>
-  </div>
-</article>
-
-      
-    </div>
     
   </div>
   <div class="container">
@@ -378,7 +308,7 @@
   <div class="container">
     <div class="footer-top">
       <div class="footer-brand">
-        <a class="footer-logo" href="/">nilin</a>
+        <a class="footer-logo" href="/">逆鳞笔记</a>
         <p class="footer-tagline">记录设计、代码与文字之间的那些事</p>
       </div>
       <ul class="footer-social">
@@ -393,7 +323,7 @@
     </div>
     <div class="footer-bottom">
       <p>&copy; 2024–2026 逆鳞笔记. 保留所有权利。</p>
-      <p class="footer-meta">由 <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a> 驱动 · 主题 <span>nilin</span></p>
+      <p class="footer-meta">由 <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a> 驱动 · 主题 <span>qilin</span></p>
     </div>
   </div>
 </footer>
@@ -408,6 +338,6 @@
     <img class="lightbox__img" src="" alt="">
     <p class="lightbox__caption"></p>
   </div>
-  <script src="/js/nilin.js" defer></script>
+  <script src="/js/qilin.js" defer></script>
 </body>
 </html>
